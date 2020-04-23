@@ -190,7 +190,7 @@
     </section>
     <!-- oppi_feature_wrap -->
 
-    <section class="oppi_watching_wrap">
+    <section class="oppi_watching_wrap" dir="ltr"> 
         <div class="shape_bg">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="981px" data-parallax='{"x": 0, "y": 0}'>
                 <path fill-rule="evenodd" fill="rgb(252, 250, 251)"
