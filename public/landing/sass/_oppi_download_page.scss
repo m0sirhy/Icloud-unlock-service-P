@@ -1,0 +1,241 @@
+/*  ======================================               download    page                   ================================= */
+
+.oppi_header {
+    &.oppi_download_header {
+        // box-shadow: 0px 10px 20px 0px rgba(8, 22, 113, 0.06);
+        background: #fff;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1080;
+        position: fixed;
+        .header_nav {
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            color: #2c234d;
+                            &:hover {
+                                color: #5268f2;
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    border-color: rgba(84, 105, 242, 0.5);
+                    box-shadow: none;
+                    color: #5268f2;
+                    &:hover {
+                        background: #5268f2;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_download_wrap {
+    padding: 140px 0 130px;
+}
+
+.oppi_download_body {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.oppi_download_icon_wrap {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: linear-gradient( 180deg, rgba(82, 103, 242, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto -28px;
+    .icon_inner {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        background-image: linear-gradient( 180deg, rgba(82, 103, 242, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: #5268f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                height: 100%;
+                //background: rgba(82, 104, 242, 0.08);
+                background-image: linear-gradient( 180deg, rgba(82, 103, 242, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+                border-radius: 50%;
+                animation: pulsate 5s infinite;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+.oppi_download_title {
+    color: #2c234d;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: $pop;
+    margin-bottom: 30px;
+}
+
+.oppi_download_para {
+    color: #707b8e;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: $pop;
+    margin-bottom: 105px;
+    a {
+        color: #5268f2;
+        &:hover {}
+    }
+}
+
+.back_to_home {
+    a {
+        font-size: 16px;
+        color: #5268f2;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: $pop;
+        display: inline-flex;
+        i {
+            margin-left: 5px;
+            color: #5268f2;
+            transition: all 0.5s;
+            &::before {
+                line-height: 30px;
+            }
+        }
+        &:hover {
+            i {
+                margin-left: 15px;
+                margin-right: -10px;
+            }
+        }
+    }
+}
+
+.oppi_footer_wrap {
+    &.oppi_download_footer {
+        background: #fafafc;
+        padding: 28px 0;
+        .oppi_footer_top {
+            .oppi_footer_top_inner {
+                padding-bottom: 27px;
+                .oppi_download_footer_para {
+                    font-size: 16px;
+                    color: #707b8e;
+                    line-height: 26px;
+                    font-weight: 400;
+                    font-family: $pop;
+                }
+                .oppi_footer_social {
+                    .social_item {
+                        li {
+                            a {
+                                color: #959dab;
+                                border: 1px solid #e5ebeb;
+                                &::before,
+                                &::after {
+                                    display: none;
+                                }
+                                &:hover {
+                                    color: #fff;
+                                    background-color: rgb(82, 104, 242);
+                                    border-color: rgb(82, 104, 242);
+                                    box-shadow: 0px 20px 30px 0px rgba(21, 41, 171, 0.24);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .oppi_footer_bottom {
+            padding: 60px 0 63px;
+            .oppi_footer_bottom_inner {
+                .oppi_footer_widget {
+                    margin-bottom: 0;
+                    .oppi_footer_logo {
+                        padding: 0;
+                        margin: 0;
+                        img {}
+                    }
+                }
+                .oppi_footer_download_menu {
+                    .oppi_footer_menu {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        li {
+                            display: inline-block;
+                            margin-right: 35px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            a {
+                                display: inline-block;
+                                color: #273c63;
+                                font-size: 16px;
+                                font-weight: 400;
+                                font-family: $pop;
+                                line-height: 30px;
+                                &:hover {
+                                    color: #5268f2;
+                                }
+                            }
+                        }
+                    }
+                }
+                .oppi_footer_select_language {
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: '\f0d7';
+                        font-family: 'fontawesome';
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        color: #646f82;
+                    }
+                    .select_language {
+                        border: none;
+                        appearance: none;
+                        color: #273c63;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: $pop;
+                        line-height: 30px;
+                        outline: none;
+                        box-shadow: none;
+                        padding-right: 28px;
+                        background: transparent;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*  ======================================               download   page                    ================================= */

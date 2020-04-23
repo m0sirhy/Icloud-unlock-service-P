@@ -1,0 +1,515 @@
+/*============ oppi_finance_banner_area css ===========*/
+.oppi_finance_banner_area{
+    overflow: hidden;
+    background: #5268f2;
+    padding: 200px 0px 300px;
+    position: relative;
+    z-index: 1;
+    &:before{
+        content: "";
+        width: 150%;
+        height: 383px;
+        background: #fff;
+        position: absolute;
+        z-index: -5;
+        -webkit-transform: rotate(-3.9deg);
+        -ms-transform: rotate(-3.9deg);
+        transform: rotate(-10.9deg);
+        bottom: -261px;
+        right: -171px;
+    }
+}
+.oppi_finance_banner_content{
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: 0;
+    h2,p{
+        color: #fff;
+    }
+    h2{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+    .video_icon{
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-left: 28px;
+        i{
+            vertical-align: middle;
+            padding-right: 6px;
+        }
+        .play_text{
+            position: relative;
+            &:before{
+            position: absolute;
+            content: "";
+            bottom: 0;
+            right: 0;
+            height: 1px;
+            width: 0;
+            background: #fff;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            opacity: 0;
+            }
+        }
+        &:hover{
+            .play_text{
+                &:before{
+                    opacity: 1;
+                    width: 100%;
+                    left: 0;
+                    right: auto;
+                }
+            }
+        }
+    }
+}
+.macbook_img{
+    position: relative;
+    img{
+        right: -55px;
+        position: relative;
+    }
+    .round{
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background: #a9b4fc;
+        opacity: 0.10;
+        position: absolute;
+        top: -80px;
+        left: 80px;
+        z-index: -1;
+    }
+}
+.finance_btn{
+    color: #fff;
+    border: 2px solid #a9b4f9;
+    padding: 14px 53px;
+    &:hover{
+        background: #fff;
+        box-shadow: 0px 20px 40px 0px rgba(39, 47, 99, 0.1);
+        color: #5268f2;
+        border-color: #fff;
+    }
+}
+/*============ oppi_finance_banner_area css ===========*/
+
+/*============ oppi_finance_features_area css ===========*/
+.oppi_finance_features_area{
+    padding-bottom: 120px;
+}
+.oppi_finance_features_item{
+    border-radius: 6px;
+    padding: 25px 40px;
+    border-left: 5px solid transparent;
+    margin-bottom: 30px;
+    cursor: pointer;
+    &.active{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 20px 40px 0px rgba(39, 47, 99, 0.1);
+        border-left-color: #5268f2;
+    }
+    img{
+        margin-bottom: 25px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #273c63;
+        margin-bottom: 10px;
+        transition: color 0.2s linear;
+        &:hover{
+            color: #5268f2;
+        }
+    }
+    p{
+        font-size: 16px;
+        color: #707b8e;
+    }
+}
+.features_mockup{
+    position: relative;
+    z-index: 1;
+}
+.screen_bg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17px;
+    opacity: 0;
+    transition: opacity .5s .2s ease,transform 5s .2s ease;
+    will-change: opacity,transform;
+    width: 262px;
+    z-index: -1;
+    img{
+        max-width: 100%;
+    }
+    &.active{
+        opacity: 1;
+    }
+}
+.section_title_three{
+    margin-bottom: 65px;
+    span{
+        font-size: 36px;
+        font-weight: 300;
+        color: #273c63;
+    }
+    p{
+        color: #707b8e;
+        max-width: 560px;
+        line-height: 26px;
+        margin: 0 auto;
+    }
+}
+.f_title{
+    font-size: 36px;
+    color: #273c63;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 12px;
+}
+/*============ oppi_finance_features_area css ===========*/
+
+/*============ oppi_features_promo_area css ===========*/
+.oppi_features_promo_area{
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.promo_img{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 75px 0px;
+    &:before{
+        content: "";
+        width: 300%;
+        top: 0;
+        right: 150px;
+        height: 100%;
+        background: #f9fafc;
+        position: absolute;
+        z-index: -1;
+    }
+    &.left{
+        &:before{
+            left: 150px;
+            right: auto;
+        }
+    }
+}
+.oppi_features_promo_content{
+    max-width: 470px;
+    .f_title{
+        margin-bottom: 20px;
+    }
+    p{
+        color: #707b8e;
+        line-height: 26px;
+    }
+    ul{
+        margin-bottom: 40px;
+        li{
+            font-size: 16px;
+            line-height: 26px;
+            color: #707b8e;
+            padding-left: 25px;
+            position: relative;
+            margin-top: 25px;
+            &:before{
+                content: "\35";
+                position: absolute;
+                left: -7px;
+                top: 0;
+                color: #5268f2;
+                font-size: 24px;
+                font-family: eleganticons;
+            }
+        }
+    }
+}
+.promo_btn{
+    border: 2px solid #a8b3f8;
+    color: #5268f2;
+    padding: 14px 53px;
+    &:hover{
+        background: #5268f2;
+        color: #fff;
+        border-color: #5268f2;
+    }
+}
+/*============ oppi_features_promo_area css ===========*/
+
+/*============ oppi_clients_feedback css ===========*/
+.oppi_clients_feedback{
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    &:before{
+        content: "";
+        background: url("../images/finance/Map2.png") no-repeat scroll center center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
+.feedback_slider {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px !important;
+    margin-top: -15px;
+    .slick-slide{
+        padding: 15px 15px 40px;
+    }
+    .item{
+        border-radius: 6px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 15px 0px rgba(39, 47, 99, 0.08);
+        position: relative;
+        padding: 110px 30px 35px;
+        z-index: 1;
+        text-align: center;
+        span{
+            font-size: 200px;
+            color: #e3e6f9;
+            line-height: 50px;
+            position: absolute;
+            transform: rotate(180deg);
+            left: 35%;
+            z-index: -1;
+        }
+        p{
+            font-size: 16px;
+            color: #707b8e;
+            margin-bottom: 38px;
+        }
+        a{
+            display: inline-block;
+        }
+    }
+    .slick-dots{
+        bottom: 0;
+        position: relative;
+        li{
+            margin: 0;
+            width: auto;
+            height: auto;
+            margin: 0px 5px;
+            button{
+                padding: 0px;
+                width: 6px;
+                height: 6px;
+                background: #dcdff2;
+                border-radius: 50%;
+                transition: all 0.2s linear;
+                &:before{
+                    display: none;
+                }
+            }
+            &.slick-active{
+                button{
+                    transform: scale(1.3);
+                    background: #5268f2;
+                }
+            }
+        } 
+    } 
+}
+/*============ oppi_clients_feedback css ===========*/
+
+.oppi_finance_app_promo_area{
+    display: flex;
+    background: #5268f2;
+    overflow: hidden;
+    .oppi_app_left,.oppi_app_right{
+        width: 50%;
+    }
+    .oppi_img{
+        height: 100%;
+        width: 951px;
+        position: relative;
+        z-index: 0;
+    }
+    .oppi_app_left{
+    }
+    .app_promo_mockup {
+        position: absolute;
+        z-index: -1;
+        &.one{
+            right: -30px;
+            top: -30px;
+        }
+        &.two{
+            left: -210px;
+            top: 0;
+        }
+        &.three{
+            right: 48px;
+            bottom: 0px;
+        }
+        &.four{
+            left: 128px;
+            bottom: 14px;
+        }
+        &.five{
+            left: -37px;
+            bottom: -28px;
+        }
+        &.six{
+            left: 0px;
+            bottom: -54px;
+        }
+    }
+    .oppi_app_right{
+        display: flex;
+        align-items: center;
+        padding: 154px 0px;
+        position: relative;
+        z-index: 2;
+        .app_content{
+            max-width: 500px;
+            margin-left: 0;
+            margin-right: auto;
+            .f_title,p{
+                color: #fff;
+            }
+            .promo_btn{
+                color: #fff;
+            }
+            p{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+/*============ oppi_clients_feedback css ===========*/
+.oppi_finance_blog_area{
+    padding: 100px 0px;
+}
+.finance_blog_item{
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px 0px rgba(39, 47, 99, 0.08);
+    margin-bottom: 30px;
+    img{
+        width: 100%;
+    }
+    .post_content{
+        padding: 26px 40px 22px;
+        .post_info {
+            margin-bottom: 10px;
+            li{
+                a{
+                    font-size: 14px;
+                    color: #7b7b93;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    i{
+                        color: #5268f2;
+                        padding-right: 3px;
+                    }
+                    &:hover{
+                        color: #5268f2;
+                    }
+                }
+            }
+        }
+        .post_title{
+            margin-bottom: 20px;
+            a{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 34px;
+                color: #2c2c51;
+                &:hover{
+                    color: #5268f2;
+                }
+            }
+        }
+        .read_more,.tag a{
+            font-size: 14px;
+            font-weight: 500;
+            color: #7b7b93;
+            text-transform: uppercase;
+            &:hover{
+                color: #5268f2;
+            }
+        }
+    }
+}
+/*============ oppi_clients_feedback css ===========*/
+
+/*============ oppi_finance_action_area css ===========*/
+.oppi_finance_action_area{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 44px;
+    overflow: hidden;
+    padding-top: 28px;
+    &:before{
+        content: "";
+        width: 150%;
+        height: 326px;
+        background: #f9fafc;
+        position: absolute;
+        z-index: 3;
+        -webkit-transform: rotate(-9.9deg);
+        -ms-transform: rotate(-9.9deg);
+        transform: rotate(-8.9deg);
+        bottom: -193px;
+        right: -171px;
+    }
+}
+.finance_action_inner{
+    border-radius: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 50px 100px 0px rgba(39, 47, 99, 0.08);
+    box-shadow: 0px 10px 40px 5px rgba(39, 47, 99, 0.08);
+    padding: 67px 0px;
+    position: relative;
+    z-index: 4;
+//    &.mt_350{
+//        margin-bottom: -340px;
+//    }
+    .f_title{
+        font-weight: 500;
+    }
+    p{
+        margin-bottom: 28px;
+    }
+    p,span{
+        color: #707b8e;
+        a{
+            color: #5268f2;
+        }
+    }
+    .f_solid_btn{
+        margin-right: 20px;
+    }
+}
+.f_solid_btn{
+    padding: 14px 53px;
+    background: #5268f2;
+    color: #fff;
+    &:hover{
+        color: #fff;
+        box-shadow: 0px 10px 30px 0px rgba(21, 41, 171, 0.24);
+    }
+}
+/*============ oppi_finance_action_area css ===========*/

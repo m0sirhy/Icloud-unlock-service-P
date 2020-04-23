@@ -1,0 +1,752 @@
+/*========================================         oppi_header                 =========================================*/
+
+.oppi_header {
+    padding: 21px 0;
+    transition: all 0.5s;
+    &.oppi_header_transparent {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1080;
+    }
+    .header_nav {
+        padding: 0;
+        .logo {
+            img {
+                max-width: 90px;
+                width: 100%;
+                &+img {
+                    display: none;
+                }
+            }
+        }
+        .oppi_hamburger {
+            padding: 0;
+            outline: none;
+            .bar_icon {
+                width: 30px;
+                height: 16px;
+                position: relative;
+                display: inline-block;
+                .bar {
+                    position: absolute;
+                    width: 100%;
+                    background: rgb(255, 255, 255);
+                    height: 2px;
+                    left: 0;
+                    transition: all 0.5s;
+                    &.bar_1 {
+                        top: 0;
+                    }
+                    &.bar_2 {
+                        top: 50%;
+                        // transform: translateY(-50%);
+                    }
+                    &.bar_3 {
+                        top: 100%;
+                    }
+                }
+            }
+            &[aria-expanded="true"] {
+                .bar {
+                    &.bar_1 {
+                        top: 50%;
+                        transform: rotate(45deg);
+                    }
+                    &.bar_2 {
+                        opacity: 0;
+                    }
+                    &.bar_3 {
+                        top: 50%;
+                        transform: rotate(-45deg) translateY(-50%);
+                    }
+                }
+            }
+        }
+        .oppi_header_menu {
+            ul {
+                align-items: center;
+                li.nav-item {
+                    margin-left: 50px;
+                    a.nav-link {
+                        padding: 0;
+                        color: #fff;
+                        font-family: $pop;
+                        font-weight: 400;
+                        line-height: 30px;
+                        transition: all 0.5s;
+                        position: relative;
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            height: 1px;
+                            right: 0;
+                            width: 0;
+                            opacity: 0;
+                            transition: all 0.5s;
+                            background: #fff;
+                        }
+                        &:hover {
+                            &::before {
+                                width: 100%;
+                                opacity: 1;
+                                left: 0;
+                                right: auto;
+                            }
+                        }
+                        &.dropdown-toggle {
+                            &::after {
+                                position: absolute;
+                                content: "\33";
+                                right: -17px;
+                                top: -2px;
+                                font-family: 'eleganticons';
+                                border: none;
+                                padding: 0;
+                            }
+                        }
+                    }
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &.active {
+                        a.nav-link {
+                            // color: #5268f2;
+                        }
+                    }
+                    @media (min-width: 992px) {
+                        li.nav-item {
+                            padding-bottom: 40px;
+                            margin-bottom: -40px;
+                        }
+                        .dropdown-menu {
+                            display: block;
+                            visibility: hidden;
+                            margin: 58px 0 0;
+                            opacity: 0;
+                            left: 0;
+                            top: 0;
+                            min-width: max-content;
+                            transform: translate(-30px, 10px);
+                            box-shadow: 0px 10px 30px 0px rgba(18, 1, 64, 0.08);
+                        }
+                        &:hover {
+                            .dropdown-menu {
+                                visibility: visible;
+                                opacity: 1;
+                                transform: translate(-30px, 0px);
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        transition: all 0.5s;
+                        padding: 30px 40px;
+                        border-radius: 4px;
+                        background-color: rgb(255, 255, 255);
+                        border: none;
+                        li {
+                            display: block;
+                            a {
+                                color: #74748c;
+                                font-size: 14px;
+                                font-family: $pop;
+                                font-weight: 400;
+                                line-height: 36px;
+                                &.active,
+                                &:hover {
+                                    color: #5268f2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .oppi_try_for_free {
+                color: #fff;
+                font-family: $pop;
+                font-weight: 400;
+                line-height: 30px;
+                box-shadow: 0px 20px 30px 0px rgba(9, 78, 130, 0.2);
+                background: #fff;
+                border: 2px solid #fff;
+                color: #5268f2;
+                border-radius: 25px;
+                font-weight: 500;
+                padding: 8px 35px;
+                transition: all 0.5s;
+                margin-left: 40px;
+                &:hover {
+                    box-shadow: none;
+                    color: #fff;
+                    background: transparent;
+                }
+            }
+        }
+    }
+    &.fixedMenu {
+        position: fixed;
+        background: #fff;
+        padding: 15px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1080;
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        .header_nav {
+            .logo {
+                img {
+                    display: none;
+                    &+img {
+                        display: block;
+                    }
+                }
+            }
+            .oppi_hamburger {
+                .bar_icon {
+                    .bar {
+                        background: $tcolor;
+                    }
+                }
+            }
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            color: #4d446b;
+                            &::before {
+                                // background: #5268f2;
+                            }
+                            &:hover {
+                                color: #5268f2;
+                            }
+                        }
+                        &.try_for_free {
+                            a.nav-link {
+                                border-color: $tcolor;
+                                box-shadow: none;
+                                &:hover {
+                                    background: $tcolor;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    border-color: $tcolor;
+                    box-shadow: none;
+                    &:hover {
+                        background: $tcolor;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    &.social_header {
+        .header_nav {
+            .oppi_header_menu {
+                .oppi_btn_right {
+                    position: absolute;
+                    right: 0;
+                    background: #ee6d95;
+                    border-color: #ee6d95;
+                    border-width: 1px;
+                    padding-top: 9px;
+                    padding-bottom: 9px;
+                    color: #fff;
+                    box-shadow: 0px 20px 30px 0px rgba(150, 6, 52, 0.2);
+                    &:hover {
+                        // color: #ee6d95;
+                        // background: #fff;
+                        // border-color: #fff;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            padding: 30px 0;
+            .header_nav {
+                .oppi_header_menu {
+                    ul {
+                        //margin: 0 auto;
+                        li.nav-item {
+                            a.nav-link {
+                                transition: all 0.5s;
+                                &:hover {
+                                    color: #ee6d95;
+                                }
+                            }
+                        }
+                    }
+                    .oppi_btn_right {
+                        box-shadow: none;
+                        color: #ee6d95;
+                        background: transparent;
+                        &:hover {
+                            background: #ee6d95;
+                            border-color: #ee6d95;
+                            color: #fff;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_menu_center {
+        padding: 35px 0;
+        .header_nav {
+            .logo {
+                position: absolute;
+                left: 0;
+            }
+            .oppi_header_menu {
+                .oppi_btn_right {
+                    position: absolute;
+                    right: 0;
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_header_style_three {
+        .header_nav {
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            color: #4d446b;
+                            &:hover {
+                                color: #f23891;
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    color: #f23891;
+                    border: none;
+                    position: relative;
+                    background: transparent;
+                    z-index: 1;
+                    box-shadow: none;
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 28px;
+                        content: "";
+                        box-sizing: border-box;
+                        background-clip: padding-box, border-box;
+                        background-origin: padding-box, border-box;
+                        background-image: linear-gradient( 90deg, #9a11da 0%, #f23891 100%);
+                        transition: all 0.5s;
+                        z-index: -1;
+                        opacity: 0;
+                    }
+                    &::after {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 28px;
+                        content: "";
+                        border: 2px solid transparent;
+                        box-sizing: border-box;
+                        background-clip: padding-box, border-box;
+                        background-origin: padding-box, border-box;
+                        background-image: linear-gradient( 90deg, #fdf9f8 0%, #fdf9f8 100%), linear-gradient( 90deg, #9a11da 0%, #f23891 100%);
+                        transition: all 0.5s;
+                        z-index: -1;
+                    }
+                    &:hover {
+                        color: #fff;
+                        border-color: transparent;
+                        border: none;
+                        background: transparent;
+                        box-shadow: 0px 20px 30px 0px rgba(172, 21, 170, 0.2);
+                        &::before {
+                            opacity: 1;
+                        }
+                        &::after {
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .oppi_header_menu {
+                .oppi_try_for_free {
+                    &::after {
+                        background-image: linear-gradient( 90deg, #fff 0%, #fff 100%), linear-gradient( 90deg, #9a11da 0%, #f23891 100%);
+                    }
+                    &:hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_header_menu_border {
+        .header_nav {
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            position: relative;
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                bottom: 0;
+                                right: 0;
+                                height: 1px;
+                                transition: all 0.5s;
+                                opacity: 0;
+                                width: 0;
+                                background: #fff;
+                            }
+                            &:hover {
+                                &::before {
+                                    opacity: 1;
+                                    width: 100%;
+                                    right: auto;
+                                    left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_header_inner_menu {
+        .header_nav {
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            color: #fff;
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    box-shadow: none;
+                    color: #fff;
+                    background: transparent;
+                    border: 2px solid #fff;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    &:hover {
+                        background: #fff;
+                        color: #5268f2;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .header_nav {
+                .oppi_header_menu {
+                    ul {
+                        li.nav-item {
+                            a.nav-link {
+                                color: #4d446b;
+                                &:hover {
+                                    color: #5268f2;
+                                }
+                            }
+                        }
+                    }
+                    .oppi_try_for_free {
+                        color: #5268f2;
+                        border-color: #5268f2;
+                        &:hover {
+                            background: #5268f2;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    &.oppi_header_dark_color {
+        .header_nav {
+            .oppi_header_menu {
+                ul {
+                    li.nav-item {
+                        a.nav-link {
+                            color: #4d446b;
+                            &:hover {
+                                color: #5268f2;
+                            }
+                        }
+                        &.active{
+                            a.nav-link {
+                                color: #5268f2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_utility_header {
+        .header_nav {
+            .oppi_hamburger {
+                .bar_icon {
+                    .bar {
+                        background: #5268f2;
+                    }
+                }
+            }
+            .oppi_header_menu {ul {
+                li.nav-item{ 
+                    a.nav-link {
+                        color: #4d446b;
+                    }
+                    &:hover,
+                    &.active {
+                        a.nav-link {
+                            color: #3197ff;
+                        }
+                    }
+                    .dropdown-menu {
+                        li {
+                            a {
+                                &:hover {
+                                    color: #3197ff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+                .oppi_try_for_free {
+                    color: #3197ff;
+                    background: #fff;
+                    box-shadow: 0px 20px 30px 0px rgba(6, 78, 150, 0.2);
+                    &:hover {
+                        color: #fff;
+                        background: #3197ff;
+                        border-color: #3197ff;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .header_nav {
+                .oppi_header_menu {
+                    .oppi_try_for_free {
+                        box-shadow: none;
+                        border-color: #3197ff;
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_travel_header {
+        .header_nav {
+            .oppi_hamburger {
+                .bar_icon {
+                    .bar {
+                        background: #ff5e00;
+                    }
+                }
+            }
+            .oppi_header_menu {
+                ul {
+                    li.nav-item{ 
+                        a.nav-link {
+                            color: #273c63;
+                        }
+                        &:hover,
+                        &.active {
+                            a.nav-link {
+                                color: #ff5e00;
+                            }
+                        }
+                        .dropdown-menu {
+                            li {
+                                a {
+                                    &.active,
+                                    &:hover {
+                                        color: #ff5e00;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    color: #ff5e00;
+                    background: #fff;
+                    box-shadow: 0px 20px 30px 0px rgba(6, 88, 150, 0.2);
+                    &:hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .header_nav {
+                .oppi_hamburger {
+                    .bar_icon {
+                        .bar {
+                            background: #ff5e00;
+                        }
+                    }
+                }
+                .oppi_header_menu {
+                    .oppi_try_for_free {
+                        box-shadow: none;
+                        border-color: #ff5e00;
+                        &:hover {
+                            background: #ff5e00;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_food_header{
+        .header_nav {
+            .oppi_hamburger {
+                .bar_icon {
+                    .bar {
+                        background: #f56e96;
+                    }
+                }
+            }
+            .oppi_header_menu {
+                ul {
+                    li.nav-item{ 
+                        a.nav-link {
+                            color: #2c234d;
+                        }
+                        &:hover,
+                        &.active {
+                            a.nav-link {
+                                color: #f56e96;
+                            }
+                        }
+                        .dropdown-menu {
+                            li {
+                                a {
+                                    &.active,
+                                    &:hover {
+                                        color: #f56e96;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    color: #fff;
+                    border-radius: 4px;
+                    background: #f56e96;
+                    border: 0px;
+                    padding: 8px 31px;
+                    box-shadow: 0px 20px 30px 0px rgba(150, 6, 49, 0.16);
+                    &:hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .header_nav {
+                .oppi_hamburger {
+                    .bar_icon {
+                        .bar {
+                            background: #f56e96;
+                        }
+                    }
+                }
+                .oppi_header_menu {
+                    .oppi_try_for_free {
+                        box-shadow: none;
+                        border-color: #f56e96;
+                        &:hover {
+                            background: #f56e96;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.oppi_restaurent_header{
+        .header_nav {
+            .oppi_hamburger {
+                .bar_icon {
+                    .bar {
+                        background: #06b85b;
+                    }
+                }
+            }
+            .oppi_header_menu {
+                ul {
+                    li.nav-item{ 
+                        a.nav-link {
+                            color: #2c234d;
+                        }
+                        &:hover,
+                        &.active {
+                            a.nav-link {
+                                color: #06b85b;
+                            }
+                        }
+                        .dropdown-menu {
+                            li {
+                                a {
+                                    &.active,
+                                    &:hover {
+                                        color: #06b85b;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .oppi_try_for_free {
+                    color: #06b85b;
+                    border-radius: 4px;
+                    background: #e9f9f1;
+                    border-color: #7ddaaa;
+                    padding: 8px 31px;
+                    box-shadow: none;
+                    &:hover {
+                        background:#06b85b; 
+                        color: #fff;
+                        border-color: #06b85b;
+                        box-shadow: 0px 20px 30px 0px rgba(6, 150, 76, 0.16);
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .header_nav {
+                .oppi_hamburger {
+                    .bar_icon {
+                        .bar {
+                            background: #06b85b;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*========================================         oppi_header                 =========================================*/

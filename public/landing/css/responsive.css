@@ -1,0 +1,2593 @@
+@media (max-width: 1550px) {
+    .oppi_banner_img_content .banner_img .banner_img_macbook {
+        max-width: 750px;
+    }
+    .oppi_banner.oppi_banner_three .oppi_banner_img_content .banner_img {
+        margin-right: -185px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: -70px;
+    }
+    .oppi_mockup_img .mockup_inner .circle_1 {
+        right: -40px;
+    }
+    .oppi_mockup_img .mockup_inner .circle_2 {
+        right: -60px;
+    }
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.prevtab {
+        right: 80px;
+    }
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.nexttab {
+        left: 80px;
+    }
+    .oppi_finance_app_promo_area .oppi_app_right .app_content {
+        max-width: 600px;
+        margin-right: 0;
+        margin-left: auto;
+        padding-right: 115px;
+    }
+    .oppi_finance_app_promo_area .oppi_img{
+        width: 895px;
+    }
+    .oppi_restaurent_action_img {
+        margin-right: -70px;
+    }
+}
+
+
+/*============== end @media (max-width: 1550px) =================*/
+
+@media (max-width: 1366px) {
+    .oppi_banner_img_content .banner_img .banner_img_macbook {
+        max-width: 700px;
+    }
+    .oppi_call_to_action_img_content .call_img_1 {
+        right: -380px;
+    }
+    .oppi_call_to_action_img_content .call_img_2 {
+        right: -240px;
+    }
+    .oppi_call_to_action_img_content .call_img_3 {
+        right: 265px;
+    }
+    .oppi_grafe_img_content {
+        padding-right: 150px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: -100px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 1100px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .education_banner_img {
+        max-width: 600px;
+    }
+    .macbook_img img {
+        left: 47px;
+    }
+    .oppi_health_featured .h_featured_item{
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:1360px){
+    .oppi_finance_app_promo_area .app_promo_mockup img{
+        max-width: 80%;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.one img{
+        max-width: 70%;
+    }
+    .oppi_finance_app_promo_area .oppi_img {
+        width: 550px;
+    }
+    .oppi_finance_app_promo_area .oppi_app_right .app_content{
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.one {
+        left: -275px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.two {
+        right: -270px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.four {
+        right: 97px;
+        bottom: 84px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.three {
+        left: -247px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.six {
+        right: -5px;
+        bottom: 30px;
+    }
+    .oppi_finance_app_promo_area .app_promo_mockup.five {
+        right: -68px;
+        bottom: 0px;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-prev{
+        right: 0;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-next{
+        left: 0;
+    }
+    .oppi_health_about_slider{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .oppi_food_app_promo_area .oppi_app_right .app_content{
+        padding-right: 75px;
+    }
+    .oppi_food_app_promo_area .oppi_app_right{
+        padding: 80px 0px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.two {
+        right: -170px;
+        top: -55px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.three {
+        left: -218px;
+        bottom: -48px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.six {
+        right: -198px;
+        bottom: -41px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.five {
+        right: -66px;
+        bottom: -36px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.four {
+        right: 60px;
+        bottom: 0px;
+    }
+    .oppi_restaurent_action_img img{
+        width: 150px;
+    }
+    .oppi_restaurent_action_img img + img{
+        width: 450px;
+    }
+    .oppi_restaurent_action_img{
+        margin-right: 0;
+    }
+}
+
+/*============== end @media (max-width: 1366px) =================*/
+
+@media (max-width:1199px){
+    .oppi_finance_banner_content{
+        padding-right: 15px;
+        max-width: 100%;
+    }
+    .oppi_finance_features_item{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .oppi_footer_wrap.pt_400{
+        padding-top: 450px;   
+    }
+    .oppi_health_about_slider .slider_details{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .oppi_health_about_slider .slider_details .sd_img img{
+        box-shadow: 0px 10px 20px 0px rgba(39, 60, 99, 0.16);
+    }
+    .oppi_fitness_img_content .fitness_mockup_img{
+        left: 200px;
+    }
+    .oppi_fitness_content .sec_title_2 br{
+        display: none;
+    }
+    .oppi_health_banner .oppi_banner_content .banner_title{
+        font-size: 56px;
+        line-height: 65px;
+    }
+    .oppi_health_banner_img{
+        padding-top: 215px;
+    }
+    .oppi_health_banner .oppi_banner_content {
+        padding: 210px 0 130px;
+    }
+    .oppi_h_service_wrap .pl_100{
+        padding-right: 63px;
+    }
+    .oppi_h_service_wrap {
+        padding: 55px 0 100px;
+    }
+    .oppi_h_service_item {
+        margin-bottom: 100px;
+    }
+    .oppi_food_banner_area{
+        padding-top: 150px;
+    }
+    .oppi_food_banner_content{
+        padding-top: 0;
+        margin-bottom: 30px;
+        
+    }
+    .oppi_food_banner_area .justify-content-end{
+        justify-content: center !important;
+    }
+    .oppi_food_about_img {
+        max-width: 575px;
+        margin-bottom: 50px;
+    }
+    .oppi_food_about_item_two .oppi_food_about_content{
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .oppi_food_about_item_two{
+        padding-bottom: 20px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.one {
+        left: -346px;
+        top: 0px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.two {
+        right: -85px;
+        top: -55px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.three {
+        left: -218px;
+        bottom: 0px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.four {
+        right: 71px;
+        bottom: 52px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.five {
+        right: -66px;
+        bottom: 0px;
+    }
+    .oppi_food_app_promo_area .oppi_img .app_promo_mockup.six{
+        display: none;
+    }
+    .oppi_finance_footer .pl_100{
+        padding-right: 0;
+    }
+    .desh_img img{
+        max-width: 100%;
+    }
+    .desh_img .round{
+        width: 480px;
+        height: 480px;
+        margin-top: -240px;
+        margin-right: -240px;
+    }
+    .oppi_restaurant_feature_item {
+        padding: 0px;
+    }
+    .oppi_restaurant_software_area .row{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .oppi_restaurent_action_img img {
+        width: 115px;
+    }
+    .oppi_restaurent_action_img img + img {
+        width: 360px;
+    }
+    .rest_action_dbtn{
+        padding: 5px 10px 9px;
+    }
+    .coupon_form .coupon_w {
+        max-width: 377px;
+    }
+    .oppi_features_img img{
+        max-width: 100%;
+    }
+    .flex-row-reverse .oppi_restaurent_content {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1024px) { 
+    .full_width_1024 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img {
+        margin-right: 0;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img .img_4 img {
+        max-width: 80px;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img .img_5 img {
+        max-width: 210px;
+    }
+    .oppi_banner.oppi_banner_three .shape_1 {
+        left: -400px;
+    }
+    .oppi_banner.oppi_banner_three .shape_2 {
+        left: -400px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(1) {
+        right: 100px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(2) {
+        right: 220px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(3) {
+        right: 280px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(4) {
+        right: 430px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(5) {
+        right: 525px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(6) {
+        right: 685px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(7) {
+        right: 840px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        right: 50px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        right: 430px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(10) {
+        right: 660px;
+        top: 165px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        top: 110px;
+        right: 790px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(12) {
+        top: 120px;
+        right: 90%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(13) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(14) {
+        bottom: 90px;
+        right: 160px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(15) {
+        right: 270px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(16) {
+        bottom: -10px;
+        right: 440px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(17) {
+        bottom: 35px;
+        right: 620px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(18) {
+        bottom: -35px;
+        right: 740px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        bottom: 75px;
+        right: 815px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(20) {
+        left: 30px;
+    }
+    .oppi_support_img .img_inner {
+        margin-right: 0;
+    }
+    .oppi_support_img .img_inner img {
+        margin-right: -50px;
+    }
+    .oppi_support_img .img_inner .shape_2 .shape_2_inner {
+        left: 20px;
+    }
+    .oppi_support_content {
+        padding-top: 0;
+        padding-left: 40px;
+    }
+    .oppi_service_img_content.img_left .service_img_1 {
+        margin-left: -120px;
+    }
+    .oppi_service_img_content.img_left .service_img_2 {
+        right: -25px;
+    }
+    .oppi_our_service_wrap .shape_2 {
+        right: -740px;
+    }
+    .oppi_our_service_wrap .shape_1 {
+        left: -570px;
+    }
+    .oppi_service_img_content.img_right .service_img_1 {
+        margin-right: -70px;
+    }
+    .oppi_service_img_content.img_right .service_img_2 {
+        left: -20px;
+        top: 0;
+    }
+    .oppi_banner.oppi_banner_one {
+        padding: 150px 0 100px;
+    }
+    .oppi_banner_content .banner_title {
+        font-size: 48px;
+        line-height: 70px;
+        margin-bottom: 10px;
+    }
+    .oppi_banner.oppi_banner_one .oppi_banner_content {
+        padding-top: 0;
+    }
+    .oppi_banner_img_content {
+        padding-top: 55px;
+    }
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.prevtab {
+        right: 15px;
+    }
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.nexttab {
+        left: 15px;
+    }
+    .oppi_service_img_content.img_left .service_img_2 {
+        top: 0;
+    }
+    .oppi_mockup_content {
+        padding: 0 35px;
+    }
+    .oppi_call_to_action_content .call_title {
+        font-size: 40px;
+    }
+    .oppi_feature_wrap {
+        padding: 55px 0;
+    }
+    .oppi_how_it_works_wrap {
+        padding: 50px 0 55px;
+    }
+    .oppi_how_it_works_wrap .sec_title {
+        margin-bottom: 35px;
+    }
+    .sec_title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .oppi_our_service_wrap {
+        padding: 80px 0 50px;
+    }
+    .oppi_service_item.oppi_service_img_right {
+        margin-bottom: 80px;
+    }
+    .oppi_support_wrap {
+        padding: 110px 0 0;
+    }
+    .oppi_download_app_wrap {
+        padding: 50px 0 0;
+    }
+    .oppi_download_app_content {
+        padding-top: 80px;
+    }
+    .business_call_img_group {
+        margin-right: -85px;
+    }
+    .oppi_footer_widget.pl_100 {
+        padding-right: 0;
+    }
+    .oppi_review_slider .slick-arrow.slick-prev {
+        right: 15px;
+    }
+    .oppi_review_slider .slick-arrow.slick-next {
+        left: 15px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 900px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device {
+        margin-right: 0;
+        margin-bottom: -115px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: -150px;
+        margin-top: 0;
+    }
+    .oppi_banner.oppi_banner_three .oppi_banner_content .banner_title {
+        color: #4d446b;
+        line-height: 50px;
+        font-size: 36px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_content {
+        max-width: 470px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .education_banner_img {
+        max-width: 430px;
+    }
+    .oppi_feature_style_three .sec_title {
+        margin-bottom: 15px;
+    }
+    .oppi_about_content.m_w_475 {
+        max-width: 370px;
+    }
+    .oppi_pricing_plan_wrap {
+        padding: 55px 0 70px;
+    }
+    .oppi_pricing_plan_wrap .sec_title {
+        margin-bottom: 40px;
+    }
+    .oppi_download_app_three_wrap {
+        padding-top: 0;
+    }
+    .oppi_download_app_three_wrap .oppi_download_app_content {
+        padding-top: 40px;
+    }
+    .oppi_download_app_three_wrap .download_para {
+        margin-bottom: 25px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group {
+        margin-bottom: 35px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .mockup_details {
+        left: 0;
+    }
+    .oppi_f_mockup_sing_item .m_img .right_dot_line {
+        left: 150px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .dot {
+        left: 445px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img {
+        margin-right: 100px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .cloud_1 {
+        right: -50px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .dots {
+        right: -75px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .call_img_2 {
+        bottom: -180px;
+    }
+    .oppi_f_mockup_sing_item .m_img .right_mockup_img {
+        max-width: 300px;
+    }
+    .oppi_f_mockup_sing_item .m_img .Left_mockup_img {
+        max-width: 300px;
+    }
+    .oppi_f_mockup_sing_item .m_img .left_shadow {
+        display: none;
+    }
+    .oppi_feature_mockup_wrap .bg_shape {
+        max-width: 600px;
+        height: 75px;
+    }
+    .oppi_f_mockup_sing_item .m_img .left_dot_line {
+        max-width: 200px;
+    }
+    .oppi_f_mockup_sing_item .m_img .right_dot_line {
+        top: 80px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .dot {
+        top: 320px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .mockup_details {
+        top: 55px;
+    }
+    .oppi_f_mockup_sing_item .m_img .left_dot_line {
+        top: 130px;
+        left: 150px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details {
+        left: 315px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .dot {
+        top: 125px;
+        left: 160px;
+    }
+    .oppi_download_app_three_wrap {
+        margin-bottom: 90px;
+    }
+    .oppi_faq_wrap {
+        padding-bottom: 40px;
+    }
+    .oppi_call_to_action_four {
+        padding: 55px 0 60px;
+    }
+    .oppi_footer_wrap {
+        padding: 55px 0 15px;
+    }
+    .oppi_footer_widget {
+        margin-bottom: 60px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 100%;
+    }
+    .oppi_grafe_img_content {
+        padding-right: 20px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 {
+        left: -172px;
+        bottom: 40px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 img {
+        max-width: 140px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .social_banner_img_1 {
+        margin-right: -60px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_3 {
+        right: -100px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_1 {
+        right: -105px;
+    }
+    .oppi_call_to_action_img_content .call_img_1 {
+        right: -393px;
+        max-width: 735px;
+        top: -335px;
+    }
+    .oppi_call_to_action_img_content .call_img_2 {
+        right: -240px;
+        max-width: 740px;
+    }
+    .oppi_call_to_action_img_content .call_img_3 {
+        right: 120px;
+        max-width: 735px;
+        bottom: -525px;
+    }
+    .p_r_45 {
+        padding-left: 15px;
+    }
+    .p_l_45 {
+        padding-right: 15px;
+    }
+    .oppi_blog_single_banner {
+        padding: 95px 0 75px;
+    }
+    .oppi_inner_banner .oppi_banner_content .banner_title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .blog_wrap {
+        padding: 60px 0;
+    }
+    .blog_single_item {
+        margin-bottom: 20px;
+    }
+    .oppi_author {
+        margin-bottom: 50px;
+    }
+    .comment_reply {
+        margin-bottom: 50px;
+    }
+    .blog_wrap.blog_single_wrap {
+        padding-bottom: 40px;
+    }
+    .oppi_contact_form_group {
+        padding: 30px;
+    }
+    .oppi_price_two .oppi_price_item {
+        padding: 30px 15px;
+    }
+    .oppi_price_item {
+        padding: 35px 50px 50px;
+    }
+    .oppi_restaurant_feature_item{
+        padding: 0px;
+    }
+    .oppi_restaurant_software_area .row{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+}
+
+
+/*============== end @media (max-width: 1024px) =================*/
+
+@media (max-width: 992px) {
+    .oppi_mockup_content {
+        padding-left: 50px;
+    }
+}
+
+
+/*============== end @media (max-width: 992px) =================*/
+
+@media (max-width: 991px) {
+    .oppi_header .header_nav .oppi_header_menu ul.navbar-nav {
+        margin-bottom: 15px;
+        display: block;
+    }
+    .oppi_header .header_nav .oppi_header_menu ul li.nav-item {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .oppi_header .header_nav .oppi_header_menu .oppi_try_for_free {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .oppi_header_menu {
+        background: #fff;
+        padding: 0px 15px;
+    }
+    .oppi_header .header_nav .oppi_header_menu ul li.nav-item a.nav-link.dropdown-toggle::after {
+        left: 0;
+    }
+    .oppi_header .header_nav .oppi_header_menu ul li.nav-item .dropdown-menu {
+        padding: 18px 40px 20px;
+        margin: 0 0 22px;
+        border-bottom: 1px solid #e1e5ec;
+        border-radius: 0;
+    }
+    .oppi_header .header_nav .oppi_header_menu ul {
+        padding: 20px 0 15px
+    }
+    .oppi_header .header_nav .oppi_header_menu ul li.nav-item a.nav-link {
+        color: #2c234d;
+    }
+    .oppi_header .header_nav .oppi_header_menu .oppi_try_for_free {
+        border-color: #5268f2;
+        box-shadow: none;
+        display: inline-block;
+    }
+    .oppi_header.fixedMenu .header_nav .oppi_header_menu .oppi_try_for_free {
+        margin-bottom: 10px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: -80px;
+    }
+    .oppi_banner.oppi_banner_three .oppi_banner_content .banner_title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .oppi_header.oppi_header_style_three .header_nav .oppi_hamburger .bar_icon .bar {
+        background: #5268f2;
+    }
+    .oppi_header.oppi_header_style_three .header_nav .oppi_header_menu .oppi_try_for_free::after {
+        background-image: linear-gradient(-90deg, #fff 0%, #fff 100%), linear-gradient(-90deg, #9a11da 0%, #f23891 100%);
+    }
+    .oppi_f_mockup_sing_item .m_img .right_dot_line {
+        max-width: 210px;
+        left: 88px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .mockup_details {
+        left: -65px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .dot {
+        top: 245px;
+        left: 295px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details {
+        left: auto;
+        right: -40px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_content .sec_title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img {
+        margin-right: 0;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .call_img_2 {
+        bottom: -160px;
+        right: -52px;
+    }
+    .oppi_feature_wrap {
+        padding-bottom: 65px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .cloud_2 {
+        right: 240px;
+        top: 0;
+    }
+    .oppi_call_to_action_three {
+        padding: 130px 0 85px;
+    }
+    .oppi_about_three {
+        padding-bottom: 65px;
+        padding-top: 50px;
+    }
+    .oppi_about_dot img {
+        display: none;
+    }
+    .oppi_about_content .oppi_abs_num {
+        display: none;
+    }
+    .oppi_social_about_wrap .pl_100 {
+        padding-right: 15px;
+    }
+    .oppi_about_three .sec_title {
+        margin-bottom: 60px;
+    }
+    .oppi_about_content_item_1 {
+        margin-bottom: 60px;
+    }
+    .oppi_price_item {
+        margin-bottom: 50px;
+    }
+    .oppi_pricing_plan_wrap {
+        padding-bottom: 30px;
+    }
+    .oppi_feedback_wrap {
+        padding: 55px 0;
+    }
+    .oppi_call_to_action_content .call_title {
+        font-size: 30px;
+    }
+    .oppi_call_to_action_content .call_para {
+        font-size: 16px;
+    }
+    .oppi_header.oppi_menu_center .header_nav .logo {
+        position: static;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_content {
+        max-width: 100%;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_content {
+        padding-top: 60px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_content .banner_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .oppi_banner_img_content {
+        padding-top: 55px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img {
+        margin-top: 0;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .social_banner_img_1 {
+        margin-right: -20px;
+        max-width: 440px;
+        margin-bottom: -230px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_2 {
+        bottom: -48px;
+        right: -60px;
+        max-width: 180px;
+    }
+    .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_3 {
+        bottom: 140px;
+        left: -15px;
+        max-width: 80px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_4 {
+        top: 0;
+        right: 75px;
+        max-width: 70px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_3 {
+        bottom: 130px;
+        left: -25px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .wev_1 {
+        bottom: 40px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .wev_3 {
+        bottom: 230px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .wev_4 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .oppi_grafe_img_content {
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .oppi_social_about_content {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .oppi_header.fixedMenu,
+    .oppi_header.oppi_menu_center.fixedMenu {
+        padding: 5px 0;
+    }
+    .oppi_header.oppi_menu_center {
+        padding: 15px 0;
+    }
+    .oppi_watching_wrap {
+        padding: 110px 0 60px;
+    }
+    .oppi_analytics_img_content.pl_100 {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    .sec_title2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_2 {
+        left: -50px;
+    }
+    .oppi_call_to_action_two_wrap .oppi_call_to_action_content .oppi_btn_group .btn_solid {
+        margin-bottom: 20px;
+    }
+    .oppi_call_to_action_two_wrap .oppi_call_to_action_content .oppi_btn_group .btn_solid+.btn_solid {
+        margin-right: 0;
+    }
+    .oppi_header.social_header .header_nav .oppi_header_menu .oppi_btn_right {
+        position: static;
+        display: block;
+    }
+    .oppi_header.oppi_header_inner_menu .header_nav .oppi_header_menu ul li.nav-item a.nav-link {
+        color: #4d446b;
+    }
+    .oppi_header.oppi_header_inner_menu .header_nav .oppi_header_menu .oppi_try_for_free {
+        color: #5268f2;
+        border-color: #5268f2;
+    }
+    .pagination_content {
+        margin-bottom: 40px;
+    }
+    .oppi_price_two .oppi_price_item {
+        margin-bottom: 30px;
+    }
+    .oppi_price_two {
+        padding-top: 70px;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .oppi_price_language {
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+    .oppi_price_lan_title {
+        max-width: 100%;
+    }
+    .oppi_select_language {
+        margin-bottom: 40px;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img img {
+        max-width: 100%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(1) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(2) {
+        top: 0;
+        right: 170px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        top: 45%;
+        right: 25px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(13) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(3) {
+        top: 100px;
+        right: 135px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(4) {
+        right: 290px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(5) {
+        top: 130px;
+        right: 280px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        top: 125px;
+        right: 435px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(6) {
+        top: -30px;
+        right: 620px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(7) {
+        right: 455px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(10) {
+        right: 545px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(17) {
+        right: 605px;
+        bottom: 75px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(18) {
+        bottom: -30px;
+        right: 390px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(12) {
+        top: 50px;
+        right: 78%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        bottom: 0;
+        right: 515px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(20) {
+        bottom: 50px;
+        left: 195px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        top: 90px;
+        right: 610px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(16) {
+        bottom: 95px;
+        right: 370px;
+    }
+    .oppi_mobile_mockup .mockup_2 {
+        display: none;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .oppi_mockup_content {
+        padding: 0;
+    }
+    .oppi_service_img_content.img_right .service_img_1 {
+        margin-right: 0;
+    }
+    .oppi_service_img_content.img_right .service_img_2,
+    .oppi_service_img_content.img_left .service_img_2 {
+        display: none;
+    }
+    .oppi_service_img_content.img_left .service_img_1 {
+        margin-left: 0;
+    }
+    .oppi_call_to_action_content .call_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .oppi_support_img {
+        padding-top: 60px;
+        text-align: center;
+    }
+    .oppi_support_img .img_inner .shape_2 .shape_2_inner {
+        left: 0;
+    }
+    .oppi_mockup_img .mockup_inner .download_2 {
+        display: none;
+    }
+    .oppi_download_app_content .oppi_btn_group .oppi_dbtn.btn_solid_color {
+        padding: 11px 12px;
+        margin-left: 10px;
+    }
+    .oppi_download_app_content .oppi_btn_group .oppi_dbtn {
+        font-size: 15px;
+    }
+    .oppi_download_app_content .oppi_btn_group .oppi_dbtn.btn_solid_color .iconify {
+        font-size: 15px;
+        margin-left: 6px;
+    }
+    .oppi_download_app_content .oppi_btn_group .oppi_dbtn.btn_border .iconify {
+        font-size: 26px;
+        margin-left: 8px;
+    }
+    .oppi_download_app_content .oppi_btn_group .oppi_dbtn.btn_border {
+        padding: 7px 10px 7px 20px;
+    }
+    .oppi_mockup_img .mockup_inner {
+        padding-right: 50px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .education_banner_img {
+        max-width: 400px;
+    }
+    .oppi_f_mockup_sing_item .m_img .Left_mockup_img {
+        max-width: 250px;
+    }
+    .oppi_f_mockup_sing_item .m_img .right_mockup_img {
+        max-width: 250px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details {
+        right: 0;
+    }
+    .oppi_f_mockup_sing_item .m_img .left_dot_line {
+        top: 155px;
+        left: 140px;
+        max-width: 170px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .dot {
+        top: 145px;
+        left: 145px;
+    }
+    .oppi_f_mockup_sing_item.mockup_left {
+        padding-top: 45px;
+    }
+    .oppi_feature_mockup_wrap .bg_shape {
+        max-width: 460px;
+        height: 60px;
+        top: 200px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .mockup_details {
+        left: 0;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details {
+        bottom: 0;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 550px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device {
+        margin-bottom: -80px;
+    }
+    .w_items_wrap {
+        margin: 0 -15px 20px;
+    }
+    .w_items {
+        padding: 0 15px;
+    }
+    .w_items {
+        padding: 0 15px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .social_banner_img_1 {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_2 {
+        bottom: -110px;
+        max-width: 125px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_4 {
+        right: 45px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_3 {
+        bottom: 40px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .wev_1 {
+        bottom: -35px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .wev_3 {
+        bottom: 150px;
+    }
+    .oppi_download_two_img_content .img_inner .download_two_shape {
+        left: -15px;
+    }
+    .oppi_analytics_img_content.pl_100 {
+        padding-right: 75px
+    }
+    .oppi_social_feature .sec_title2 {
+        margin-bottom: 45px;
+    }
+    .oppi_social_feature .oppi_feature_item {
+        margin-bottom: 50px;
+    }
+    .oppi_watching_wrap {
+        padding: 70px 0 60px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 {
+        bottom: -15px;
+        right: -188px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 img {
+        max-width: 155px;
+    }
+    .oppi_analytics_wrap {
+        padding: 70px 0 60px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_shape {
+        bottom: 40px;
+    }
+    .oppi_download_app_two_wrap {
+        padding-bottom: 65px;
+    }
+    .oppi_call_to_action_img_content .call_img_1 {
+        right: -410px;
+        max-width: 575px;
+        top: -270px;
+    }
+    .oppi_call_to_action_img_content .call_img_2 {
+        right: -350px;
+        max-width: 690px;
+        top: 120px;
+    }
+    .oppi_call_to_action_img_content .call_img_3 {
+        right: 0;
+        max-width: 655px;
+        bottom: -370px;
+    }
+    .oppi_contact_form_content .title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .oppi_contactUs_wrap {
+        padding-top: 60px;
+    }
+    .oppi_contact_item {
+        margin-bottom: 50px;
+    }
+    .oppi_contact_form_group {
+        margin-top: -150px;
+    }
+    .oppi_contact_form_wrap {
+        padding-bottom: 30px;
+    }
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.prevtab,
+    .oppi_how_it_tab_content_wrap .tab_custom_arrow.nexttab {
+        display: none;
+    }
+    .oppi_banner.oppi_banner_two {
+        padding-bottom: 80px;
+    }
+    .oppi_finance_banner_area{
+        padding-bottom: 200px;
+    }
+    .oppi_finance_banner_content{
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .oppi_finance_banner_content p{
+        max-width: 570px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .oppi_finance_banner_area .d-flex{
+        justify-content: center;
+    }
+    .oppi_finance_features_area .justify-content-end{
+        justify-content: center !important;
+    }
+    .features_mockup{
+        margin-bottom: 50px;
+    }
+    .oppi_finance_features_area {
+        padding-bottom: 40px;
+    }
+    .promo_img img{
+        max-width: 100%;
+    }
+    .oppi_finance_app_promo_area{
+        display: block;
+    }
+    .oppi_finance_app_promo_area .oppi_app_left, .oppi_finance_app_promo_area .oppi_app_right{
+        width: 100%;
+    }
+    .oppi_finance_app_promo_area .oppi_app_left{
+        display: none;
+    }
+    .oppi_finance_app_promo_area .oppi_app_right{
+        padding: 100px 15px;
+    }
+    .oppi_finance_app_promo_area .oppi_app_right .app_content{
+        padding-left: 0;
+    }
+    .feedback_slider .item{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .oppi_health_banner .oppi_banner_content .banner_title{
+        font-size: 49px;
+        line-height: 60px;
+    }
+    .oppi_health_banner_img .img_watch{
+        left: 120px;
+    }
+    .oppi_health_about_slider .slider_details{
+        margin-top: -65px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    .oppi_health_about_slider .slider_details .sd_img img{
+        width: 300px;
+    }
+    .oppi_health_about_slider{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-prev,.oppi_health_about_slider .slick-arrow.slick-next{
+        top: 5px;
+        transform: translateY(0);
+        border-color: #fff;
+        right: 5px;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-prev:before,.oppi_health_about_slider .slick-arrow.slick-next:before{
+        color: #fff;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-prev:hover,.oppi_health_about_slider .slick-arrow.slick-next:hover{
+        background: #fff;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-prev:hover:before,.oppi_health_about_slider .slick-arrow.slick-next:hover:before{
+        color: #6bc33c;
+    }
+    .oppi_health_about_slider .slick-arrow.slick-next{
+        right: 65px;
+        left: auto;
+    }
+    .oppi_health_about_slider .slider_details .sd_text{
+        margin-right: 20px;
+    }
+    .oppi_fitness_img_content .fitness_mockup_img{
+        left: 44px;
+    }
+    .oppi_fitness_content .sec_sub_title_2,.oppi_fitness_content .sec_title_2{
+        font-size: 31px;
+        line-height: 38px;
+    }
+    .oppi_h_service_wrap .pl_100 {
+        padding-right: 0;
+    }
+    .oppi_health_call_to_img .img_1 img,.oppi_health_call_to_img .img_2 img{
+        max-width: 100%;
+    }
+    .oppi_health_call_to_contant .oppi_btn_group .oppi_dbtn .btn_inner .text{
+        font-size: 15px;
+    }
+    .oppi_health_call_to_contant .oppi_btn_group .oppi_dbtn{
+        margin-left: 5px;
+        padding: 9px 20px 13px;
+    }
+    .oppi_health_call_to_contant .oppi_btn_group .oppi_dbtn + .oppi_dbtn{
+        margin-left: 0;
+    }
+    .oppi_health_call_to_action_wrap{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    .discover_info .item:nth-child(1) img{
+        width: 200px;
+    }
+    .discover_info .item + .item {
+        margin-right: -43px;
+    }
+    .oppi_health_banner_img{
+        margin-bottom: -50px;
+    }
+    .oppi_testimonial_info .slick-slide .testimonial_item{
+        padding: 30px 20px;
+    }
+    .oppi_contact_items{
+        padding: 50px 20px;
+    }
+    .oppi_food_about_img.img_left .about_round.one{
+        right: 0;
+    }
+    .oppi_food_banner_area .macbook_img img{
+        width: 300px;
+        margin-right: 0;
+    }
+    .oppi_food_banner_area .macbook_img .round{
+        width: 400px;
+        height: 400px;
+        right: -50px;
+    }
+    .top_img{
+        display: none;
+    }
+    .oppi_restaurant_banner_area{
+        height: auto;
+        padding: 150px 0px 100px;
+    }
+    .oppi_restaurant_banner_area .justify-content-end{
+        justify-content: center !important;
+    }
+    .desh_img{
+        margin-top: 45px;
+    }
+    .desh_img .round{
+        width: 550px;
+        height: 550px;
+        margin-top: -275px;
+        margin-right: -275px;
+    }
+    .oppi_restaurent_action_content{
+        margin-top: 50px;
+    }
+    .oppi_restaurent_action_img img{
+        width: 150px;
+    }
+    .oppi_restaurent_action_img img + img{
+        width: 480px;
+    }
+    .coupon_form .coupon_w {
+        max-width: 250px;
+    }
+    .coupon_form .form-group .restaurant_btn{
+        min-width: auto;
+    }
+    .oppi_restaurent_features_item .oppi_features_img{
+        margin-bottom: 50px;
+    }
+    .restaurent_partners_item{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .restaurent_partners_item img{
+        max-width: 100%;
+    }
+}
+
+
+/*============== end @media (max-width: 991px) =================*/
+
+@media (max-width: 768px) {
+    .oppi_banner.oppi_banner_three .shape_1 {
+        left: -550px;
+    }
+    .oppi_banner.oppi_banner_three .shape_2 {
+        left: -550px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin-right: -110px;
+    }
+    .oppi_banner.oppi_banner_two {
+        padding-bottom: 0px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .social_banner_img .soci_banner_img.img_2 {
+        bottom: -60px;
+    }
+}
+
+
+/*============== end @media (max-width: 768px) =================*/
+
+@media (max-width: 767px) {
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(1) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(2) {
+        right: 120px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(3) {
+        right: 95px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(4) {
+        right: 205px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(5) {
+        right: 205px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(6) {
+        right: 425px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(7) {
+        right: 325px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        right: 25px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        top: 110px;
+        right: 365px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(10) {
+        right: 400px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        right: 390px;
+        top: 40px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(12) {
+        right: 53%;
+        top: 20%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(13) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(14) {
+        right: 90px;
+        bottom: 90px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(15) {
+        right: 215px;
+        bottom: 0;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(16) {
+        right: 280px;
+        bottom: 140px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(17) {
+        right: 300px;
+        bottom: 65px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(18) {
+        right: 345px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        right: 400px;
+        bottom: 65px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(20) {
+        left: 280px;
+        bottom: 60px;
+    }
+    .oppi_banner.oppi_banner_one {
+        padding: 115px 0 100px;
+    }
+    .oppi_banner_content .banner_title {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .oppi_banner_content .banner_para {
+        margin-bottom: 20px;
+    }
+    .oppi_banner_content .email_box {
+        margin-bottom: 25px;
+    }
+    .oppi_banner_img_content {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .sec_title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .oppi_feature_wrap .sec_title {
+        margin-bottom: 50px;
+    }
+    .oppi_feature_item {
+        margin-bottom: 40px;
+    }
+    .oppi_feature_wrap {
+        padding-bottom: 50px;
+    }
+    .oppi_support_wrap {
+        padding-top: 50px;
+    }
+    .oppi_support_content {
+        padding-left: 0;
+    }
+    .oppi_support_img .img_inner .shape_2 {
+        display: none;
+    }
+    .oppi_support_img .img_inner img {
+        margin: 0;
+    }
+    .oppi_our_client_wrap {
+        padding: 50px 0 90px;
+    }
+    .oppi_mobile_mockup {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .oppi_mobile_mockup img {
+        display: inline-block;
+    }
+    .business_call_img_group {
+        margin-right: 0;
+    }
+    .oppi_call_to_action_img {
+        display: flex;
+        justify-content: center;
+    }
+    .oppi_service_content {
+        padding-top: 0;
+        max-width: 100%;
+    }
+    .oppi_service_img_content {
+        text-align: center;
+    }
+    .col_reverse {
+        flex-direction: column-reverse;
+    }
+    .oppi_service_item.oppi_service_img_right {
+        margin-bottom: 0;
+    }
+    .oppi_service_img_content.img_left {
+        text-align: center;
+    }
+    .oppi_download_app_content .oppi_btn_group {
+        justify-content: center;
+    }
+    .oppi_service_item.oppi_service_img_right {
+        flex-direction: column-reverse;
+    }
+    .oppi_footer_widget {
+        margin-bottom: 50px;
+    }
+    .oppi_download_app_content {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+    .oppi_copy_right .copy_right_text {
+        text-align: center;
+    }
+    .oppi_footer_social .social_item {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .oppi_footer_wrap {
+        padding: 50px 0 20px;
+    }
+    .oppi_mockup_img .mockup_inner {
+        padding-right: 0;
+        text-align: center;
+    }
+    .oppi_banner_img_content .banner_img .banner_img_iphoneX {
+        display: none;
+    }
+    .oppi_call_to_action_wrap {
+        padding: 45px 0;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 400px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device {
+        margin-bottom: -80px;
+    }
+    .oppi_banner.oppi_banner_three .shape_1,
+    .oppi_banner.oppi_banner_three .shape_2 {
+        display: none;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img {
+        margin: 130px 0 0 0;
+    }
+    .oppi_feature_wrap .sec_title br {
+        display: none;
+    }
+    .oppi_feature_mockup_wrap .bg_shape {
+        display: none;
+    }
+    .oppi_f_mockup_sing_item.mockup_left {
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details {
+        right: 80px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right {
+        margin-right: 0;
+        margin-top: 80px;
+    }
+    .oppi_f_mockup_sing_item .m_img .right_dot_line {
+        max-width: 230px;
+        left: 125px;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .dot {
+        top: 270px;
+        left: 355px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .call_img_2 {
+        bottom: -180px;
+        right: -65px;
+    }
+    .oppi_about_content.m_w_475 {
+        max-width: 100%;
+    }
+    .oppi_about_content_item_1,
+    .oppi_about_content_item_3 {
+        flex-direction: column-reverse;
+    }
+    .oppi_about_img_wrap img {
+        margin-bottom: 30px;
+    }
+    .slider_inner {
+        padding: 15px 15px 25px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_google_play {
+        margin-right: 0;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_google_play {
+        padding: 11px 20px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_google_play .icon {
+        font-size: 16px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_apple {
+        padding: 8px 25px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_apple .icon {
+        font-size: 24px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_windows {
+        padding: 9px 20px;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.btn_windows .icon {
+        font-size: 16px;
+    }
+    .sec_title br {
+        display: none;
+    }
+    .oppi_download_app_three_wrap {
+        margin-bottom: 0;
+    }
+    .oppi_faq_wrap .sec_title {
+        margin-bottom: 30px;
+    }
+    .oppi_faq_item {
+        padding: 10px 20px;
+    }
+    .oppi_faq_item .oppi_faq_para {
+        padding-top: 10px;
+    }
+    .oppi_call_to_action_four .shape_1,
+    .oppi_call_to_action_four .shape_2 {
+        display: none;
+    }
+    .oppi_call_btn_group {
+        text-align: right !important;
+        padding-top: 30px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_content {
+        max-width: 100%;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img {
+        margin-bottom: 270px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 {
+        right: -173px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 img {
+        max-width: 140px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner {
+        margin-bottom: 60px;
+    }
+    .oppi_download_two_content {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .oppi_analytics_wrap {
+        padding-bottom: 0;
+    }
+    .oppi_call_to_action_img_content .call_img_1 {
+        right: -380px;
+        max-width: 535px;
+        top: -135px;
+    }
+    .oppi_call_to_action_img_content .call_img_2 {
+        right: -285px;
+        max-width: 580px;
+        top: 230px;
+    }
+    .oppi_call_to_action_img_content .call_img_3 {
+        right: 0;
+        max-width: 580px;
+        bottom: -370px;
+    }
+    .md_none {
+        display: none;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_img {
+        max-width: 300px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 {
+        right: -163px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 img {
+        max-width: 140px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 {
+        left: -143px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 img {
+        max-width: 120px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_item {
+        right: -25px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_item .grafe_item_img {
+        max-width: 350px;
+    }
+    .oppi_inner_banner {
+        padding: 70px 0 65px;
+    }
+    .blog_single_item .blog_post .post_content .post_title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .code_post .blog_post .post_content {
+        padding: 30px;
+    }
+    .oppi_inner_banner {
+        padding: 60px 0 45px;
+    }
+    .oppi_inner_banner.oppi_blog_single_banner .oppi_banner_content .banner_title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .oppi_contactUs_wrap {
+        padding-bottom: 0;
+    }
+    .oppi_contact_form_content {
+        max-width: 100%;
+    }
+    .oppi_contact_form_content .title {
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 35px;
+    }
+    .oppi_contact_form_wrap {
+        padding-top: 40px;
+    }
+    .oppi_contact_form_group {
+        margin-top: 40px;
+    }
+    .oppi_select_language .select {
+        margin: 0 15px;
+    }
+    .oppi_price_two .container {
+        max-width: 100%;
+    }
+    .oppi_pricing_plan_wrap .container {
+        max-width: 100%;
+    }
+    .oppi_price_lan_title {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .oppi_price_language {
+        text-align: center;
+    }
+    .portfolio_filter {
+        margin: 50px 0;
+    }
+    .portfolio_filter .work_portfolio_item {
+        padding: 5px 15px;
+        margin: 0 3px;
+    }
+    .oppi_price_item .p_list li {
+        text-align: center;
+    }
+    .oppi_price_item.popular {
+        background-size: contain;
+    }
+    .finance_action_inner{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .oppi_features_promo_content {
+        margin-top: 45px;
+    }
+    .oppi_features_promo_area{
+        padding-bottom: 100px;
+    }
+    .oppi_health_banner_img{
+        padding-top: 0;
+    }
+    .oppi_health_banner .oppi_banner_content {
+        padding: 147px 0 0px;
+    }
+    .oppi_health_featured {
+        padding: 132px 0 50px;
+    }
+    .oppi_health_about_slider .slider_details{
+        display: block;
+    }
+    .oppi_health_about_slider .slider_details .sd_text{
+        padding-top: 35px;
+        margin-right: 0;
+    }
+    .oppi_fitness_content{
+        padding-top: 0;
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+    .oppi_h_service_wrap .pl_100{
+        padding-right: 15px;
+        padding-top: 0px;
+    }
+    .oppi_h_service_item_content{
+        padding-top: 50px;
+    }
+    .oppi_health_call_to_action_wrap{
+        padding-bottom: 80px;
+    }
+    .oppi_health_call_to_contant{
+        padding-top: 0;
+    }
+    .oppi_fitness_content{
+        padding-bottom: 60px;
+    }
+    .oppi_h_service_wrap {
+        padding: 30px 0 70px;
+    }
+    .oppi_h_service_item {
+        margin-bottom: 60px;
+    }
+    .oppi_clients_inner .round_circle {
+        width: 500px;
+        height: 500px;
+    }
+    .oppi_clients_logo .one{
+        width: 100px;
+    }
+    .oppi_clients_inner .oppi_clients_logo{
+        height: 296px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .eight {
+        left: -6px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .two {
+        right: -6px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .three {
+        right: 18px;
+        top: 125px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .seven{
+        left: 18px;
+        top: 125px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .six {
+        left: 89px;
+        bottom: -20px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .four {
+        right: 89px;
+        bottom: -20px;
+    }
+    .oppi_fitness_wrap{
+        padding: 100px 0px;
+    }
+    .oppi_food_about_img.img_left .about_round.one{
+        width: 400px;
+        height: 400px;
+        margin-top: -200px;
+    }
+    .oppi_food_about_img img{
+        width: 250px;
+    }
+    .oppi_food_about_img .about_round.one{
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        right: 40px;
+    }
+    .oppi_food_about_img .about_round.two{
+        width: 150px;
+        height: 150px;
+    }
+    .oppi_food_about_content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .oppi_food_about_img .f_app_img_2 img{
+        width: 180px;
+    }
+    .oppi_food_about_img .f_app_img_2{
+        right: 12px;
+    }
+    .oppi_food_about_img .f_app_img_1 img{
+        width: 230px;
+    }
+    .oppi_restaurent_action_img img{
+        width: 115px;
+    }
+    .oppi_restaurent_action_img img + img{
+        width: 370px;
+    }
+    .oppi_restaurant_banner_content h2{
+        font-size: 40px;
+    }
+    .coupon_form .coupon_w,.coupon_form .coupon_w2{
+        max-width: 100%;
+    }
+    .coupon_form{
+        justify-content: center;
+    }
+    .oppi_restaurant_software_area{
+        padding-bottom: 40px;
+    }
+    .oppi_feature_item .feature_img{
+        justify-content: center;
+    }
+}
+
+
+/*============== end @media (max-width: 767px) =================*/
+
+@media (max-width: 680px) {
+    .oppi_banner_content .banner_title {
+        font-size: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(1) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(2) {
+        right: 130px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(3) {
+        right: 50px;
+        top: 80px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(4) {
+        right: 205px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(5) {
+        right: 140px;
+        top: 120px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(6) {
+        right: 305px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(7) {
+        right: 410px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        right: 25px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        top: 110px;
+        right: 365px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(10) {
+        right: 455px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        right: 455px;
+        top: 50px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(12) {
+        right: 60%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(13) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(14) {
+        right: 140px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(15) {
+        right: 295px;
+        bottom: 0;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(16) {
+        right: 245px;
+        bottom: 175px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(17) {
+        right: 325px;
+        bottom: 125px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(18) {
+        right: 430px;
+        bottom: 0;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        right: 395px;
+        bottom: 65px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(20) {
+        left: 215px;
+    }
+    .discover_info .item:nth-child(1) img {
+        width: 155px;
+    }
+    .discover_info .item:nth-child(2) img {
+        width: 175px;
+    }
+    .discover_info .item:nth-child(3) img {
+        width: 195px;
+    }
+    .discover_info .item:nth-child(4) img {
+        width: 210px;
+    }
+    .discover_info .item:nth-child(5) img {
+        width: 220px;
+    }
+    .discover_info .item + .item {
+        margin-right: -32px;
+    }
+    .oppi_health_banner_img .img_mobile img{
+        width: 250px;
+    }
+    .oppi_health_banner_img .img_watch img{
+        width: 150px;
+    }
+    .oppi_health_banner .oppi_banner_content .banner_para{
+        padding-left: 0;
+    }
+    .oppi_health_about_slider .slider_details .sd_img img{
+        max-width: 100%;
+    }
+    .oppi_health_about_slider .slider_details{
+        margin-top: -17px;
+        padding-right: 10px;
+    }
+    .oppi_health_banner .oppi_banner_content {
+        padding: 110px 0 0px;
+    }
+    .oppi_health_call_to_contant .sec_title_2{
+        font-size: 32px;
+    }
+    .oppi_health_call_to_contant .sec_sub_title_2{
+        font-size: 32px;
+    }
+    .food_service_item {
+        padding: 15px 0px;
+    }
+    .food_round_shap.five,.food_title br{
+        display: none;
+    }
+    .oppi_food_app_promo_area .oppi_app_right .app_content{
+        padding-right: 0;
+    }
+    .food_title,.oppi_food_app_promo_area .oppi_app_right .app_content h2,.oppi_restaurent_action_content h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .oppi_food_about_img .about_round.one{
+        right: 0;
+    }
+    .oppi_food_about_area {
+        padding-top: 0;
+    }
+    .oppi_restaurent_content h2{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .rest_action_dbtn{
+        margin-right: 5px;
+    }
+    .oppi_restaurent_features_area{
+        padding-top: 230px;
+    }
+}
+
+@media (max-width:576px){
+    .oppi_restaurent_action_img img,.oppi_restaurent_action_img{
+        display: block;
+        text-align: center;
+    }
+    .oppi_restaurent_action_img img,.oppi_restaurent_action_img img + img{
+        margin: 0 auto;
+    }
+    .oppi_restaurent_action_img img + img{
+        margin-top: 15px;
+    }
+    .restaurant_faq_inner .tab-content .card .card-header button{
+        padding-right: 10px;
+    }
+    .restaurant_faq_inner .tab-content .card .card-header button i{
+        left: 15px;
+    }
+    .restaurant_faq_inner .tab-content .card .card-body{
+        padding-right: 12px;   
+    }
+    .restaurant_faq_inner .nav-tabs .nav-item + .nav-item{
+        margin-right: 5px;
+    }
+}
+
+/*============== end @media (max-width: 680px) =================*/
+
+@media (max-width:480px) {
+    .oppi_header {
+        padding: 15px 0;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(1) {
+        right: 30px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(2) {
+        right: 111px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(3) {
+        right: 45px;
+        top: 65px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(4) {
+        right: 205px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(5) {
+        right: 195px;
+        top: 115px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(7) {
+        right: 188px;
+        top: -25px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        right: 300px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        top: 70px;
+        right: 290px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(10) {
+        right: 25px;
+        top: 150px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        right: 235px;
+        top: 195px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(12) {
+        right: 35%;
+        top: 90px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(13) {
+        right: 22px;
+        bottom: 70px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(14) {
+        right: 100px;
+        bottom: 135px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(15) {
+        right: 160px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(16) {
+        right: 185px;
+        bottom: 110px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(17) {
+        right: 110px;
+        bottom: 50px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(18) {
+        right: 255px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        right: 290px;
+        bottom: 75px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(20) {
+        left: 265px;
+        bottom: 0;
+    }
+    .oppi_mobile_mockup_slider .oppi_mobile_mockup_slider_item {
+        padding-top: 10px;
+    }
+    .oppi_our_service_wrap {
+        padding: 40px 0 30px;
+    }
+    .business_call_img_group {
+        margin-right: 0;
+    }
+    .oppi_call_to_action_content .call_title {
+        font-size: 28px;
+    }
+    .oppi_client_content .oppi_btn_group .oppi_dbtn.btn_solid {
+        margin-bottom: 30px;
+    }
+    .oppi_client_content .oppi_btn_group .oppi_dbtn.btn_icon {
+        margin-right: 0;
+    }
+    .oppi_f_mockup_sing_item.mockup_left .mockup_details,
+    .oppi_f_mockup_sing_item .m_img .left_dot_line,
+    .oppi_f_mockup_sing_item.mockup_right .mockup_details,
+    .oppi_f_mockup_sing_item .m_img .right_dot_line {
+        display: none;
+    }
+    .oppi_f_mockup_sing_item.mockup_left,
+    .oppi_f_mockup_sing_item.mockup_right {
+        display: flex;
+        justify-content: center;
+    }
+    .oppi_f_mockup_sing_item.mockup_right .dot {
+        left: 125px;
+    }
+    .oppi_download_app_three_wrap .download_mockup_device img {
+        max-width: 250px;
+    }
+/*
+    .sec_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+*/
+    .oppi_download_app_three_wrap .oppi_btn_group {
+        display: block;
+    }
+    .oppi_download_app_three_wrap .oppi_btn_group .oppi_dbtn.oppi_dbtn {
+        margin-right: 0;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .oppi_faq_item .oppi_faq_title {
+        font-size: 18px;
+    }
+    .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .education_banner_img {
+        max-width: 100%;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img .img_5 img {
+        max-width: 150px;
+    }
+    .oppi_banner.oppi_banner_three .oppi_banner_img_content .banner_img .img_4 {
+        top: -65px;
+        right: 100px;
+    }
+    .oppi_banner_one .oppi_banner_img_content .banner_img .img_4 img {
+        max-width: 60px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_img {
+        max-width: 200px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 {
+        right: -99px;
+        bottom: 0;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_1 img {
+        max-width: 95px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 {
+        left: -80px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_man_2 img {
+        max-width: 80px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_item {
+        right: -5px;
+    }
+    .oppi_grafe_img_content .img_inner .grafe_item .grafe_item_img {
+        max-width: 210px;
+    }
+    .oppi_analytics_img_content.pl_100 {
+        padding-right: 70px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_member_1 {
+        left: -35px;
+        max-width: 50px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_member_2 {
+        right: -75px;
+        max-width: 90px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_1 {
+        right: -80px;
+        max-width: 40px;
+        bottom: 270px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_2 {
+        left: -35px;
+    }
+    .oppi_analytics_img_content .analytics_img_inner .analytics_icon_3 {
+        right: -75px;
+        max-width: 55px;
+    }
+    .sec_title2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .oppi_call_to_action_two_wrap {
+        min-height: auto;
+        padding-bottom: 470px;
+        padding-top: 30px;
+    }
+    .oppi_call_to_action_img_content .call_img_1 {
+        right: -235px;
+        max-width: 420px;
+        top: 260px;
+    }
+    .oppi_call_to_action_img_content .call_img_2 {
+        right: -190px;
+        max-width: 490px;
+        top: 545px;
+    }
+    .oppi_call_to_action_img_content .call_img_3 {
+        right: 55px;
+        max-width: 470px;
+        bottom: -375px;
+    }
+    .oppi_author {
+        padding: 30px;
+    }
+    .blog_single_content .comment_reply_form {
+        padding: 30px;
+    }
+    .comment-list li .media {
+        display: block;
+    }
+    .comment-list li .media .media-right {
+        margin: 0 0 20px;
+    }
+    .comment-list li .media .media-body .comment-list {
+        padding-right: 30px;
+    }
+    .blog_single_content .blog_single_item blockquote {
+        padding: 30px;
+    }
+    .tags_group {
+        display: block;
+    }
+    .tags_group a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .blog_single_content .blog_single_item {
+        padding-bottom: 0;
+    }
+    .oppi_author .media {
+        display: block;
+    }
+    .oppi_author .media-right {
+        margin-bottom: 20px;
+    }
+    .oppi_inner_banner .oppi_banner_content .banner_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .oppi_contact_item {
+        max-width: 100%;
+    }
+    .oppi_contact_form_wrap {
+        padding-bottom: 0;
+    }
+    .apz_price_tab {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .apz_price_tab .nav-item {
+        width: 100%;
+    }
+    .apz_price_tab .nav-item .nav-link {
+        text-align: center;
+        width: 100%;
+    }
+    .apz_price_tab .nav-item .nav-link.active {
+        border-radius: 5px;
+        background: #5268f2;
+    }
+    .oppi_select_language span {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .oppi_select_language .select select {
+        margin-bottom: 15px;
+    }
+    .portfolio_filter {
+        display: block;
+    }
+    .portfolio_filter .work_portfolio_item {
+        margin: 0 0 5px 5px;
+    }
+    .oppi_portfolio_area {
+        padding-bottom: 10px;
+    }
+    .finance_action_inner .d-flex{
+        display: block !important;
+    }
+    .finance_action_inner .f_solid_btn{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .oppi_finance_banner_content h2{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .oppi_finance_banner_area .d-flex{
+        display: block !important;
+    }
+    .oppi_finance_banner_content .video_icon{
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .finance_blog_item .post_content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .oppi_finance_blog_area{
+        padding-bottom: 75px;
+    }
+    .oppi_features_promo_content .f_title br{
+        display: none;
+    }
+    .oppi_health_banner .oppi_banner_content .banner_title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .oppi_fitness_img_content .fitness_mockup_img{
+        left: 0;
+    }
+    .oppi_fitness_img_content .fitness_mockup_img img{
+        max-width: 100%;
+    }
+    .oppi_health_call_to_contant .oppi_btn_group{
+        display: block;
+    }
+    .oppi_health_call_to_contant .oppi_btn_group .oppi_dbtn + .oppi_dbtn{
+        margin-top: 10px;
+    }
+    .oppi_clients_inner .c_logo{
+        width: 70px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .six {
+        left: 17px;
+    }
+    .oppi_clients_inner .oppi_clients_logo .four{
+        right: 17px;
+    }
+    .discover_info .item:nth-child(1) img {
+        width: 102px;
+    }
+    .discover_info .item:nth-child(2) img {
+        width: 122px;
+    }
+    .discover_info .item:nth-child(3) img {
+        width: 140px;
+    }
+    .discover_info .item:nth-child(4) img {
+        width: 162px;
+    }
+    .discover_info .item:nth-child(5) img {
+        width: 182px;
+    }
+    .food_action_content .d-flex{
+        display: block !important;
+    }
+    .food_action_content .food_btn{
+        margin-bottom: 10px;
+    }
+    .food_action_content .food_btn + .food_btn{
+        margin-right: 0;
+    }
+    .oppi_contacts_area {
+        padding: 30px 0px 85px;
+    }
+    .desh_img .round{
+        width: 400px;
+        height: 400px;
+        margin-top: -200px;
+        margin-right: -200px;
+    }
+}
+
+
+/*============== end @media (max-width: 480px) =================*/
+
+@media (max-width: 375px) {
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(6) {
+        right: 260px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(9) {
+        right: 265px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(8) {
+        right: 260px;
+        top: 38%;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(11) {
+        right: 270px;
+    }
+    .oppi_cleint_logo_content .client_logo_list li:nth-child(19) {
+        right: 240px;
+        bottom: 55px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .cloud_1 {
+        right: 195px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .call_img_2 {
+        bottom: -120px;
+        right: -38px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .pen img {
+        max-width: 190px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .pen {
+        right: -20px;
+    }
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .cloud_2,
+    .oppi_call_to_action_three .oppi_call_to_action_img .call_to_action_three_img .dots {
+        display: none;
+    }
+    .business_call_img_group .gear_icon img {
+        max-width: 100px;
+    }
+    .business_call_img_group .chart {
+        bottom: 65px;
+        max-width: 50px;
+    }
+    .desh_img .round{
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        margin-right: -150px;
+    }
+    .restaurant_faq_inner .nav-tabs{
+        display: block;
+    }
+    .restaurant_faq_inner .nav-tabs .nav-item + .nav-item{
+        margin-right: 0;
+    }
+    .restaurant_faq_inner .nav-tabs .nav-item .nav-link{
+        text-align: center;
+    }
+    .restaurant_faq_inner .nav-tabs .nav-item{
+        margin-bottom: 8px;
+    }
+    .oppi_restaurant_banner_content h2{
+        font-size: 35px;
+    }
+    .rest_action_dbtn{
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .oppi_restaurent_action_content .oppi_btn_group{
+        display: block;
+    }
+    .oppi_restaurent_action_img img{
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+
+/*============== end @media (max-width: 375px) =================*/

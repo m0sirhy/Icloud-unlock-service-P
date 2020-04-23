@@ -1,0 +1,115 @@
+/*=============================================                      oppi_faq_wrap                          ===========================================*/
+
+.oppi_faq_wrap {
+    padding: 60px 0 140px;
+    .sec_title {
+        margin-bottom: 70px;
+    }
+}
+
+.oppi_faq_content {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.oppi_accordion {}
+
+.oppi_faq_item {
+    border: 2px solid rgba(173, 25, 201, 0.2);
+    box-sizing: border-box;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    transition: all 0.5s;
+    z-index: 1;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 15px 28px 20px 40px;
+    .oppi_faq_title {
+        color: #4d446b;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: $pop;
+        position: relative;
+        cursor: pointer;
+        &[aria-expanded="true"] {
+            color: #f23891;
+            &::before {
+                content: "\32";
+            }
+        }
+        &::before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            content: "\33";
+            font-family: 'eleganticons';
+            font-size: 22px;
+        }
+    }
+    .oppi_faq_item_body {}
+    .oppi_faq_para {
+        padding-top: 25px;
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: $pop;
+        padding-right: 30px;
+    }
+    &.open {
+        box-shadow: 0px 40px 70px 0px rgba(133, 11, 131, 0.12);
+        background-image: linear-gradient( 50deg, #fff 0%, #fff 100%), linear-gradient( 50deg, rgba(242, 56, 146, 1) 0%, rgba(154, 17, 218, 1) 100%);
+        padding-bottom: 30px;
+    }
+}
+
+.oppi_travel_faq{
+    padding: 20px 0 110px;
+    .sec_title {
+
+    }
+    .oppi_faq_content {
+        .oppi_accordion {
+            .oppi_faq_item {
+                border: 1px solid #f0f2f6;
+                border-radius: 33px;
+                padding: 19px 28px 18px 40px;
+                .oppi_faq_title {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    color: #273c63;
+                    &::before {
+                        content: "\4c";
+                    }
+                }
+                .oppi_faq_item_body {
+                    .oppi_faq_para {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        color: #707b8e;
+                        margin-bottom: 20px;
+
+                    }
+                }
+                &.open {
+                    box-shadow: 0px 20px 50px 0px rgba(4, 39, 104, 0.08);
+                    background: #fff;
+                    .oppi_faq_title {
+                        &::before {
+                            content: "\4b";
+                            color: #ff5e00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=============================================                      oppi_faq_wrap                          ===========================================*/

@@ -1,0 +1,251 @@
+/*===============================================                    oppi_support_page                            ======================================*/
+
+.oppi_support_popular_wrap {
+    padding: 120px 0 90px;
+}
+
+.oppi_support_search_box {
+    .search_box {
+        position: relative;
+        width: 100%;
+        margin-bottom: 58px;
+        .form-control {
+            border: 2px solid #eceff2;
+            border-radius: 6px;
+            background-color: #fbfcfd;
+            height: 60px;
+            padding: 10px 68px 10px 25px;
+            outline: none;
+            box-shadow: none;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            font-family: $pop;
+            &::placeholder {
+                color: #707b8e;
+            }
+        }
+        .search {
+            position: absolute;
+            top: 50%;
+            right: 25px;
+            transform: rotatey(180deg) translateY(-50%);
+            padding: 0;
+            border: none;
+            background: none;
+            font-size: 20px;
+            color: #5268f2;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.support_title {
+    color: #2c234d;
+    font-weight: 600;
+    font-family: $pop;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.oppi_support_popular_item {
+    background: #fbfcfd;
+    border: 1px solid #f3f5f7;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    padding: 0 0 62px;
+    border-radius: 6px;
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 20px 40px 0px rgba(8, 22, 113, 0.06);
+    }
+    .popular_item_inner {
+        .popular_item_icon {
+            display: table;
+            width: 100%;
+            min-height: 126px;
+            margin-bottom: 30px;
+            .icon_inner {
+                display: table-cell;
+                vertical-align: bottom;
+                img {}
+            }
+        }
+        .popular_item_details {
+            p {
+                color: #2c234d;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: $pop;
+            }
+        }
+    }
+}
+
+.oppi_faq_wrap.oppi_support_faq {
+    padding-bottom: 90px;
+    .oppi_faq_item {
+        border-color: rgba(82, 103, 242, 0.2);
+        background-image: none;
+        &.open {
+            border-color: rgb(82, 104, 242);
+            box-shadow: 0px 40px 70px 0px rgba(11, 27, 133, 0.12);
+        }
+        .oppi_faq_title[aria-expanded="true"] {
+            color: #5268f2;
+        }
+    }
+}
+
+.oppi_support_videos_wrap {
+    background: #fbfcfd;
+    padding: 95px 0 125px;
+    .oppi_videos_items {
+        .support_title {
+            .show_all_video_link {
+                a {
+                    color: #5268f2;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-family: $pop;
+                    display: inline-flex;
+                    i {
+                        font-weight: 700;
+                        margin-left: 8px;
+                        transition: all 0.5s;
+                        &::before {
+                            line-height: 30px;
+                        }
+                    }
+                    &:hover {
+                        i {
+                            margin-left: 15px;
+                            margin-right: -7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_video_slider_wrap {
+    margin-bottom: 0;
+    .slick-dots {
+        //bottom: -65px;
+    }
+    .slick-dots li {
+        width: 8px;
+        height: 8px;
+        margin: 0 6px;
+        background: #d5dae0;
+        border-radius: 50%;
+        transition: all 0.5s;
+        button {
+            display: none;
+        }
+        &.slick-active {
+            transform: scale(1.5);
+            background: #5268f2;
+        }
+    }
+}
+
+.oppi_video_slider_item {
+    margin-bottom: 45px;
+    .support_video_img {
+        position: relative;
+        overflow: hidden;
+        border: 2px solid #e1e5ea;
+        border-radius: 6px;
+        box-shadow: 0px 20px 40px 0px rgba(8, 22, 113, 0.06);
+        .video_thumb {}
+        .video_icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:before {
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                content: "";
+                background: #2c234d;
+                border-radius: 50%;
+                opacity: 0.4;
+                transition: all 0.5s;
+            }
+            &::after {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                content: "";
+                background: #5268f2;
+                border-radius: 50%;
+                opacity: 0.4;
+                animation: youTube 5s infinite;
+                top: 50%;
+                left: 50%;
+            }
+            .icon {
+                position: relative;
+                z-index: 1;
+                img {
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+    &:hover {
+        .support_video_img .video_icon:before {
+            opacity: 0.7;
+            background: #5268f2;
+        }
+    }
+}
+
+.oppi_get_help_wrap {
+    padding: 95px 0 20px;
+    .support_title {}
+    .oppi_get_help_item {
+        display: flex;
+        align-items: center;
+        height: 120px;
+        border-radius: 6px;
+        background-image: linear-gradient( 30deg, rgb(138, 87, 222) 0%, rgb(215, 123, 209) 100%);
+        padding: 40px;
+        margin-bottom: 30px;
+        .icon {
+            margin-right: 12px;
+            i {
+                font-size: 40px;
+                color: #fff;
+            }
+        }
+        .details {
+            p {
+                color: #fff;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        &.oppi_cloud {
+            background-image: linear-gradient( 30deg, rgb(138, 87, 222) 0%, rgb(215, 123, 209) 100%);
+        }
+        &.oppi_live_training {
+            background-image: linear-gradient( 30deg, rgb(55, 207, 137) 0%, rgb(201, 215, 123) 100%);
+        }
+        &.oppi_contact_support {
+            background-image: linear-gradient( 30deg, rgb(87, 147, 222) 0%, rgb(136, 123, 215) 100%);
+        }
+    }
+}
+
+
+/*===============================================                    oppi_support_page                            ======================================*/

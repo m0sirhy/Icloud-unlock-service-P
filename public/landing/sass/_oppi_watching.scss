@@ -1,0 +1,141 @@
+/*========================================                   oppi_watching_wrap                  ==============================================*/
+
+.oppi_watching_wrap {
+    position: relative;
+    overflow: hidden;
+    padding: 140px 0 170px;
+    .shape_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.oppi_watching_img {
+    .img_inner {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        .shape {
+            position: absolute;
+            top: -100px;
+            left: -60px;
+            z-index: -1;
+            img {
+                border-radius: 0;
+                box-shadow: none;
+            }
+        }
+        .social_img_content {
+            box-shadow: 0px 60px 100px 0px rgba(74, 3, 25, 0.2);
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            .social_screen_bg {}
+            .social_slider_screen {
+                position: absolute;
+                top: 20px;
+                left: 5px;
+                border-radius: 14px;
+                max-width: 360px;
+                width: 100%;
+                height: 680px;
+                overflow: hidden;
+            }
+            .social_screen_slider {
+                .social_screen_slider {
+                    border-radius: 14px;
+                    li {
+                        border-radius: 14px;
+                    }
+                }
+                .social_slider_screen_item {
+                    img {
+                        border-radius: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_watching_content {
+    padding-top: 45px;
+    .sec_title2 {
+        margin-bottom: 20px;
+    }
+    .w_para {
+        color: #707b8e;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+        max-width: 470px;
+        width: 100%;
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            background: #ee6d95;
+            border-color: #ee6d95;
+            padding: 15px 38px;
+            box-shadow: 0px 20px 30px 0px rgba(185, 62, 100, 0.24);
+            &:hover {
+                color: #ee6d95;
+                background: transparent;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+.w_items_wrap {
+    margin: 0 -55px 20px;
+    clear: both;
+    float: left;
+}
+
+.w_items {
+    padding: 0 55px;
+    float: left;
+    margin-bottom: 40px;
+    cursor: pointer;
+    .w_img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 6px 0px #b93e6414;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+        transition: all 0.5s;
+        margin: 0 auto 15px;
+    }
+    p {
+        a {
+            display: inline-block;
+            color: #707b8e;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $pop;
+            line-height: 30px;
+            transition: all 0.5s;
+        }
+    }
+    &:hover,
+    &.flex-active {
+        .w_img {
+            border-color: #ee6d95;
+            box-shadow: 0px 40px 50px 0px rgba(185, 62, 100, 0.12);
+        }
+        p {
+            a {
+                color: #ee6d95;
+            }
+        }
+    }
+}
+
+
+/*========================================                   oppi_watching_wrap                  ==============================================*/

@@ -1,0 +1,176 @@
+/*===============================================          oppi_our_client_wrap             =========================================================*/
+
+.oppi_our_client_wrap {
+    padding: 90px 0 135px;
+}
+
+.oppi_client_content {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto 85px;
+    .sec_title {
+        margin-bottom: 20px;
+    }
+    .client_para {
+        margin-bottom: 40px;
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            &.btn_solid {
+                background-color: $tcolor;
+                border-color: $tcolor;
+                color: #fff;
+                box-shadow: 0px 20px 30px 0px rgba(9, 25, 130, 0.2);
+                &:hover {
+                    box-shadow: none;
+                    background-color: transparent;
+                    color: $tcolor;
+                }
+            }
+            &.btn_icon {
+                color: $tcolor;
+                display: inline-flex;
+                padding: 0;
+                margin-left: 22px;
+                i {
+                    font-size: 20px;
+                    margin-right: 18px;
+                }
+                span {
+                    display: inline;
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        bottom: 0;
+                        right: 0;
+                        width: 0%;
+                        height: 1px;
+                        background: $tcolor;
+                        opacity: 0;
+                        transition: all 0.5s;
+                    }
+                }
+                &:hover {
+                    span {
+                        &:before {
+                            right: auto;
+                            left: 0;
+                            width: 100%;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_cleint_logo_content {
+    .client_logo_list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 370px;
+        position: relative;
+        li {
+            border-radius: 10px;
+            box-shadow: 0px 2px 4px 0px rgba(2, 45, 79, 0.1);
+            position: absolute;
+            transform: matrix(0.97029, 0.34192, -1.05, 0.9425, 0, 0);
+            transform: matrix(0.97029, 0.34192, -0.84486, 0.9425, 0, 0);
+            img {
+                border-radius: 10px;
+                width: 60px;
+                height: 60px;
+            }
+            &:nth-child(1) {
+                top: 0;
+                left: 35px;
+                box-shadow: 0px 30px 30px 0px rgba(2, 45, 79, 0.1);
+            }
+            &:nth-child(2) {
+                top: 55px;
+                left: 170px;
+            }
+            &:nth-child(3) {
+                top: 130px;
+                left: 270px;
+            }
+            &:nth-child(4) {
+                top: 35px;
+                left: 410px;
+            }
+            &:nth-child(5) {
+                top: 109px;
+                left: 495px;
+            }
+            &:nth-child(6) {
+                top: 40px;
+                left: 700px;
+            }
+            &:nth-child(7) {
+                top: 0;
+                left: 890px;
+            }
+            &:nth-child(8) {
+                top: 40%;
+                left: 35px;
+            }
+            &:nth-child(9) {
+                top: 182px;
+                left: 585px;
+                box-shadow: 0px 24px 30px 0px rgba(2, 45, 79, 0.1);
+            }
+            &:nth-child(10) {
+                top: 130px;
+                left: 780px;
+            }
+            &:nth-child(11) {
+                top: 128px;
+                left: 950px;
+            }
+            &:nth-child(12) {
+                top: 85px;
+                left: 95%;
+                box-shadow: 0px 30px 30px 0px rgba(2, 45, 79, 0.1);
+            }
+            &:nth-child(13) {
+                bottom: 0;
+                left: -35px;
+            }
+            &:nth-child(14) {
+                bottom: 30px;
+                left: 150px;
+                box-shadow: 0px 30px 30px 0px rgba(2, 45, 79, 0.1);
+            }
+            &:nth-child(15) {
+                bottom: 20px;
+                left: 310px;
+            }
+            &:nth-child(16) {
+                bottom: -25px;
+                left: 460px;
+            }
+            &:nth-child(17) {
+                bottom: 35px;
+                left: 690px;
+            }
+            &:nth-child(18) {
+                bottom: -30px;
+                left: 800px;
+            }
+            &:nth-child(19) {
+                bottom: 45px;
+                left: 940px;
+            }
+            &:nth-child(20) {
+                bottom: 0px;
+                right: 0;
+            }
+        }
+    }
+}
+
+
+/*===============================================          oppi_our_client_wrap             =========================================================*/

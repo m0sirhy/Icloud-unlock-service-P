@@ -1,0 +1,502 @@
+/*============ oppi_restaurant_banner_area css =========*/
+.oppi_restaurant_banner_area{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background: #f5fdf9;
+    .food_round_shap{
+        &.one{
+            width: 20px;
+            height: 20px;
+            background: #f56e96;
+            top: auto;
+            bottom: 120px;
+            left: 40%;
+        }
+        &.two{
+            background: #f56e96;
+        }
+        &.three{
+            background: #676099;
+        }
+        &.four{
+            width: 10px;
+            height: 10px;
+            background: #f56e96;
+            right: 270px;
+        }
+        &.five{
+            right: auto;
+            left: -250px;
+        }
+        &.six{
+            left: 0;
+            right: auto;
+            bottom: 115px;
+        }
+    }
+}
+.oppi_restaurant_banner_content{
+    h6{
+        font-size: 20px;
+        color: #707b8e;
+        font-weight: 400;
+        margin-bottom: 17px;
+        a{
+            position: relative;
+            color: #06b85b;
+            &:before{
+                content: "";
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: #06b85b;
+                height: 1px;
+            }
+        }
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        color: #2c234d;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 20px;
+        color: #707b8e;
+        line-height: 30px;
+        margin-bottom: 48px;
+    }
+}
+.restaurant_btn{
+    border-radius: 5px;
+    background: #06b85b;
+    padding: 17px 26px;
+    border: 2px solid #06b85b;
+    box-shadow: 0px 20px 30px 0px rgba(6, 150, 76, 0.16);
+    transition: all 0.4s linear, color 0s linear;
+    min-width: 175px;
+    text-align: center;
+    &:hover{
+        background: rgba(6, 150, 76, 0.09);
+        border-color: #82dbad;
+        box-shadow: none;
+        color: #06b85b;
+        &.btn_icon{
+            i{
+                transform: translateX(5px);
+            }
+        }
+    }
+}
+.restaurant_btn_two{
+    background: rgba(6, 150, 76, 0.09);
+    border-color: #82dbad;
+    box-shadow: none;
+    color: #06b85b; 
+    &:hover{
+        background: #06b85b;
+        border-color: #06b85b;
+        box-shadow: 0px 20px 30px 0px rgba(6, 150, 76, 0.16);
+        color: #fff;
+    }
+}
+.desh_img{
+    position: relative;
+    z-index: 1;
+    img{
+        padding-top: 23px;
+        padding-left: 12px;
+        animation: spin 6.5s ease infinite;
+    }
+    .round{
+        width: 600px;
+        height: 600px;
+        background: #06b85b;
+        opacity: 0.10;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -300px;
+        margin-top: -300px;
+        z-index: -1;
+    }
+}
+/*============ oppi_restaurant_banner_area css =========*/
+
+.oppi_restaurant_software_area{
+    padding: 120px 0px;
+    .food_title {
+        margin-bottom: 36px;
+    }
+    .row{
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+.oppi_restaurant_feature_item{
+    padding: 0px 40px;
+    text-align: center;
+    margin-top: 30px;
+    .feature_img{
+        display: flex;
+        width: auto;
+        height: 170px;
+        border-radius: inherit;
+        margin-bottom: 32px;
+    }
+    .feature_title{
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        &:hover{
+            color: #06b85b;
+        }
+    }
+    p{
+        color: #707b8e;
+        line-height: 26px;
+    }
+}
+
+/*========== oppi_restaurent_action_area css =====*/
+.oppi_restaurent_action_area{
+    padding: 20px 0px 120px;
+}
+.oppi_restaurent_action_img{
+    margin-left: -170px;
+    display: flex;
+    align-items: center;
+    img{
+        display: inline-block;
+        & + img{
+            margin-left: 30px;
+        }
+    }
+}
+.oppi_restaurent_action_content{
+    h2{
+        font-size: 36px;
+        color: #2c234d;
+        line-height: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    p{
+        color: #707b8e;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+    .oppi_btn_group{
+        display: flex;
+        align-items: center;
+    }
+}
+.rest_action_dbtn{
+    border: 2px solid #273c63;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px 23px 9px;
+    margin-left: 20px;
+    transition: all 0.3s linear;
+    .btn_inner{
+        display: flex;
+        align-items: center;
+        .icon{
+            font-size: 33px;
+            line-height: 25px;
+            color: #273c63;
+            padding-right: 8px;
+        }
+        .text{
+            font-size: 18px;
+            line-height: 16px;
+            font-weight: 600;
+            small{
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 4px;
+                display: inline-block;
+            }   
+        }
+    }
+    &:hover{
+        background: #273c63;
+        .icon{
+            color: #fff;
+        }
+        .text{
+            color: #fff;
+        }
+    }
+    &.btn_solid {
+        margin-left: 0;
+        background: #273c63;
+        .icon{
+            font-size: 26px;
+            line-height: 25px;
+            color: #fff;
+        }
+        .text{
+            color: #fff;
+        }
+        &:hover{
+            background: transparent;
+            .icon{
+                color: #273c63;
+            }
+            .text{
+                color: #273c63;
+            }
+        }
+    }
+}
+
+/*============ oppi_coupon_area css ==========*/
+.oppi_coupon_area{
+    background: #f5fdf9;
+    position: relative;
+    padding-top: 100px;
+}
+.coupon_inner{
+    max-width: 970px;
+    margin: 0 auto;
+    .utility_banner_video{
+        .video_img{
+            border: 0px;
+            box-shadow: 0px 60px 100px 0px rgba(3, 83, 42, 0.1);
+            &:before{
+                display: none;
+            }
+            .icon{
+                position: relative;
+                &:before{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    position: absolute;
+                    border-radius: 50%;
+                    transform: scale(1.4);
+                }
+                i{
+                    font-size: 18px;
+                    color: rgb(6, 184, 91);
+                    text-shadow: 0px 8px 10px rgba(48, 187, 115, 0.34);
+                }
+            }
+        }
+    }
+}
+.coupon_form{
+    margin-bottom: 70px;
+    .coupon_w{
+        max-width: 400px;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .coupon_w2{
+        max-width: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form-group{
+        position: relative;
+        input{
+            height: 60px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 30px 50px 0px rgba(3, 83, 42, 0.1);
+            font-size: 16px;
+            color: #273c63;
+            border: 0px;
+            width: 100%;
+            font-weight: 400;
+            padding-left: 25px;
+            padding-right: 40px;
+            @include placeholder{
+                color: #273c63;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        label{
+            margin-bottom: 0;
+            position: absolute;
+            right: 30px;
+            font-size: 16px;
+            color: #d2d7e1;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .restaurant_btn{
+            padding: 17px 23px;
+        }
+    }
+}
+.oppi_restaurent_features_area{
+    background: #fff;
+    padding-top: 270px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+
+/*============ oppi_restaurent_features_area css =========*/
+.oppi_restaurent_features_area{}
+.oppi_restaurent_features_item{
+    & + .oppi_restaurent_features_item {
+        margin-top: 120px;
+    }
+}
+.flex-row-reverse{
+    .oppi_restaurent_content{
+        padding-right: 100px;
+    }
+}
+.oppi_restaurent_content{
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+        color: #2c234d;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    p{
+        color: #707b8e;
+        line-height: 26px;
+        margin-bottom: 42px;
+    }
+    .restaurant_btn{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+/*======= oppi_restaurent_partners_area css =========*/
+.oppi_restaurent_partners_area{
+    background: #f5fdf9;
+    padding: 100px 0px 80px;
+    .col-lg-3{
+        margin-bottom: 30px;
+    }
+}
+.restaurent_partners_item{
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 7px 0px rgba(0, 46, 22, 0.08);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 29px 0px;
+    transition: all 0.3s linear;
+    &:hover{
+        box-shadow: 0px 20px 30px 0px rgba(0, 46, 22, 0.1);
+    }
+}
+
+.oppi_restaurant_faq{
+    padding: 120px 0px;
+}
+.restaurant_faq_inner{
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    .nav-tabs{
+        justify-content: center;
+        border: 0px;
+        .nav-item{
+            margin-bottom: 0;
+            margin-bottom: 30px;
+            .nav-link{
+                border-radius: 0px;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 4px;
+                border-color: #82dbad;
+                background: #f2fbf6;
+                color: #06b85b;
+                padding: 7px 23px;
+                transition: all 0.3s linear;
+                &.active,&:hover{
+                    background: #06b85b;
+                    border-color: #06b85b;
+                    color: #fff;
+                }
+            }
+            & + .nav-item{
+                margin-left: 20px;
+            }
+        }
+    }
+    .tab-content{
+        .card{
+            border-radius: 0px;
+            border: 0px;
+            border-bottom: 1px solid #ebeef2;
+            background: transparent;
+            .card-header{
+                padding: 0px;
+                border: 0px;
+                background: transparent;
+                button{
+                    width: 100%;
+                    text-align: left;
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 26px;
+                    font-weight: 500;
+                    color: #06b85b;
+                    padding: 21px 45px 21px 30px;
+                    position: relative;
+                    transition: all 0.3s linear;
+                    i{
+                        position: absolute;
+                        right: 28px;
+                        top: 0;
+                        font-size: 20px;
+                        transform: translateY(-50%);
+                        top: 50%;
+                        display: none;
+                        & + i{
+                            display: block;
+                        }
+                    }
+                    &.collapsed{
+                        color: #2c234d; 
+                        i{
+                            display: block;
+                            & + i{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .card-body{
+                padding: 0px 30px 25px;
+            }
+        }
+    }
+    .restaurant_btn {
+        border-color: #ebeef2;
+        color: #707b8e;
+        background: transparent;
+        padding: 12px 26px;
+        margin-top: 50px;
+        &:hover{
+            background: #06b85b;
+            color: #fff;
+            border-color: #06b85b;
+        }
+    }
+}
+

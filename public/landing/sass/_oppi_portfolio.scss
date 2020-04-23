@@ -1,0 +1,281 @@
+/*============= portfolio area css ============*/
+
+.oppi_portfolio_area {
+    overflow: hidden;
+    padding-bottom: 80px;
+    .price_btn {
+        border-color: #5f51fb;
+        color: #5f51fb;
+        background: transparent;
+        margin-top: 50px;
+        line-height: 48px;
+        padding: 0px 30px;
+        &:hover {
+            background: #5f51fb;
+            color: #fff;
+        }
+    }
+}
+
+.portfolio_filter {
+    margin: 120px 0 60px;
+    display: flex;
+    justify-content: center;
+    .work_portfolio_item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: $pop;
+        display: inline-block;
+        border-radius: 3px;
+        transition: all 0.2s linear;
+        position: relative;
+        cursor: pointer;
+        color: #707b8e;
+        padding: 5px 25px;
+        border-radius: 20px;
+        margin: 0 5px;
+        &.active,
+        &:hover {
+            color: #fff;
+            background: #5268f2;
+        }
+    }
+}
+
+.portfolio_filter_blue {
+    .work_portfolio_item {
+        &.active,
+        &:hover {
+            color: #26c4e5;
+            &:before {
+                width: 100%;
+                background: #26c4e5;
+            }
+        }
+    }
+}
+
+.portfolio_gallery {
+    .portfolio_item {
+        margin-bottom: 55px;
+        .portfolio_img {
+            position: relative;
+            overflow: hidden;
+            img {
+                max-width: 100%;
+                width: 100%;
+            }
+            .img_rounded {
+                border-radius: 6px;
+            }
+            .img_popup {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                border-radius: 6px;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #030d2d;
+                    opacity: 0;
+                    transition: all 0.3s;
+                    border-radius: 6px;
+                }
+                &:hover {
+                    &::before {
+                        opacity: 0.2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio-description {
+    .portfolio-title {
+        overflow: hidden;
+        display: inline-block;
+    }
+    h3 {
+        margin-top: 25px;
+        margin-bottom: 0px;
+        transition: color 0.2s linear;
+        color: #2c234d;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $pop;
+        line-height: 26px;
+        &:hover {
+            color: #5268f2;
+        }
+    }
+    p {
+        color: #707b8e;
+        font: 400 16px/20px $pop;
+    }
+}
+
+
+.oppi_Case_Study_single {
+    min-height: 400px;
+}
+
+.oppi_Case_Study_single_content_wrap {
+
+}
+.oppi_Case_Study_single_content_img {
+    margin-top: -180px;
+    margin-bottom: 32px;
+    img {
+        border-radius: 10px;
+        box-shadow: 0px 10px 30px 0px rgba(3, 13, 76, 0.14);
+    }
+}
+
+.oppi_Case_Study_single_site_info {
+    position: relative;
+    padding-bottom: 15px;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        left: -50px;
+        top: 8px;
+        background: #eeecf4;
+    }
+    .site_item {
+        margin-bottom: 25px;
+        h5 {
+            color: #2c234d;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 500;
+            font-family: $pop;
+            margin-bottom: 12px;
+        }
+        p {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: $pop;
+        }
+        ul.catagory {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                color: #707b8e;
+                font-size: 16px;
+                line-height: 34px;
+                font-weight: 400;
+                font-family: $pop;
+                display: flex;
+                align-items: center;
+                i {
+                    color: #4fd70d;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}
+
+.oppi_Case_Study_single_content {
+    margin-bottom: 152px;
+    h4 {
+        color: #2c234d;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        font-family: $pop;
+        margin-bottom: 15px;
+    }
+    p {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: $pop;
+    }
+}
+.single_item {
+    margin-bottom: 100px;
+    .single_item_content {
+        .sec_title {
+            color: #2c234d;
+            font-size: 40px;
+            line-height: 54px;
+            font-weight: 500;
+            font-family: $pop;
+            margin-bottom: 17px;
+        }
+        .sec_para {
+            color: #2c234d;
+            font-size: 20px;
+            line-height: 34px;
+            font-weight: 400;
+            font-family: $pop;
+            margin-bottom: 32px;
+        }
+        .single_para {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            font-family: $pop;
+            margin-bottom: 6px;
+        }
+    }
+    .single_item_img {
+        img {
+    
+        }
+    }
+}
+
+.single_item_bottom {
+    padding-top: 20px;
+    padding-bottom: 68px;
+    .single_item_img {
+        img {
+    
+        }
+    }
+}
+
+.oppi_Case_Study_single_content_wrap {
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 110px;
+        a {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 500;
+            font-family: $pop;
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 30px;
+                &.arrow_left {
+                    margin-right: 20px;
+                }
+                &.arrow_right {
+                    margin-left: 20px;
+                }
+            }
+            &:hover {
+                color: #5268f2;
+            }
+        }
+    }
+}

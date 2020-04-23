@@ -1,0 +1,58 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Md. Shahadat Hussain
+@URL: https://themeforest.net/user/droitthemes
+This file contains the styling for the actual tempalte, this is the file you need to edit to change the look of the tempalte.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Oppi
+@Author: Md. Shahadat Hussain
+@Developed By: Masud Rana
+@Developer URL: https://themeforest.net/user/droitthemes
+@Default Styles
+/*----------------------------------------------------*/
+
+
+/*Base font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+
+//-----Color
+$tcolor:				    #5268f2;
+$dark:				        #2c234d;
+
+
+
+//-----Typography
+
+
+
+
+//---- font family ----	
+
+$pop:                      'Poppins', sans-serif;
+
+
+//----p style----	
+		
+$p-font-size:				16px;
+$p-line-height:				30px;
+$p-font-weight:				normal;
+$p-font-family:				'Poppins', sans-serif;
+$p-font-color:               #555;
+
+//----a style----	
+		
+$a-text-decuration:			none;
+$a-color:					inherit;
+
+//----a-hover style----	
+		
+$a-hover-color:				inherit;
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}

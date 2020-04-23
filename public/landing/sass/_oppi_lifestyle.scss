@@ -1,0 +1,82 @@
+/*=====================================                oppi_lifestyle_style_wrap                      =======================================*/
+
+.oppi_lifestyle_style_wrap {
+    padding: 6px 0 0;
+}
+.oppi_lifestyle_main_img_wrap {
+    .lifestyle_img {
+        margin: 0 -26px 0 -75px;
+        img {
+
+        }
+    }
+}
+
+.oppi_lifestyle_img_content {
+    padding-top: 120px;
+    .sec_title {
+        color: #4d446b;
+        margin-bottom: 20px;
+    }
+    .para {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 50px;
+
+    }
+    .lifestyle_tab {
+        display: flex;
+        .tab_item {
+            margin-right: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+            .icon {
+                margin-bottom: 12px;
+                a {
+                    display: flex;
+                    width: 100px;
+                    height: 100px;
+                    border: 2px solid #b8bec9;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.5s;
+                    img {
+
+                    }
+                }
+            }
+            .content {
+                text-align: center;
+                a {
+                    display: inline-block;
+                    color: #707b8e;
+                    font-size: 18px;
+                    line-height: 30px;
+                    font-weight: 500;
+                    transition: all 0.5s;
+                }
+            }
+            &:hover {
+                .icon {
+                    a {
+                        border-color: #5268f2;
+                        img {
+                            // filter: saturate(10);
+                        }
+                    }
+                }
+                .content {
+                    a {
+                        color: #5268f2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*=====================================                oppi_lifestyle_style_wrap                      =======================================*/

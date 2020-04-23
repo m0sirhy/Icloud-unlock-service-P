@@ -1,0 +1,460 @@
+/*========================================             oppi_pricing_plan_wrap                         =====================================*/
+
+.oppi_pricing_plan_wrap {
+    padding: 110px 0 150px;
+    .sec_title {
+        margin-bottom: 58px;
+    }
+}
+
+.apz_price_tab {
+    border-radius: 45px;
+    max-width: 440px;
+    background-color: #3243ac;
+    box-shadow: 0px 3px 13px 0px rgba(0, 11, 40, 0.08);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border: 0px;
+    padding: 2px;
+    justify-content: center;
+    position: relative;
+    .nav-item {
+        padding: 0px;
+        margin: 0px;
+        .nav-link {
+            margin: 0px;
+            font: 400 16px $pop;
+            color: #fff;
+            padding: 15px 41px;
+            display: inline-block;
+            border: 0px;
+            border-radius: 45px;
+            min-width: 193px;
+            text-align: center;
+            transition: color 0.3s linear;
+            position: relative;
+            z-index: 1;
+            &.active {
+                border: 0px;
+                border-radius: 45px;
+                background: transparent;
+                color: #fff;
+            }
+        }
+    }
+    .hover_bg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #5268f2;
+        left: 2px;
+        height: calc(100% - 4px);
+        border-radius: 45px;
+        z-index: 0;
+        transition: all 0.2s linear;
+    }
+}
+
+.price_tab_two {
+    .hover_bg {
+        background: #5268f2;
+    }
+}
+
+.oppi_price_item {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 80px 0px rgba(74, 3, 74, 0.06);
+    padding: 42px 60px 55px;
+    position: relative;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        color: #4d446b;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    .price {
+        color: #4d446b;
+        font-size: 70px;
+        font-weight: 600;
+        font-family: $pop;
+        text-align: center;
+        sup {
+            font-size: 30px;
+            top: -26px;
+            padding-right: 5px;
+        }
+        .per_month {
+            font-weight: 300;
+            font-size: 60px;
+        }
+        sub {
+            font-size: 20px;
+            font-weight: 400;
+            bottom: 0;
+        }
+    }
+    .p_list {
+        padding: 30px 0px;
+        li {
+            font: 400 16px/40px $pop;
+            color: #707b8e;
+            i {
+                padding-right: 18px;
+            }
+            .icon_check {
+                color: #1ec516;
+            }
+            .icon_close {
+                color: #fb1f44;
+            }
+        }
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            color: #f23891;
+            border: none;
+            position: relative;
+            background: transparent;
+            z-index: 1;
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 28px;
+                content: "";
+                box-sizing: border-box;
+                background-clip: padding-box, border-box;
+                background-origin: padding-box, border-box;
+                background-image: linear-gradient( 90deg, #9a11da 0%, #f23891 100%);
+                transition: all 0.5s;
+                z-index: -1;
+                opacity: 0;
+            }
+            &::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 28px;
+                content: "";
+                border: 2px solid transparent;
+                box-sizing: border-box;
+                background-clip: padding-box, border-box;
+                background-origin: padding-box, border-box;
+                background-image: linear-gradient( 90deg, #fff 0%, #fff 100%), linear-gradient( 90deg, #9a11da 0%, #f23891 100%);
+                transition: all 0.5s;
+                z-index: -1;
+            }
+            &:hover {
+                color: #fff;
+                box-shadow: 0px 20px 30px 0px rgba(172, 21, 170, 0.2);
+                &::before {
+                    opacity: 1;
+                }
+                &::after {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+    &.popular {
+        background-image: url(../images/home_education/price_table_bg.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: top left;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 90px;
+            height: 90px;
+            top: 0;
+            right: 0;
+            background-image: linear-gradient(45deg, transparent 50%, #497bfa 0%);
+        }
+        &::after {
+            position: absolute;
+            content: "Popular";
+            top: 20px;
+            right: 0;
+            transform: rotate(45deg);
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            font-family: $pop;
+        }
+        .oppi_btn_group {
+            .oppi_dbtn {
+                color: #fff;
+                &::before {
+                    opacity: 1;
+                }
+                &::after {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+.oppi_price_two {
+    padding-bottom: 0;
+    margin-bottom: 165px;
+    .oppi_price_item {
+        margin-bottom: -165px;
+        padding: 30px;
+        box-shadow: 0px 26px 40px 0px rgba(8, 22, 113, 0.08);
+        .price_table_catagory {
+            color: #2c234d;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: $pop;
+            line-height: 36px;
+        }
+        .price_rapa {
+            color: #707b8e;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+            font-family: $pop;
+            margin-bottom: 0;
+            min-height: 80px;
+        }
+        .price {
+            font-size: 50px;
+            color: #2c234d;
+            font-weight: 700;
+            margin-bottom: 30px;
+            .price_symble {
+                font-size: 20px;
+            }
+            .per_month {
+                font-size: 20px;
+                color: #707b8e;
+            }
+            sup {
+                top: -20px;
+                padding-right: 4px;
+            }
+            sub {
+                color: #707b8e;
+            }
+        }
+        .oppi_btn_group {
+            .oppi_dbtn {
+                border: 2px solid #a5b1f9;
+                color: #5268f2;
+                box-shadow: none;
+                width: 100%;
+                padding-top: 11px;
+                padding-bottom: 11px;
+                &:hover {
+                    background: #5268f2;
+                    color: #fff;
+                    border-color: #5268f2;
+                    box-shadow: 0px 20px 30px 0px rgba(9, 25, 130, 0.2);
+                }
+                &::after,
+                &::before {
+                    display: none;
+                }
+            }
+        }
+        .p_list {
+            padding-bottom: 15px;
+            li {
+                line-height: 36px;
+                i {
+                    padding-right: 8px;
+                }
+                .icon_check {}
+                .icon_close {}
+            }
+        }
+        &.popular {
+            background-image: none;
+            &::before {
+                display: none;
+            }
+            &::after {
+                background: #f6c20e;
+                transform: rotate(0deg);
+                width: calc(100% - 10px);
+                height: 24px;
+                border-radius: 5px;
+                left: 0;
+                margin: 0 auto;
+                top: 5px;
+                text-align: center;
+            }
+            .oppi_btn_group {
+                .oppi_dbtn {
+                    background: #f6c20e;
+                    border-color: #f6c20e;
+                    color: #fff;
+                    &:hover {
+                        box-shadow: 0px 20px 30px 0px rgba(130, 102, 9, 0.2);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.price_content_two {
+    // margin-bottom: -165px;
+    .fade {
+        // transform: translateY(10px);
+        // transition: all 0.3s linear;
+        transition: initial;
+        &:not(.active) {
+            visibility: hidden;
+        }
+        &.active {
+            // transform: translateY(0px);
+            visibility: visible;
+        }
+    }
+}
+
+.oppi_price_language {
+    border-bottom: 1px solid #dde2ea;
+    margin-bottom: 110px;
+    padding-bottom: 80px;
+}
+
+.oppi_select_language {
+    margin-bottom: 85px;
+    span {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: $pop;
+    }
+    .select {
+        margin: 0 25px;
+        display: inline;
+        position: relative;
+        select {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: $pop;
+            border: 1px solid #cfd5df;
+            padding: 9px 25px 7px;
+            border-radius: 22px;
+            box-shadow: none;
+            outline: none;
+            max-width: 220px;
+            width: 100%;
+            appearance: none;
+            cursor: pointer;
+        }
+        &::before {
+            position: absolute;
+            content: '\f0d7';
+            font-family: 'fontawesome';
+            right: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #2c234d;
+        }
+    }
+}
+
+.oppi_price_lan_title {
+    color: #2c234d;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: $pop;
+    max-width: 190px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.oppi_price_lan_country {
+    color: #707b8e;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: $pop;
+}
+
+.read_more {
+    color: #2c234d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: $pop;
+    display: inline-flex;
+    transition: all 0.5s;
+    i {
+        margin-left: 5px;
+        color: #2c234d;
+        transition: all 0.5s;
+        &::before {
+            line-height: 30px;
+        }
+    }
+    &:hover {
+        color: $tcolor;
+        i {
+            color: $tcolor;
+            margin-left: 15px;
+        }
+    }
+}
+
+.oppi_pricing_color {
+    .oppi_price_item {
+        .oppi_btn_group {
+            .oppi_dbtn {
+                color: #5268f2;
+                border: 2px solid #5268f2;
+                &:hover {
+                    background: #5268f2;
+                    color: #fff;
+                    box-shadow: 0px 20px 30px 0px rgba(21, 41, 171, 0.2);
+                }
+                &:after,
+                &:before {
+                    display: none;
+                }
+            }
+        }
+        &.popular {
+            .oppi_btn_group {
+                .oppi_dbtn {
+                    border: 2px solid #5268f2;
+                    background: #5268f2;
+                    color: #fff;
+                    &:hover {
+                        box-shadow: 0px 20px 30px 0px rgba(21, 41, 171, 0.2);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_lifestyle_pricing {
+    .oppi_price_item {
+        &.popular {
+            background-image: url(../images/home_life/price_table_popular_bg.png);
+            &:before {
+                background-image: linear-gradient(45deg, transparent 50%, #1ec516 0%);
+            }
+        }
+    }
+}
+
+
+/*========================================             oppi_pricing_plan_wrap                         =====================================*/

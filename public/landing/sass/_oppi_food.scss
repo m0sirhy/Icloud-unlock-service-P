@@ -1,0 +1,565 @@
+/*============== oppi_food_banner_area  ==============*/
+.body_wrapper{
+    overflow: hidden;
+}
+.food_title{
+    color: #2c234d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.food_c{
+    color: #2c234d;
+}
+.oppi_food_banner_area{
+    position: relative;
+    z-index: 1;
+    padding: 200px 0px 10px;
+    &:before{
+        content: "";
+        background: url("../images/food/shap.png") no-repeat scroll top right;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+    .macbook_img{
+        margin-right: -30px;
+        img{
+            right: 0;
+        }
+        .round{
+            background: #ffb801;
+            opacity: 1;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -100px;
+        }
+    }
+}
+.food_round_shap{
+    position: absolute;
+    border-radius: 50%;
+    &.one{
+        width: 60px;
+        height: 60px;
+        background: #676099;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 200px;
+    }
+    &.two{
+        width: 100px;
+        height: 100px;
+        background: #ffb801;
+        right: -50px;
+        top: 50%;
+    }
+    &.three{
+        width: 30px;
+        height: 30px;
+        background: #f56e96;
+        right: 100px;
+        bottom: 130px;
+    }
+    &.four{
+        width: 14px;
+        height: 14px;
+        background: #676099;
+        right: 140px;
+        top: 28%;
+    }
+    &.five{
+        width: 500px;
+        height: 500px;
+        border: 6px solid #fff;
+        right: -200px;
+        bottom: -150px;
+    }
+    &.six{
+        width: 140px;
+        right: 188px;
+        bottom: 149px;
+    }
+    &.seven{
+        width: 400px;
+        height: 400px;
+        border: 6px solid #fff;
+        top: -250px;
+        right: 360px;
+    }
+}
+.oppi_food_banner_content{
+    padding-top: 150px;
+    h6{
+        font-size: 20px;
+        color: #f56e96;
+        line-height: 25px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        color: #2c234d;
+        line-height: 60px;
+        margin-bottom: 28px;
+    }
+    p{
+        color: #707b8e;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+.food_subscribe_form{
+    margin-top: 55px;
+    .input-group{
+        border-width: 1px;
+        border-color: rgb(252, 231, 237);
+        border-style: solid;
+        border-radius: 5px;
+        padding: 6px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 20px 20px 0px rgba(101, 5, 34, 0.05);
+        .form-control{
+            border: 0px;
+            border-radius: 0px;
+            box-shadow: none;
+            font-size: 16px;
+            height: 46px;
+            padding-top: 4px;
+            padding-left: 25px;
+            color: #888f9c;
+            font-family: $p-font-family;
+            @include placeholder{
+                color: #888f9c;
+            }
+        }
+        button{
+            font-size: 20px;
+            background: #f56e96;
+            box-shadow: none;
+            border: 0px;
+            color: #fff;
+            padding: 0px 25px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
+.top_img{
+    position: absolute;
+    top: -50px;
+}
+
+/*============= oppi_food_about_area css ===============*/
+.oppi_food_about_area{
+    padding: 80px 0px 100px;
+}
+.oppi_food_about_item_two{
+    padding-bottom: 100px;
+    .oppi_food_about_content{
+        padding-right: 100px;
+    }
+}
+.oppi_food_about_img{
+    text-align: center;
+    position: relative;
+    .about_round{
+        position: absolute;
+        border-radius: 50%;
+        background: #676099;
+        z-index: -1;
+        &.one{
+            top: 50%;
+            margin-top: -250px;
+            width: 500px;
+            height: 500px;
+        }
+        &.two{
+            width: 300px;
+            height: 300px;
+            opacity: 0.16;
+            right: 0;
+            top: 80px;
+        }
+    }
+    .f_app_img_2{
+        position: absolute;
+        bottom: -50px;
+        left: 80px;
+    }
+    &.img_left{
+        text-align: right;
+        .about_round{
+            background: #f8ebde;
+            &.one{
+                left: 50px;
+                width: 600px;
+                height: 600px;
+            }
+            &.two{
+                right: -130px;
+                opacity: 0.50;
+            }
+        }
+        img{
+            box-shadow: 0px 20px 20px 0px rgba(99, 39, 57, 0.15);
+        }
+    }
+}
+.oppi_food_about_content{    
+    h2{
+        font-size: 36px;
+        line-height: 50px;
+        color: #2c234d;
+        font-weight: 600;
+        margin-bottom: 22px;
+    }
+    p{
+        line-height: 26px;
+        color: #707b8e;
+    }
+    .food_btn{
+        margin-top: 42px;
+    }
+}
+.food_btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f56e96;
+    border: 2px solid #fab6ca;
+    border-radius: 4px;
+    padding: 9px 38px;
+    display: inline-block;
+    transition: all 0.2s linear;
+    &:hover{
+        background: #f56e96;
+        color: #fff;
+        border-color: #f56e96;
+        box-shadow: 0px 20px 30px 0px rgba(150, 6, 49, 0.16);
+    }
+}
+
+/*=========== oppi_food_service_area css ===========*/
+.oppi_food_service_area{
+    padding: 120px 0px 100px;
+}
+.food_tab{
+    margin-bottom: 25px;
+    .nav-item{
+        margin-bottom: 0;
+        .nav-link{
+            font-size: 16px;
+            color: #707b8e;
+            font-weight: 500;
+            padding: 0px 0px 10px;
+            border: 0px;
+            position: relative;
+            
+            &:before{
+                content: "";
+                width: 0;
+                height: 3px;
+                background: #f56e96;
+                position: absolute;
+                bottom: -1.5px;
+                left: auto;
+                right: 0;
+                transition: all 0.2s linear;
+            }
+            &.active,&:hover{
+                &:before{
+                    width: 100%;
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+        & + .nav-item{
+            margin-left: 38px;
+        }
+    }
+}
+.food_service_item{
+    padding: 40px 0px; 
+    img{
+        margin-bottom: 22px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #2c234d;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #707b8e;
+        line-height: 26px;
+    }
+}
+
+//oppi_food_app_promo_area css
+.oppi_food_app_promo_area {
+    background: #f56e96;
+    .oppi_app_right{
+        .app_content{
+            margin-left: auto;
+            margin-right: 80px;
+            h2{
+                margin-bottom: 18px;
+            }
+            .food_btn{
+                color: #ffffff;
+                &:hover{
+                    background: #fff;
+                    color: #f56e96;
+                    border-color: #fff;
+                }
+            }
+        }
+    }
+    .oppi_img{
+        width: 875px;
+        margin-right: 0;
+        margin-left: auto;
+        .app_promo_mockup{
+            &.one {
+                right: -308px;
+            }
+            &.two{
+                left: 18px;
+                top: -55px;
+            }
+            &.three{
+                right: -164px;
+                bottom: -17px;
+            }
+            &.four{
+                left: 312px;
+                bottom: 34px;
+            }
+            &.five{
+                left: 147px;
+                bottom: 0px;
+            }
+            &.six{
+                left: -20px;
+                bottom: -37px;
+            }
+        }
+    }
+}
+
+/*============ oppi_testimonial_area css =========*/
+.oppi_testimonial_area{
+    padding: 120px 0px;
+}
+.oppi_testimonial_info{
+    margin-left: -15px;
+    margin-right: -15px;
+    .slick-slide{
+        padding: 15px 15px 50px;
+        .testimonial_item{
+            border-radius: 6px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 10px 15px 0px rgba(39, 47, 99, 0.08);
+            transition: all 0.3s linear;
+            padding: 40px;
+            cursor: pointer;
+            .media{
+                align-items: center;
+                padding-bottom: 22px;
+                img{
+                    border-radius: 50%;
+                    margin-right: 20px;
+                }
+                .media-body{
+                    h5{
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #2c234d;
+                        margin-bottom: 5px;
+                    }
+                    h6{
+                        font-size: 16px;
+                        color: #8a929f;
+                        font-weight: 400;
+                    }
+                }
+            }
+            p{
+                color: #707b8e;
+                line-height: 28px;
+                margin-bottom: 25px;
+            }
+            .ratting{
+                a{
+                    font-size: 12px;
+                    color: #ffba00;
+                    &:nth-child(5){
+                        color: #bdc6d5;
+                    }
+                }
+            }
+            &:hover{
+                box-shadow: 0px 30px 35px 0px rgba(39, 47, 99, 0.1);
+            }
+        }
+    }
+    .slick-dots{
+        li{
+            width: auto;
+            height: auto;
+            button{
+                padding: 0px;
+                width: 6px;
+                height: 6px;
+                background: #dcdff2;
+                border-radius: 50%;
+                transition: all 0.3s linear;
+                &:before{
+                    display: none;
+                }
+            }
+            &.slick-active{
+                button{
+                    transform: scale(1.4);
+                    background: #f56e96;
+                }   
+            }
+        }
+    }
+}
+/*============ oppi_testimonial_area css =========*/
+
+/*============ oppi_contacts_area css =========*/
+.oppi_contacts_area{
+    padding: 60px 0px 120px;
+}
+.contact_inner{
+    max-width: 970px;
+    margin: 0 auto;
+    h5{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    p{
+        line-height: 26px;
+    }
+}
+.oppi_contact_items{
+    border-radius: 6px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 30px;
+    &:before{
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+}
+.oppi_contact_item_one{
+    background: url(../images/food/contact_bg.jpg) no-repeat center 0/ cover;
+    &:before{
+        background: #2c234d;
+        opacity: 0.50;
+    }
+    h5,p,a{
+        color: #fff;  
+    }
+    p{
+        margin-bottom: 0;
+    }
+    a{
+        position: relative;
+        &:before{
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: #afa0aa;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+.oppi_contact_item_two{
+    border:1px dashed rgb(211, 209, 220);
+    background-color: rgb(253, 253, 254);
+    &:before{
+        background: url("../images/food/home.png") no-repeat scroll center bottom;
+    }
+    h5{
+        color: #2c234d;  
+    }
+    p{
+        color: #707b8e;
+        margin-bottom: 28px;
+    }
+}
+
+.oppi_food_action_area{
+    background: url("../images/food/action_bg.jpg") no-repeat scroll center 0 / cover;
+    background-attachment: fixed;
+    padding: 91px 0px;
+    position: relative;
+    z-index: 1;
+    &:before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #eb5a85;
+        opacity: 0.88;
+        z-index: -1;
+    }
+}
+.food_action_content {
+    h2{
+        color: #fff;
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #fff;
+        margin-bottom: 35px;
+    }
+    .food_btn{
+        background: #fff;
+        color: #f56e96;
+        border-color: #fff;
+        & + .food_btn{
+            margin-left: 20px;
+            border-color: #f5b3c6;
+            background: transparent;
+            color: #fff;
+            &:hover{
+                border-color: #fff;
+                background: #fff;
+                color: #f56e96;
+            }
+        }
+        &:hover{
+            background: transparent;
+            border-color: #f5b3c6;
+            color: #fff;
+            box-shadow: none;
+        }
+    }
+}
+/*============ oppi_contacts_area css =========*/

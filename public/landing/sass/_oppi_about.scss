@@ -1,0 +1,185 @@
+/*===========================================           oppi_lifestyle_about_us_wrap                     ====================================*/
+
+
+.oppi_utility_about_us_wrap {
+    padding: 150px 0 ;
+    .oppi_mobile_scroll {
+        position: relative;
+        z-index: 2;
+    }
+    .oppi_about_mobile {
+        text-align: center;
+        margin-top: -730px;
+        img {
+
+        }
+    }
+    .oppi_about_details_content {
+        padding-top: 90px;
+        .sec_title {
+
+        }   
+        .sec_title {
+            color: #4d446b;
+            margin-bottom: 20px;
+        }
+        .sec_para {
+            margin-bottom: 50px;
+            max-width: 450px;
+            width: 100%;
+        }
+        .about_item {
+            max-width: 270px;
+            width: 100%;
+            margin-bottom: 55px;
+            h5 {
+                color: #4d446b;
+                font-size: 20px;
+                line-height: 36px;
+                font-family: $pop;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #707b8e;
+                font-size: 16px;
+                line-height: 26px;
+                font-family: $pop;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .oppi_about_mobile_shape {
+        text-align: center;
+        position: sticky;
+        top: calc(50vh - 360px);
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 100%;
+            height: 170px;
+            background: #fff;
+            z-index: -1;
+        }
+
+        &::before {
+            top: -150px;
+        }
+        
+        &::after {
+            bottom: -150px;
+        }
+
+
+        .shape_mobile_bg {
+            display: inline-block;
+            position: relative;
+            .about_shape_mobile {
+                box-shadow: 0px 60px 100px 0px rgba(3, 38, 74, 0.2);
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .oppi_about_details_inner_bg {
+        position: sticky;
+        top: calc(50vh - 150px);
+        z-index: 1;
+        &:before {
+            position: absolute;
+            content: "";
+            top: -300px;
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(#fff, #fff, #fff, transparent);
+            z-index: 1;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            bottom: calc(-50vh + -150px );
+            width: 100%;
+            height: 260px;
+            background-image: linear-gradient(transparent, #fff, #fff, #fff );
+            z-index: 1;
+        }
+    }
+}
+
+
+.oppi_lifestyle_about_us_wrap {
+    padding-top: 340px;
+    position: relative;
+    .bg_shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .oppi_lifestyle_about_img_content {
+        .about_img_content_inner {
+            position: relative;
+            display: inline-block;
+            z-index: 1;
+            .about_mockup {
+                img {
+                    box-shadow: 0px 60px 100px 0px rgba(3, 11, 61, 0.2);
+                    border-radius: 20px;
+                }
+            }
+            .about_img_shape {
+                position: absolute;
+                top: -50px;
+                left: -60px;
+                z-index: -1;
+            }
+        }
+    }
+    .oppi_lifestyle_about_content {
+        padding-top: 40px;
+        .sec_title {
+            color: #4d446b;
+            margin-bottom: 20px;
+        }
+        .sec_para {
+            margin-bottom: 40px;
+            max-width: 450px;
+            width: 100%;
+        }
+        .about_item {
+            max-width: 270px;
+            width: 100%;
+            margin-bottom: 45px;
+            h5 {
+                color: #4d446b;
+                font-size: 20px;
+                line-height: 36px;
+                font-family: $pop;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #707b8e;
+                font-size: 16px;
+                line-height: 26px;
+                font-family: $pop;
+                font-weight: 400;
+            }
+        }
+        .oppi_btn_group {
+            padding-top: 6px;
+            .oppi_dbtn {
+                background-color: rgb(82, 104, 242);
+                box-shadow: 0px 20px 30px 0px rgba(63, 80, 186, 0.24);
+                color: #fff;
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+/*===========================================           oppi_lifestyle_about_us_wrap                     ====================================*/

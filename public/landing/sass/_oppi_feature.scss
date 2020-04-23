@@ -1,0 +1,584 @@
+/*===================================             oppi_feature_wrap           =========================================*/
+
+.oppi_feature_wrap {
+    padding: 105px 0;
+    position: relative;
+    .sec_title {
+        margin-bottom: 85px;
+    }
+}
+
+.oppi_feature_item {
+    .feature_img {
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 25px;
+    }
+    .feature_title {
+        color: $dark;
+        font-family: $pop;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto 10px;
+        transition: all 0.5s;
+        &:hover {
+            color: $tcolor;
+        }
+    }
+    &.oppi_food_feature_item{
+        .feature_title{
+            &:hover{
+                color: #f56e96;
+            }
+        }
+    }
+}
+
+.oppi_social_feature {
+    padding: 110px 0 120px;
+    .sec_title2 {
+        margin-bottom: 80px;
+    }
+    .oppi_feature_item {
+        max-width: 290px;
+        width: 100%;
+        margin: 0 auto 70px;
+        .feature_img {
+            width: 203px;
+            height: auto;
+            overflow: auto;
+            border-radius: 0;
+            margin-bottom: 35px;
+        }
+        .feature_sub_title {
+            color: #4d446b;
+            font-family: $pop;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 13px;
+        }
+        .feature_para {
+            color: #707b8e;
+        }
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            color: #ee6d95;
+            border-color: #ee6d95;
+            i {
+                margin-left: 12px;
+                transition: all 0.5s;
+                color: #f23891;
+            }
+            &:hover {
+                background: #ee6d95;
+                color: #fff;
+                box-shadow: 0px 20px 30px 0px rgba(185, 62, 100, 0.24);
+                i {
+                    color: #fff;
+                    margin-left: 20px;
+                    margin-right: -8px;
+                }
+            }
+        }
+    }
+}
+
+.oppi_feature_style_three {
+    padding: 110px 0 150px;
+    .sec_title {
+        margin-bottom: 90px;
+    }
+}
+
+.oppi_feature_mockup_wrap {
+    position: relative;
+    .bg_shape {
+        position: absolute;
+        top: 340px;
+        left: 0px;
+        right: 0;
+        z-index: -1;
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto;
+        .shape {
+            background-image: -moz-linear-gradient(180deg, rgb(154, 17, 218) 0%, rgb(242, 56, 145) 100%);
+            background-image: -webkit-linear-gradient(180deg, rgb(154, 17, 218) 0%, rgb(242, 56, 145) 100%);
+            background-image: -ms-linear-gradient(180deg, rgb(154, 17, 218) 0%, rgb(242, 56, 145) 100%);
+            max-width: 770px;
+            width: 100%;
+            height: 120px;
+            border-radius: 60px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.oppi_f_mockup_sing_item {
+    .m_img {
+        position: relative;
+        .left_dot_line {
+            position: absolute;
+            top: 195px;
+            right: 180px;
+        }
+        .right_dot_line {
+            position: absolute;
+            top: 190px;
+            right: 165px;
+        }
+        .left_shadow {
+            position: absolute;
+            bottom: 5px;
+            right: -35px;
+        }
+        .dot {
+            position: absolute;
+        }
+    }
+
+    .mockup_details {
+        position: absolute;
+        .icon {
+            color: #f23891;
+            font-size: 22px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            background-clip: padding-box, border-box;
+            background-origin: padding-box, border-box;
+            background-image: linear-gradient(90deg, #fff 0%, #fff 100%), linear-gradient(90deg, #9a11da 0%, #f23891 100%);
+            transition: all 0.5s;
+            margin-left: auto;
+            margin-bottom: 20px;
+            &:hover {
+                background-image: linear-gradient(50deg, rgb(242, 56, 145) 0%, rgb(154, 17, 218) 100%);
+                box-shadow: 0px 20px 30px 0px rgba(172, 21, 170, 0.3);
+                color: #fff;
+                border: none;
+            }
+        }
+        a {
+            color: #4d446b;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            text-decoration: none;
+            transition: all 0.5s;
+            &:hover {
+                color: #f23891;
+            }
+        }
+    }
+
+    &.mockup_left {
+        margin-right: -75px;
+        padding-top: 130px;
+        .dot {
+            top: 180px;
+            right: 200px;
+        }
+        .mockup_details {
+            bottom: 65px;
+            right: 475px;
+        }
+    }
+
+    &.mockup_right {
+        margin-left: -80px;
+        margin-top: 35px;
+        .dot {
+            top: 430px;
+            right: 460px;
+        }
+        .mockup_details {
+            left: auto;
+            right: 30px;
+            bottom: auto;
+            top: 170px;
+
+            .icon {
+                margin-right: auto;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.oppi_utility_featured_wrap {
+    padding-bottom: 120px;
+    .sec_title {
+        color: #4d446b;
+        margin-bottom: 70px;
+    }
+    .oppi_feature_item {
+        margin-bottom: 80px;
+        .feature_sub_title {
+            color: #4d446b;
+            font-size: 24px;
+            line-height: 60px;
+            font-weight: 500;
+            font-family: $pop;
+        }
+        .feature_img {
+            width: 100px;
+            height: 100px;
+            background: #9552fa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            &.speedup {
+                background: #9552fa;
+            }
+            &.cleanup {
+                background: #f5ac21;
+            }
+            &.app_lock {
+                background: #0fcf89;
+            }
+            &.application {
+                background: #f03882;
+            }
+        }
+    }
+
+    .oppi_btn_group {
+        .oppi_dbtn {
+            border-color: #3197ff;
+            color: #3197ff;
+            i {
+                color: #3197ff;
+            }
+            &:hover {
+                background: #3197ff;
+                color: #fff;
+                box-shadow: 0px 20px 30px 0px rgba(6, 78, 150, 0.2);
+                i {
+                    color: #fff;
+                    margin-left: 20px;
+                    margin-right: -8px;
+                }
+            }
+        }
+    }
+}
+
+.oppi_lifestyle_feature_wrap {
+    padding-top: 160px;
+    overflow: hidden;
+    .sec_title {
+        color: #4d446b;
+        margin-bottom: 50px;
+    }
+}
+
+.oppi_lifestyle_feature_tab {
+    max-width: 800px;
+    width: 100%;
+    background: #fafafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    border: none;
+    height: 44px;
+    margin: 0 auto;
+    li.nav-item {
+        margin: 0 14px 0 0;
+        border: none;
+        &:last-child {
+            margin-right: 0;
+        }
+        a.nav-link {
+            color: #4d446b;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 500;
+            font-family: $pop;
+            padding: 9px 35px;
+            margin: 0;
+            border: none;
+            border-radius: 22px;
+            background: #fafafc;
+            &.active {
+                border: none;
+                background: #5268f2;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.oppi_lifestyle_featurded_content {
+    padding-top: 135px;
+    .title {
+        color: #4d446b;
+        font-size: 30px;
+        line-height: 50px;
+        font-family: $pop;
+        margin-bottom: 17px;
+        animation: fadeInUp 0.2s 1 linear;
+    }
+    .featured_para {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 28px;
+        font-family: $pop;
+        margin-bottom: 30px;
+        animation: fadeInUp 0.3s 1 linear;
+    }
+    .take_tour {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: $pop;
+        display: inline-flex;
+        transition: all 0.5s;
+        animation: fadeInUp 0.4s 1 linear;
+        i {
+            margin-left: 5px;
+            color: #707b8e;
+            font-weight: 700;
+            transition: all 0.5s;
+            &::before {
+                line-height: 30px;
+            }
+        }
+        &:hover {
+            color: #5268f2;
+            i {
+                color: #5268f2;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.oppi_lifestyle_featurded_graphcontent {
+    padding: 165px 0 ;
+    .graph_inner {
+        position: relative;
+        .graph_line {
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 0;
+            .graph_dot {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 40px;
+                height: 40px;
+                background: #fff;
+                border-radius: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 20px 30px 0px rgba(3, 11, 61, 0.1);
+                &::before {
+                    position: absolute;
+                    content: '';
+                    width: 24px;
+                    height: 24px;
+                    background: rgba(58, 224, 101, 0.1);
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .dot_inner {
+                    width: 10px;
+                    height: 10px;
+                    background: #3ae065;
+                    border-radius: 50%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        width: 24px;
+                        height: 24px;
+                        background: rgba(58, 224, 101, 0.3);
+                        border-radius: 50%;
+                        animation: youTube 3s infinite linear;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        width: 24px;
+                        height: 24px;
+                        background: rgba(58, 224, 101, 0.3);
+                        border-radius: 50%;
+                        animation: youTube 2s infinite linear;
+                        top: 50%;
+                        left: 50%;
+                    }
+                }
+            }
+        }
+        .grapg_details {
+            background: #fff;
+            box-shadow: 0px 40px 80px 0px rgba(3, 11, 61, 0.1);
+            max-width: 270px;
+            width: 100%;
+            display: flex;
+            padding: 35px 40px 25px;
+            .icon {
+                margin-right: 20px;
+                i {
+                    color: #0edae7;
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+            }
+            .content {
+                h3 {
+                    color: #707b8e;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 30px;
+                    font-family: $pop;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: #707b8e;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-family: $pop;
+                }
+            }
+            &.graph_comments {
+                position: absolute;
+                top: -37px;
+                left: 110px;
+                animation: fadeInLeft 0.2s 1 linear;
+            }
+            &.graph_viewers {
+                position: absolute;
+                top: 140px;
+                left: 210px;
+                animation: fadeInLeft 0.4s 1 linear;
+                .icon {
+                    i {
+                        color: #ec3dfc;
+                    }
+                }
+            }
+        }
+        .graph_user {
+            position: absolute;
+            top: -75px;
+            right: -10px;
+            animation: zoomIn 0.5s 1 linear;
+            .user_inner {
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                background: #fff;
+                box-shadow: 0px 40px 80px 0px rgba(3, 11, 61, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+
+                }
+            }
+        }
+    }
+}
+
+/*===================================             oppi_travel_featured_wrap           =========================================*/
+
+.oppi_travel_featured_wrap {
+    padding: 120px 0 0;
+}
+
+.oppi_travel_featured_item {
+    .travel_featured_item_content {
+        padding-top: 22px;
+        .sec_title {
+            color: #273c63;
+            margin-bottom: 20px;
+        }
+        .sec_para {
+            color: #707b8e;
+            margin-bottom: 45px;
+        }
+        .travel_featured_item {
+            max-width: 250px;
+            width: 100%; 
+            margin-bottom: 35px;
+            h5 {
+                color: #273c63;
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 500;
+                font-family: $pop;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #707b8e;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                font-family: $pop;
+
+            }
+        }
+    }
+    &.oppi_travel_featured_left_img {
+        .travel_featured_line {
+            transform: translateX(50%);
+            position: relative;
+            .travel_featured_line_man {
+                position: absolute;
+                bottom: 128px;
+                left: 115px;
+            }
+        }
+    }
+    &.oppi_travel_featured_right_img {
+        .travel_featured_line {
+            transform: translateX(calc(-50% - 30px));
+            position: relative;
+            margin-bottom: -85px;
+            .travel_featured_line_plan {
+                position: absolute;
+                bottom: 283px;
+                right: 135px;
+            }
+        }
+    }
+    .travel_featured_down_img {
+        margin-top: -85px;
+    }
+}
+
+/*===================================             oppi_travel_featured_wrap           =========================================*/
+
+/*===================================             oppi_feature_wrap           =========================================*/

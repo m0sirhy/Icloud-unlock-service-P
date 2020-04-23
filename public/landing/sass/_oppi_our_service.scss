@@ -1,0 +1,324 @@
+/*===================================            oppi_our_service_wrap                 ======================================*/
+
+.oppi_our_service_wrap {
+    background: #fff;
+    padding: 190px 0 90px;
+    position: relative;
+    overflow: hidden;
+    .shape_1 {
+        position: absolute;
+        right: -160px;
+        top: 135px;
+    }
+    .shape_2 {
+        position: absolute;
+        left: -285px;
+        bottom: -75px;
+    }
+}
+
+.oppi_service_item {
+    &.oppi_service_img_right {
+        margin-bottom: 220px;
+    }
+}
+
+.oppi_service_content {
+    padding-top: 65px;
+    max-width: 460px;
+    width: 100%;
+    .title {
+        margin-bottom: 25px;
+    }
+    .servece_note {
+        color: #5268f2;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: $pop;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    .service_para {
+        color: #707b8e;
+        margin-bottom: 25px;
+    }
+    .take_tour {
+        color: #2c234d;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: $pop;
+        display: inline-flex;
+        transition: all 0.5s;
+        margin-top: 10px;
+        ;
+        i {
+            margin-left: 5px;
+            color: #2c234d;
+            transition: all 0.5s;
+            &::before {
+                line-height: 30px;
+            }
+        }
+        &:hover {
+            color: $tcolor;
+            i {
+                color: $tcolor;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.oppi_service_img_content {
+    position: relative;
+    z-index: 1;
+    &.img_right {
+        .service_img_1 {
+            margin-left: -50px;
+        }
+        .service_img_2 {
+            position: absolute;
+            right: -50px;
+            top: -80px;
+            z-index: -1;
+        }
+    }
+    &.img_left {
+        text-align: right;
+        .service_img_1 {
+            margin-right: -50px;
+        }
+        .service_img_2 {
+            position: absolute;
+            left: -50px;
+            top: -45px;
+        }
+    }
+}
+
+.oppi_travel_service_wrap {
+    padding: 110px 0;
+    .sec_title {
+        color: #273c63;
+        margin-bottom: 64px;
+    }
+}
+.oppi_travel_service_tab_wrap {
+    .oppi_travel_service_tab {
+        border-bottom: 1px solid #e8eaf0;
+        margin-bottom: 75px;
+        li.nav-item {
+            margin: 0 42px 0 0;
+            &:last-child {
+                margin-right: 0;
+            }
+            a.nav-link {
+                color: #707b8e;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 500;
+                margin: 0;
+                border: none;
+                padding: 0 0 12px;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    bottom: -2px;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    opacity: 0;
+                    background: #ff5e00;
+                    transition: all 0.5s;
+                }
+                &.active {
+                    color: #ff5e00;
+                    background: transparent;
+                    &::before {
+                        height: 3px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_travel_service_tab_content {
+
+}
+
+
+.oppi_travel_service_tab_item {
+    margin-bottom: 92px;
+    animation: fadeInUp 0.2s 1 linear;
+    max-width: 270px;
+    width: 100%;
+    .service_icon {
+        margin-bottom: 20px;
+        i {
+            color: #ff5e00;
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    .service_details {
+        h4 {
+            color: #273c63;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+    }
+}
+
+.travel_tab_item_btn {
+    .oppi_btn_group {
+        // .oppi_dbtn {
+        //     background: #ff5e00;
+        //     border: none;
+        //     padding: 16px 45px;
+        //     color: #fff;
+        //     box-shadow: 0px 20px 30px 0px rgba(199, 82, 14, 0.2);
+        //     animation: fadeInUp 0.3s 1 linear;
+        //     &:hover {
+        //         box-shadow: none;
+        //     }
+        // }
+        .oppi_dbtn {
+            color: #ff5e00;
+            border-color: #ff5e00;
+            background: transparent;
+            padding: 15px 33px;
+            animation: fadeInUp 0.4s 1 linear;
+            &:hover {
+                box-shadow: 0px 20px 30px 0px rgba(199, 82, 14, 0.2);
+                color: #fff;
+                background: #ff5e00;
+            }
+        }
+    }
+}
+
+.oppi_travel_video_wrap {
+    padding: 30px 0 0;
+    .sec_title {
+        color: #273c63;
+        margin-bottom: 7px;
+    }
+    .sec_para {
+        color: #707b8e;
+        margin-bottom: 50px;
+    }
+}
+.oppi_travel_video_slider {
+    .slick-dots {
+        bottom: 92px;
+        li {
+            width: 8px;
+            height: 8px;
+            background: #d4dae4;
+            border-radius: 50%;
+            transition: all 0.5s;
+            button {
+                display: none;
+            }
+            &.slick-active {
+                background: #ff5e00;
+                transform: scale(1.25);
+            }
+        }
+    }
+}
+.oppi_travel_video_slider_item {
+    .oppi_travel_video_content {
+        max-width: 970px;
+        width: 100%;
+        margin: 0 auto 150px;
+        .video_img {
+            position: relative;
+            cursor: pointer;
+            .video_bg_img {
+                border-radius: 8px;
+                box-shadow: 0px 40px 80px 0px rgba(13, 57, 140, 0.1);
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(39, 60, 99, 0.5);
+                border-radius: 8px;
+            }
+            .video_icon {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1;
+                .icon {
+                    width: 72px;
+                    height: 72px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        border-radius:  0;
+                    }
+                }
+                &::before {
+                    position: absolute;
+                    content: '';
+                    width: 100px;
+                    height: 100px;
+                    background: rgba(255, 255, 255, .1);
+                    border: 1px solid rgba(255, 255, 255, .1);
+                    border-radius: 50%;
+                    left: 50%;
+                    top: 50%;
+                    animation: youTube 3.1s linear infinite;
+                }
+                &::after {
+                    width: 72px;
+                    height: 72px;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    border-radius: 50%;
+                    -webkit-box-shadow: 0px 1px 15px 1px rgba(255, 255, 255, 0.8);
+                    box-shadow: 0px 1px 15px 1px rgba(255, 255, 255, 0.8);
+                    content: "";
+                    animation: youTube 2.2s linear infinite;
+                    z-index: -1;
+                }
+                img {
+                    margin-bottom: -20px;
+                    margin-left: 2px;
+                }
+            }
+
+        }
+    }
+}
+
+
+/*===================================            oppi_our_service_wrap                 ======================================*/

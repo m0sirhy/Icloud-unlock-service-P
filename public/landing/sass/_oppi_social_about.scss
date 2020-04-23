@@ -1,0 +1,208 @@
+/*===========================================       oppi_social_about_wrap          ==================================================*/
+
+.oppi_social_about_wrap {
+    padding: 60px 0 170px;
+}
+
+.oppi_social_about_content {
+    padding-top: 100px;
+    .sec_title2 {
+        margin-bottom: 30px;
+    }
+    .oppi_soci_para {
+        color: #707b8e;
+        margin-bottom: 50px;
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            border-color: #ee6d95;
+            color: #ee6d95;
+            i {
+                color: #ee6d95;
+            }
+            &:hover {
+                background: #ee6d95;
+                color: #fff;
+                box-shadow: 0px 20px 30px 0px rgba(185, 62, 100, 0.24);
+                i {
+                    color: #fff;
+                    margin-left: 20px;
+                    margin-right: -8px;
+                }
+            }
+        }
+    }
+}
+
+.oppi_grafe_img_content {
+    padding-left: 200px;
+    .img_inner {
+        display: inline-block;
+        position: relative;
+        .grafe_img {
+            box-shadow: 0px 20px 40px 0px rgba(185, 62, 100, 0.1);
+        }
+        .grafe_man_1 {
+            position: absolute;
+            bottom: -50px;
+            left: -238px;
+            z-index: 1;
+            img {}
+        }
+        .grafe_man_2 {
+            position: absolute;
+            right: -222px;
+            bottom: 0;
+            z-index: 1;
+            img {}
+        }
+        .grafe_item {
+            position: absolute;
+            bottom: 33px;
+            left: -35px;
+            .grafe_item_img {
+                box-shadow: 0px 20px 40px 0px rgba(185, 62, 100, 0.1);
+                margin-bottom: 20px;
+            }
+            .grafe_item_1 {}
+            .grafe_item_2 {}
+            .grafe_item_3 {}
+        }
+    }
+}
+
+.oppi_about_three {
+    padding-bottom: 100px;
+    padding-top: 110px;
+    .sec_title {
+        margin-bottom: 140px;
+    }
+}
+
+.oppi_customcontainer {
+    position: relative;
+}
+
+.oppi_about_dot {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    top: -50px;
+}
+
+.oppi_about_content {
+    .about_title {
+        color: #4d446b;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 36px;
+        font-family: $pop;
+        margin-bottom: 22px;
+    }
+    .oppi_soci_para {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: $pop;
+        margin-bottom: 22px;
+    }
+    .take_tour {
+        color: #4d446b;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        font-family: $pop;
+        display: inline-flex;
+        transition: all 0.5s;
+        margin-top: 10px;
+        ;
+        i {
+            margin-left: 5px;
+            color: #4d446b;
+            transition: all 0.5s;
+            &::before {
+                line-height: 30px;
+            }
+        }
+        &:hover {
+            color: #f23891;
+            i {
+                color: #f23891;
+                margin-left: 15px;
+            }
+        }
+    }
+    .oppi_btn_group {
+        .oppi_dbtn {
+            i {
+                color: #f23891;
+                &:hover {
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_abs_num {
+    position: absolute;
+    h1 {
+        font-size: 200px;
+        font-family: "Poppins";
+        color: rgb(243, 245, 248);
+        font-weight: bold;
+        line-height: 0.2;
+        text-align: left;
+    }
+}
+
+.revers_col {
+    .oppi_abs_num {
+        position: absolute;
+    }
+}
+
+.oppi_about_content_item_1 {
+    margin-bottom: 140px;
+    .oppi_abs_num {
+        right: 0;
+        .dot {
+            top: 0;
+            left: 40px;
+        }
+    }
+}
+
+.oppi_about_content_item_2 {
+    margin-bottom: 47px;
+    .oppi_abs_num {
+        left: -15px;
+        top: 13px;
+        .dot {
+            top: 25px;
+            left: 50px;
+        }
+    }
+}
+
+.oppi_about_content_item_3 {
+    .oppi_abs_num {
+        right: -30px;
+        top: 18px;
+        .dot {
+            top: 0;
+            left: 50px;
+        }
+    }
+    .oppi_about_content {
+        padding-top: 10px;
+    }
+}
+
+
+/*===========================================       oppi_social_about_wrap          ==================================================*/

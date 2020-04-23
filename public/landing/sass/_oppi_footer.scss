@@ -1,0 +1,693 @@
+/*==================================================             footer                     =================================================================*/
+
+.oppi_footer_wrap {
+    background: #22284c;
+    padding: 115px 0 50px;
+    position: relative;
+    overflow: hidden;
+
+    &.footer_dark {
+        background: #1d2240;
+        .oppi_footer_top {
+            border: none;
+            .oppi_footer_top_inner {
+                border-bottom: 1px solid #292f53;
+            }
+        }
+        .oppi_footer_widget {
+            .footer_para {
+                color: #a5a7b6;
+            }
+            .email_box {
+                .btn {
+                    background: #5268f2;
+                    color: #fff;
+                    &:hover {
+                        background: #7687f6;
+                    }
+                }
+            }
+            .oppi_footer_title {
+                color: #ffffff;
+            }
+            .oppi_footer_menu {
+                li {
+                    a {
+                        color: #a5a7b6;
+                        &:hover {
+                            color: #fff;
+                        }
+                        &:before {
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .oppi_footer_social {
+            .social_item {
+                li {
+                    a {
+                        color: #6c6f8a;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .oppi_copy_right .copy_right_text {
+            color: #6c6f8a; 
+            a {
+                color: #6c6f8a;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .circle_shape_1 {
+        border-radius: 50%;
+        background-image: -moz-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        background-image: -webkit-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        background-image: -ms-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        opacity: 0.078;
+        position: absolute;
+        right: 795px;
+        top: -50px;
+        width: 100px;
+        height: 100px;
+        animation: circle_animation 5s linear infinite;
+    }
+
+    .circle_shape_2 {
+        border-radius: 50%;
+        background-image: -moz-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        background-image: -webkit-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        background-image: -ms-linear-gradient(50deg, rgb(82, 104, 242) 0%, rgb(20, 176, 209) 100%);
+        opacity: 0.102;
+        position: absolute;
+        right: 375px;
+        top: -360px;
+        width: 510px;
+        height: 510px;
+        animation: circle_animation 7s linear infinite;
+    }
+}
+
+.oppi_footer_top_inner {
+    border-bottom: 1px solid #383d5c;
+}
+
+.oppi_footer_logo {
+    display: inline-block;
+    margin-bottom: 19px;
+
+    img {
+        display: inline-block;
+        max-width: 123px;
+        width: 100%;
+    }
+}
+
+.oppi_footer_widget {
+    margin-bottom: 95px;
+
+    .oppi_footer_title {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $pop;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .footer_para {
+        color: #c5c7d6;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: $pop;
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+
+    .oppi_footer_menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: block;
+            margin-bottom: 12px;
+
+            a {
+                display: inline-block;
+                color: #c5c7d6;
+                font-weight: 400;
+                font-size: 16px;
+                font-family: $pop;
+                line-height: 20px;
+                transition: all 0.5s;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    bottom: 0;
+                    right: 0;
+                    background: #fff;
+                    width: 0%;
+                    height: 1px;
+                    transition: all 0.5s;
+                }
+
+                &:hover {
+                    color: #fff;
+
+                    &::before {
+                        right: auto;
+                        left: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_footer_bottom {
+    padding: 30px 0 15px;
+}
+
+.oppi_copy_right {
+    .copy_right_text {
+        color: #8f92a6;
+        font-size: 15px;
+        font-family: $pop;
+        font-weight: 400;
+
+        a {
+            display: inline;
+            color: #c5c7d6;
+            position: relative;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.oppi_footer_social {
+    .social_item {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        li {
+            display: inline-block;
+            margin-left: 10px;
+
+            &:first-child {
+                margin-left: 0px;
+            }
+
+            a {
+                color: #fff;
+                font-size: 14px;
+                width: 46px;
+                height: 46px;
+                display: flex;
+                align-items: center;
+                border: 2px solid #656985;
+                justify-content: center;
+                border-radius: 50%;
+                transition: all 0.5s;
+                background-color: transparent;
+
+                &:hover {
+                    border-color: $tcolor;
+                    color: #fff;
+                    background-color: $tcolor;
+                }
+            }
+        }
+    }
+}
+
+.oppi_footer_two {
+    background: #fcfafb;
+    padding-bottom: 10px;
+
+    .oppi_footer_top {
+        border-bottom: 1px solid #f2edf0;
+    }
+
+    .oppi_footer_top_inner {
+        border: none;
+    }
+
+    .oppi_footer_widget {
+        .footer_para {
+            color: #707b8e;
+        }
+
+        .oppi_footer_title {
+            color: #4d446b;
+        }
+
+        .oppi_footer_menu {
+            li {
+                a {
+                    color: #707b8e;
+
+                    &::before {
+                        background: #ee6d95;
+                    }
+
+                    &:hover {
+                        color: #ee6d95;
+                    }
+                }
+            }
+        }
+
+        .email_box {
+            position: relative;
+
+            .form-control {
+                border: 2px solid #f5f0f3;
+                color: #22284c;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: $pop;
+                font-weight: 400;
+                border-radius: 4px;
+                height: 60px;
+                background: #fff;
+                box-shadow: none;
+                padding: 10px 85px 10px 25px;
+
+                &::placeholder {
+                    color: #9fa6b0;
+                }
+            }
+
+            .btn {
+                color: #9fa6b0;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: $pop;
+                font-weight: 400;
+                background: rgba(238, 109, 150, 0.1);
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                height: 100%;
+                padding: 0 24px;
+                text-transform: uppercase;
+                color: #ee6d95;
+                border-radius: 0px 4px 4px 0px;
+                transition: all 0.5s;
+
+                &:hover {
+                    background: rgba(238, 109, 150, 1);
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .oppi_footer_bottom {
+        padding-top: 25px;
+    }
+
+    .oppi_copy_right .copy_right_text a {
+        color: #8f92a6;
+
+        &:hover {
+            color: #ee6d95;
+        }
+    }
+
+    .oppi_footer_social .social_item {
+        li {
+            color: #707b8e;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-right: 7px;
+
+            &:first-child {
+                margin-right: 15px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: #9ea4ae;
+                border: none;
+                width: inherit;
+                height: inherit;
+                background: none;
+
+                &:hover {
+                    color: #ee6d95;
+                }
+            }
+        }
+    }
+}
+
+.oppi_footer_light {
+    background: #fbfbfd;
+
+    .oppi_footer_top_inner {
+        border-color: #e9edf5;
+    }
+
+    .oppi_footer_widget {
+        .footer_para {
+            color: #707b8e;
+        }
+
+        .oppi_footer_title {
+            color: #2c234d;
+        }
+
+        .oppi_footer_menu {
+            li {
+                a {
+                    color: #707b8e;
+
+                    &:hover {
+                        color: #f23891;
+                    }
+                }
+            }
+        }
+    }
+
+    .oppi_copy_right .copy_right_text {
+        color: #8e97a5;
+
+        a {
+            color: #707b8e;
+
+            &:hover {
+                color: #f23891;
+            }
+        }
+    }
+
+    .oppi_footer_social .social_item li a {
+        border-color: #d3dbe8;
+        color: #959dab;
+        position: relative;
+        z-index: 1;
+        border: none;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-image: -moz-linear-gradient(50deg, rgb(242, 56, 145) 0%, rgb(154, 17, 218) 100%);
+            background-image: -webkit-linear-gradient(50deg, rgb(242, 56, 145) 0%, rgb(154, 17, 218) 100%);
+            background-image: -ms-linear-gradient(50deg, rgb(242, 56, 145) 0%, rgb(154, 17, 218) 100%);
+            transition: all 0.5s;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            opacity: 0;
+        }
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: all 0.5s;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            border: 2px solid #d3dbe8
+        }
+
+        &:hover {
+            box-shadow: 0px 20px 30px 0px rgba(172, 21, 170, 0.3);
+            color: #fff;
+            background: transparent;
+
+            &::before {
+                opacity: 1;
+            }
+
+            &::after {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.oppi_default_footer {
+    background: #fbfbfd;
+    padding-bottom: 15px;
+
+    .oppi_footer_top_inner {
+        background: url(../images/footer_default_bg_shape.png) no-repeat scroll bottom center;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e8e8f4;
+    }
+
+    .oppi_footer_widget {
+        .footer_para {
+            color: #707b8e;
+        }
+
+        .oppi_footer_title {
+            color: #4d446b;
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 600;
+            font-family: $pop;
+        }
+
+        .oppi_footer_menu {
+            li {
+                a {
+                    color: #707b8e;
+
+                    &::before {
+                        background: #3197ff;
+                    }
+
+                    &:hover {
+                        color: #3197ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .oppi_footer_social_default {
+        p {
+            color: #4d446b;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $pop;
+            line-height: 26px;
+            margin-bottom: 5px;
+        }
+
+        .social_item {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+
+            li {
+                display: inline-block;
+
+                &+li {
+                    margin-left: 20px;
+                }
+
+                a {
+                    border: none;
+                    color: #9ea4ae;
+                    font-size: 14px;
+                    line-height: 26px;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        color: #3197ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .oppi_copy_right {
+        .copy_right_text {
+            color: #8f92a6;
+
+            a {
+                color: #8f92a6;
+            }
+        }
+    }
+    .oppi_footer_bottom {
+        padding-top: 25px;
+    }
+}
+
+.oppi_footer_wrap.oppi_travel_footer {
+    background-image: url(../images/home_travel/travel_footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    .oppi_footer_widget {
+        .email_box {
+            .btn {
+                background: #ff5e00;
+                &:hover {
+                    background: #ff8137;
+                }
+            }
+        }
+        .oppi_footer_menu {
+            li  {
+                a {
+                    color: #a5a7b6;
+                    &::before {
+                        background: #ff5e00;
+                    }
+                    &:hover {
+                        color: #ff5e00;
+                    }
+                }
+            }
+        }
+    }
+    .oppi_footer_social {
+        .social_item {
+            li a{
+                &:hover {
+                    color: #ff5e00;
+                }
+            }
+        }
+    }
+    .oppi_copy_right {
+        .copy_right_text {
+            a {
+                &:hover {
+                    color: #ff5e00;
+                }
+            }
+        }
+    }
+}
+
+.oppi_finance_footer{
+    background: #f9fafc;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+    .oppi_footer_top{
+        .oppi_footer_top_inner{
+            border: 0px;
+        }
+    }
+    .oppi_footer_social .social_item{
+        justify-content: flex-start;
+        li{
+            a{
+                border: 1px solid #d6dbe3;
+                color: #707b8e;
+                &:hover{
+                    background: #5268f2;
+                    color: #fff;
+                    border-color: #5268f2;
+                    box-shadow: 0px 20px 30px 0px rgba(21, 41, 171, 0.24);
+                }
+            }
+        }
+    }
+    .oppi_footer_widget{
+        .oppi_footer_title{
+            color: #273c63;
+            font-size: 18px;
+            color: #273c63;
+            font-weight: 500;
+        }
+        .footer_para,.oppi_footer_menu li a{
+            color: #707b8e;
+        }
+        .oppi_footer_menu li a{
+            &:before{
+                display: none;
+            }
+            &:hover{
+                color: #5268f2;
+            }
+        }
+    } 
+}
+.pt_400{
+    padding-top: 450px;
+}
+
+.oppi_food_footer{
+    &:before{
+        display: none;
+    }
+    .oppi_footer_social .social_item li a{
+        &:hover{
+            background-color: rgb(245, 110, 150);
+            border-color: rgb(245, 110, 150);
+            box-shadow: 0px 20px 30px 0px rgba(171, 21, 66, 0.24);
+        }
+    }
+    .oppi_footer_widget .oppi_footer_menu li a{
+        &:hover{
+            color: #f56e96;
+        }
+    }
+}
+
+.oppi_restaurent_footer{
+    background: #f9fafc;
+    padding-bottom: 78px;
+    &:before{
+        display: none;
+    }
+    .oppi_footer_social .social_item li a{
+        &:hover{
+            background-color: #06b85b;
+            box-shadow: 0px 20px 30px 0px rgba(21, 171, 93, 0.24);
+            border-color: #06b85b;
+        }
+    }
+    .oppi_footer_widget .oppi_footer_menu li a{
+        &:hover{
+            color: #06b85b;
+        }
+    }
+    .footer_bg{
+        position: absolute;
+        bottom: 0;
+        opacity: 0.30;
+    }
+}
+
+/*==================================================             footer                     =================================================================*/

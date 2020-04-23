@@ -1,0 +1,96 @@
+/*============================================              oppi_support_wrap                      ================================================*/
+
+.oppi_support_wrap {
+    padding: 180px 0 100px;
+}
+
+.oppi_support_content {
+    padding-top: 25px;
+    padding-right: 100px;
+    .title {
+        margin-bottom: 20px;
+    }
+    .support_para {
+        color: #707b8e;
+        margin-bottom: 30px;
+    }
+    .oppi_support_contant {
+        .contact_title {
+            color: #2c234d;
+            font-family: $pop;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 12px;
+        }
+        .support_contact_list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: block;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                a {
+                    color: $tcolor;
+                    display: inline-flex;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    font-family: $pop;
+                    span {
+                        margin-right: 13px;
+                        font-size: 18px;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_support_img {
+    .img_inner {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        margin-left: -30px;
+        .shape_1 {
+            border-radius: 6px;
+            background-color: $tcolor;
+            position: absolute;
+            left: 75px;
+            top: -30px;
+            width: 170px;
+            height: 100px;
+            z-index: -1;
+        }
+        .shape_2 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            .shape_2_inner {
+                border-radius: 6px;
+                background-color: rgb(255, 128, 90);
+                position: absolute;
+                right: -30px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100px;
+                height: 300px;
+                z-index: -1;
+            }
+        }
+        img {
+            box-shadow: 0px 50px 60px 0px rgba(2, 12, 79, 0.14);
+            border-radius: 6px;
+        }
+    }
+}
+
+
+/*============================================              oppi_support_wrap                      ================================================*/

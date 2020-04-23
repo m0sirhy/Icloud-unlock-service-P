@@ -1,0 +1,395 @@
+/*====================================            oppi_how_it_works_wrap                 =====================================*/
+
+.oppi_how_it_works_wrap {
+    padding: 90px 0 105px;
+    background: #fafbfc;
+    .sec_title {
+        margin-bottom: 60px;
+    }
+}
+
+.oppi_how_it_tab_wrap {
+    nav {
+        .oppi_how_it_tab {
+            justify-content: center;
+            border-bottom: 1px solid #e6e5ed;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            .nav-item {
+                margin: 0;
+                .nav-link {
+                    color: #707b8e;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $pop;
+                    display: inline-block;
+                    border: none;
+                    margin: 0 5px;
+                    padding: 10px 15px;
+                    border-radius: 25px;
+                    transition: all 0.5s;
+                    min-width: 110px;
+                    text-align: center;
+                    &.active,
+                    &:hover {
+                        color: #fff;
+                        background: #5268f2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_how_it_tab_content_wrap {
+    padding-top: 38px;
+    position: relative;
+    .tab_custom_arrow {
+        border: 1px solid #5268f2;
+        color: #5268f2;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        z-index: 1;
+        transition: all 0.5s;
+        top: 50%;
+        transform: translateY(-50%);
+        box-shadow: none;
+        outline: none;
+        position: absolute;
+        i {
+            font-family: 'eleganticons';
+            font-size: 20px;
+            opacity: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5268f2;
+            transition: all 0.5s;
+        }
+        &:hover {
+            background-color: #5268f2;
+            box-shadow: 0px 20px 30px 0px rgba(82, 104, 242, 0.3);
+            i {
+                color: #fff;
+            }
+        }
+        &.prevtab {
+            left: 160px;
+        }
+        &.nexttab {
+            right: 160px;
+        }
+    }
+    .fade {
+        transition: none;
+    }
+}
+
+.oppi_mobile_mockup {
+    position: relative;
+    padding-left: 85px;
+    .mockup_2 {
+        position: absolute;
+        left: 210px;
+        top: 0;
+    }
+}
+
+.oppi_mockup_content {
+    max-width: 470px;
+    width: 100%;
+    .title {
+        margin-bottom: 25px;
+    }
+    .para {
+        color: #707b8e;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        font-family: $pop;
+        margin-bottom: 40px;
+    }
+    .oppi_dbtn {
+        &:hover {
+            box-shadow: 0px 20px 30px 0px rgba(82, 104, 242, 0.3);
+        }
+    }
+}
+
+.oppi_how_it_tab_content_wrap .fade .oppi_mobile_mockup {
+    .mockup_1 {
+        animation: fadeOutUp 0.4s both;
+    }
+    .mockup_2 {
+        animation: fadeOutUp 0.6s both;
+    }
+    .oppi_mockup_content {
+        .title {
+            animation: fadeOut .2s both;
+        }
+        .para {
+            animation: fadeOutUp .3s both;
+        }
+        .oppi_dbtn {
+            animation: fadeOut .5s both;
+        }
+    }
+}
+
+.oppi_how_it_tab_content_wrap .fade.show {
+    .oppi_mobile_mockup {
+        .mockup_1 {
+            animation: fadeInUp 0.4s both 0.4s;
+        }
+        .mockup_2 {
+            animation: fadeInUp 0.6s both 0.6s;
+        }
+    }
+    .oppi_mockup_content {
+        .title {
+            animation: fadeInDown .2s both .2s;
+        }
+        .para {
+            animation: fadeInDown .3s both .3s;
+        }
+        .oppi_dbtn {
+            animation: fadeInDown .5s both .5s;
+        }
+    }
+}
+
+.oppi_get_appy_wrap {
+    background: #fafbfc;
+    padding: 90px 0 35px;
+    position: relative;
+    z-index: 11;
+    .sec_title {
+        color: #4d446b;
+        margin-bottom: 10px;
+    }
+    .sec_para {
+        color: #707b8e;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        font-family: $pop;
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto 70px;
+    }
+}
+
+.oppi_get_appy_tab_wrap {
+    .oppi_get_appy_tab {
+        justify-content: center;
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto 60px;
+        border-bottom: 2px solid #3197ff;
+        li {
+            margin: 0 21px;
+            a {
+                border: none;
+                background: transparent;
+                padding: 24px 39px 10px;
+                border-radius: 6px 6px 0px 0px;
+                color: #707b8e;
+                .tab_link {
+                    .icon {
+                        margin-bottom: 5px;
+                        text-align: center;
+                        i {
+                            font-size: 48px;
+                        }
+                    }
+                    .tab_text {
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: $pop;
+                        line-height: 30px;
+                    }
+                }
+                &:hover,
+                &.active {
+                    background: #3197ff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.oppi_get_appy_tab_content {
+    padding: 0 40px;
+
+    .tab-pane {
+        display: block;
+        transform: translateY(0px);
+        transition: all .3s linear;
+
+        &:not(.show) {
+            opacity: 0;
+            width: 100%;
+            position: absolute;
+            visibility: hidden;
+            left: 0;
+            top: 0;
+            transform: translateY(50px);
+        }
+        &.active {
+            
+        }
+    }
+}
+
+.oppi_get_appy_tab_slider {
+
+}
+
+.oppi_get_appy_tab_slider_item {
+    text-align: center;
+    padding: 0px 20px 100px;
+    img {
+        box-shadow: 0px 30px 40px 0px rgba(2, 28, 53, 0.15);
+        display: inline-block;
+    }
+}
+
+.oppi_feedback_two_wrap {
+    background: #fafbfc;
+    padding: 110px 0 100px;
+    position: relative;
+
+    .comma {
+        position: absolute;
+        top: -30px;
+        left: 318px;
+    }
+    .oppi_feedback_two_contant {
+        .sec_title {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+.oppi_feedback_two_tab_wrap {
+    margin-bottom: 70px;
+    .oppi_feedback_two_tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 2px solid #e6eaee;
+        li {
+            margin: 0;
+            a {
+                border: none;
+                position: relative;
+                font-size: 20px;
+                line-height: 30px;
+                font-family: $pop;
+                font-weight: 500;
+                color: #a1a9b7;
+                padding: 12px 14px;
+                margin: 0 26px;
+                border-radius: 0;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    bottom: -2px;
+                    right: 0;
+                    width: 0%;
+                    height: 2px;
+                    background: #3197ff;
+                    transition: all 0.5s;
+                }
+                &.active {
+                    color: #3197ff;
+                    background: transparent;
+                    &::before { 
+                        width: 100%;
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.oppi_feedback_two_content_wrap {
+    padding: 0 80px;
+}
+
+.oppi_feedback_two_content {
+    .tab-pane {
+        
+    }
+}
+.oppi_feedback_two_slider {
+    margin: 0 -20px;
+}
+.oppi_feedback_two_slider_item {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    &.d_none {
+        // position: absolute;
+        // left: 0%;
+        // top: 0px;
+        display: none;
+    }
+    .oppi_feedback_item_inner {
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: 0px 30px 40px 0px rgba(2, 28, 53, 0.05);
+        padding: 40px 45px 45px 50px;
+
+        .feedback_top {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .user_icon {
+                margin-right: 30px;
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    box-shadow: 0px 20px 30px 0px rgba(3, 38, 74, 0.14);
+                }
+            }
+            .user_details {
+                h4 {
+                    font-size: 20px;
+                    line-height: 26px;
+                    font-family: $pop;
+                    font-weight: 600;
+
+                    
+                      
+                }
+            }
+        }
+        .feedback_details {
+            p {
+
+            }
+        }
+    }
+}
+.review_star {
+    i {
+        color: #bdc6d5;
+        font-size: 12px;
+        &.checked {
+            color: #ffba00;
+        }
+    }
+}
+
+/*====================================            oppi_how_it_works_wrap                 =====================================*/

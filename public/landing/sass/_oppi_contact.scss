@@ -1,0 +1,155 @@
+/*====================================                 oppi_contact_banner                   ================================*/
+
+.oppi_contact_banner {
+    background: url(../images/banner/contact_bg.jpg) no-repeat scroll top left / cover;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(82, 103, 242, 0.9);
+    }
+}
+
+.oppi_contactUs_wrap {
+    padding: 120px 0 40px;
+}
+
+.oppi_contact_item {
+    max-width: 286px;
+    width: 100%;
+    margin-bottom: 150px;
+    .icon {
+        margin-bottom: 14px;
+        i {
+            font-size: 40px;
+            line-height: 30px;
+            color: #5268f2;
+        }
+    }
+    .contact_item_title {
+        color: #2c234d;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: $pop;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .contact_para {
+        color: #707b8e;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: $pop;
+    }
+}
+
+.oppi_contact_form_wrap {
+    background: #fafbfc;
+    padding: 90px 0;
+}
+
+.oppi_contact_form_content {
+    padding-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    .title {
+        color: #2c234d;
+        font-size: 40px;
+        line-height: 54px;
+        font-weight: 700;
+        font-family: $pop;
+        margin-bottom: 35px;
+        span {
+            font-weight: 300;
+        }
+    }
+    p {
+        color: #707b8e;
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 400;
+        font-family: $pop;
+        &.number {
+            margin-bottom: 15px;
+            span {
+                color: #5268f2;
+                font-size: 24px;
+                font-weight: 500;
+                position: relative;
+            }
+        }
+        &.email {
+            i {
+                margin-right: 10px;
+                color: #5268f2;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.oppi_contact_form_group {
+    background: #fff;
+    box-shadow: 0px 40px 80px 0px rgba(8, 22, 113, 0.06);
+    padding: 60px;
+    margin: -190px 0 50px;
+}
+
+.oppi_contact_form {
+    .form-group {
+        margin-bottom: 20px;
+        .form-control {
+            background: #fbfbfd;
+            border-radius: 6px;
+            border: 1px solid #eef0fd;
+            color: #707b8e;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            height: 70px;
+            padding: 30px;
+            box-shadow: none;
+            transition: all 0.5s;
+            font-family: $pop;
+            &:focus {
+                background: #fff;
+                box-shadow: 0px 20px 40px 0px rgba(8, 22, 113, 0.06);
+            }
+        }
+        textarea.form-control {
+            min-height: 200px;
+        }
+        &.send_message {
+            margin-bottom: 0;
+            padding-top: 20px;
+            .oppi_dbtn {
+                border: 2px solid #a5b1f9;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                &:hover {
+                    border-color: #5268f2;
+                    box-shadow: 0px 20px 30px 0px rgba(9, 25, 130, 0.2);
+                }
+            }
+        }
+    }
+}
+
+.contact_map_wrap {
+    .contact_map {
+        height: 550px;
+        width: 100%;
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    }
+}
+
+
+/*====================================                 oppi_contact_banner                   ================================*/

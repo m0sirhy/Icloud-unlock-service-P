@@ -1,0 +1,120 @@
+/*===============================================                    oppi_integrations_wrap                            ======================================*/
+
+.oppi_integrations_wrap {
+    padding: 120px 0 110px;
+}
+
+.oppi_integration_search_box {
+    .search_box {
+        position: relative;
+        width: 100%;
+        margin-bottom: 60px;
+        .form-control {
+            border: 2px solid #eceff2;
+            border-radius: 6px;
+            background-color: #fbfcfd;
+            height: 60px;
+            padding: 10px 68px;
+            outline: none;
+            box-shadow: none;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            font-family: $pop;
+            &::placeholder {
+                color: #707b8e;
+            }
+        }
+        .search {
+            position: absolute;
+            top: 50%;
+            left: 25px;
+            transform: translateY(-50%);
+            padding: 0;
+            border: none;
+            background: none;
+            font-size: 20px;
+            color: #5268f2;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.oppi_integrstion_items {}
+
+.oppi_integrstion_item {
+    background: #fbfcfd;
+    border: 1px solid #f3f5f7;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    &:hover {
+        background: #fff;
+        box-shadow: 0px 20px 40px 0px rgba(8, 22, 113, 0.06);
+        .integrstion_details {
+            h4 {
+                a {
+                    color: #5268f2;
+                }
+            }
+        }
+    }
+    .integrstion_icon_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #e7ebef;
+        height: 158px;
+        .icon {
+            img {}
+        }
+    }
+    .integrstion_details {
+        padding: 25px 30px 30px;
+        h4 {
+            color: #2c234d;
+            font-size: 16px;
+            font-family: $pop;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #707b8e;
+            font-size: 16px;
+            line-height: 28px;
+            font-family: $pop;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        .learn_more {
+            color: #2c234d;
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 500;
+            font-family: $pop;
+            display: inline-flex;
+            transition: all 0.5s;
+            &:hover {
+                color: #5268f2;
+                i {
+                    margin-left: 12px;
+                    margin-right: -10px;
+                    color: #5268f2;
+                }
+            }
+            i {
+                margin-left: 7px;
+                color: #2c234d;
+                transition: all 0.5s;
+                font-weight: 700;
+                &::before {
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
+
+
+/*===============================================                    oppi_integrations_wrap                            ======================================*/
