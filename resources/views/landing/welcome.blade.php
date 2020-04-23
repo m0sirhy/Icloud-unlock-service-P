@@ -212,7 +212,7 @@
                                         <ul class="slides">
                                             <li>
                                                 <div class="item social_slider_screen_item text-center">
-                                                    <img src="{{asset('landing/images/home_social/watching_img.png')}}" alt="watching_img" class="img-fluid">
+                                                    <img src="{{asset('landing/images/home_social/youtube_slide.png')}}" alt="watching_img" class="img-fluid">
                                                 </div>
                                             </li>
                                             <li>
