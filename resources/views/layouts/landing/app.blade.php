@@ -20,6 +20,7 @@
     </footer>
     <!-- oppi_footer_wrap -->
 
+    
     <script src="{{asset('landing/js/jquery-3.4.1.min.js')}}"></script>
     <script src="{{asset('landing/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('landing/vendors/slick/slick.min.js')}}"></script>
