@@ -14,6 +14,6 @@
 <link rel="stylesheet" href="{{asset('landing/css/linearicons.css')}}">
 <link rel="stylesheet" href="{{asset('landing/vendors/animation/animate.css')}}">
 <link rel="stylesheet" href="{{asset('landing/vendors/flex/css/flexslider.css')}}">
-
+<link rel="stylesheet" href="{{asset('landing/vendors/magnify-pop/magnific-popup.css')}}">
 <!-- custom -->
 <link rel="stylesheet" href="{{asset('landing/css/style.css')}}">

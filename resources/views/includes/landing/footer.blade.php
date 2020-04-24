@@ -5,7 +5,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="oppi_footer_widget">
                         <a href="#" class="oppi_footer_logo">
-                            <img src="images/footer_logo_color.png" alt="logo">
+                            <img src="{{asset('landing/images/footer_logo_color.png')}}" alt="logo">
                         </a>
                         <p class="footer_para"> Are you taking the piss brolly William the BBC fanny around it's all gone.</p>
                         <div class="email_box">

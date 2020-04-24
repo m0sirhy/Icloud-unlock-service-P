@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('landing.welcome');
 });
 Route::get('/fin', function () {
-    return view('landing.fin');
+    return view('landing.server');
 });
 
 Auth::routes();
