@@ -6,8 +6,8 @@
           <div class="col-md-12 col-sm-12 col-12">
               <nav class="navbar navbar-expand-lg header_nav">
                   <a class="navbar-brand logo" href="home_business_apps.html">
-                      <img src="images/logo.png" alt="logo">
-                      <img src="images/logo-color.png" alt="logo">
+                      <img href="{{asset('landing/images/logo.png')}}" alt="logo">
+                      <img href="{{asset('landing/images/logo-color.png')}}" alt="logo">
                   </a>
                   <button class="navbar-toggler oppi_hamburger" type="button" data-toggle="collapse" data-target="#oppi_header_menu" aria-expanded="false">
                       <span class="bar_icon">
@@ -20,50 +20,23 @@
                   <div class="collapse navbar-collapse oppi_header_menu" id="oppi_header_menu">
                       <ul class="navbar-nav m-auto">
                           <li class="nav-item active dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Home </a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="home_business_apps.html">Business App</a></li>
-                                  <li><a href="home_education_apps.html">Home Education App</a></li>
-                                  <li><a href="home_finance.html">Home Finance App</a></li>
-                                  <li><a href="home_food_app.html">Home Food App</a></li>
-                                  <li><a href="home_health_apps.html">Home Health Apps</a></li>
-                                  <li><a href="home_lifestyle_apps.html">Home Lifestyle App</a></li>
-                                  <li><a href="home_restaurant_app.html">Home Resturant App</a></li>
-                                  <li><a href="home_social_media_apps.html">Home Social Media App</a></li>
-                                  <li><a href="home_travel_apps.html">Home Travel App</a></li>
-                                  <li><a href="home_utility_tools_apps.html">Home Utility App</a></li>
-                              </ul>
+                              <a class="nav-link " href="/" > Home </a>
+                            
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="how_it_works_style_01.html">How it works</a>
                           </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Pages </a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="case_study_style_01.html">Case Study Style 01</a></li>
-                                  <li><a href="case_study_style_02.html">Case Study Style 02</a></li>
-                                  <li><a href="case_study_style_03.html">Case Study Style 03</a></li>
-                                  <li><a href="case_study_single.html">Case Study Single</a></li>
-                                  <li><a href="download.html">Download</a></li>
-                                  <li><a href="pricing_pro.html">Pricing</a></li>
-                                  <li><a href="sign_in.html">Sign In</a></li>
-                                  <li><a href="sign_up.html">Sign Up</a></li>
-                                  <li><a href="Integrations.html">Integrations</a></li>
-                                  <li><a href="support.html">Support</a></li>
-                              </ul>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="{{ route('server') }}">Server Service</a>
+
                           </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> News </a>
-                              <ul class="dropdown-menu">
-                                  <li><a href="blog_sidebar.html">Blog</a></li>
-                                  <li><a href="blog_single_sidebar.html">Blog Single</a></li>
-                              </ul>
+                          <li class="nav-item ">
+                            
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contact Us</a>
+                              <a class="nav-link" href="{{ route('imie') }}">IMEI Service</a>
                           </li>
                       </ul>
-                      <a class="oppi_try_for_free oppi_btn_right " href="#">Sign Up Free</a>
+                      <a class="oppi_try_for_free oppi_btn_right " href="#">التسجيل / تسجيل الدخول</a>
                   </div>
               </nav>
           </div>
@@ -141,54 +114,25 @@
     </section>
     <!-- oppi_banner -->
 
-    <section class="oppi_feature_wrap oppi_social_feature">
+    <!-- oppi_clients_feedback -->
+    <section class="oppi_clients_feedback">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-12">
-                    <h2 class="text-center sec_title2 wow fadeInUp" data-wow-delay="0.2s">So many ways to <br> connect with all your friends</h2>
-                </div>
+            <div class="section_title_three text-center wow fadeInUp">
+                <span>Feedback</span>
+                <h2 class="f_title">Hear from our customers</h2>
+                <p>He legged it plastered cheeky loo what a plonker some dodgy chav a barney wellies, gutted mate quaint the little rotter.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <div class="oppi_feature_item">
-                        <div class="feature_img text-center wow fadeInUp" data-wow-delay="0.2s">
-                            <img src="{{asset('landing/images/home_social/feature_img_1.png')}}" alt="feature_img" class="img-fluid">
-                        </div>
-                        <h4 class="feature_sub_title text-center wow fadeInUp" data-wow-delay="0.3s">Product & Design</h4>
-                        <p class="feature_para text-center wow fadeInUp" data-wow-delay="0.4s">Mush down the pub at public school car boot gormless my good.
-                        </p>
-                    </div>
+            <div class="feedback_slider">
+                <div class="item">
+                    <span>,,</span>
+                    <p>Lurgy the little rotter chinwag at public school I wind up bugger cras gormless golly.</p>
+                    <a href="#"><img src="{{asset('landing/images/home_social/fb_messanger.png')}}" alt="dsjjsh"></a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <div class="oppi_feature_item">
-                        <div class="feature_img text-center wow fadeInUp" data-wow-delay="0.3s">
-                            <img src="{{asset('landing/images/home_social/feature_img_2.png')}}" alt="feature_img" class="img-fluid">
-                        </div>
-                        <h4 class="feature_sub_title text-center wow fadeInUp" data-wow-delay="0.4s">Engineering</h4>
-                        <p class="feature_para text-center wow fadeInUp" data-wow-delay="0.5s">Mush down the pub at public school car boot gormless my good.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <div class="oppi_feature_item">
-                        <div class="feature_img text-center wow fadeInUp" data-wow-delay="0.4s">
-                            <img src="{{asset('landing/images/home_social/feature_img_3.png')}}" alt="feature_img" class="img-fluid">
-                        </div>
-                        <h4 class="feature_sub_title text-center wow fadeInUp" data-wow-delay="0.5s">Development Fist</h4>
-                        <p class="feature_para text-center wow fadeInUp" data-wow-delay="0.6s">Mush down the pub at public school car boot gormless my good.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="#" class="oppi_dbtn btn_border btn_icon">View all Features 
-                               <i class="arrow_right"></i></a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
-    <!-- oppi_feature_wrap -->
+    <!-- oppi_clients_feedback -->
 
     <section class="oppi_watching_wrap" dir="ltr"> 
         <div class="shape_bg">

@@ -12,8 +12,13 @@
 <link rel="stylesheet" href="{{asset('landing/vendors/slick/slick-theme.css')}}">
 <link rel="stylesheet" href="{{asset('landing/vendors/elegant-icon/elegant-icon-style.css')}}">
 <link rel="stylesheet" href="{{asset('landing/css/linearicons.css')}}">
+<link rel="stylesheet" href="{{asset('landing/css/simple-line-icons.css')}}">
+
 <link rel="stylesheet" href="{{asset('landing/vendors/animation/animate.css')}}">
 <link rel="stylesheet" href="{{asset('landing/vendors/flex/css/flexslider.css')}}">
 <link rel="stylesheet" href="{{asset('landing/vendors/magnify-pop/magnific-popup.css')}}">
 <!-- custom -->
 <link rel="stylesheet" href="{{asset('landing/css/style.css')}}">
+
+<link rel="stylesheet" href="{{asset('landing/css/responsive.css')}}">
+<script defer src="{{ mix('js/app.js') }}"></script>

@@ -23,3 +23,7 @@ Route::get('/fin', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/server', 'LandingController@server')->name('server');
+Route::get('/imie', 'LandingController@imie')->name('imie');
+
+
