@@ -1,73 +1,55 @@
-@extends('layouts.app')
-
+@extends('layouts.landing.app')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+<section class="oppi_signup_wrap oppi_signin_wrap mt_99">
+    <div class="right_img"><img src="{{asset('landing/images/signUp_vector_1.png')}}" alt="signUp_vector_1" class="img-fluid"></div>
+    <div class="left_img"><img src="{{asset('landing/images/signUp_vector_2.png')}}" alt="signUp_vector_2" class="img-fluid"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="oppi_signup_body">
+                    <div class="oppi_signup_inner">
+                        <h3 class="sign_up_titlle text-center">تسجيل الدخول</h3>
+                        <form action="{{ route('login') }}" method="POST" class="sign_up_form">
+                          @csrf
+                            <div class="form-group">
+                                <p>البريد الالكتروني</p>
+                                <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
                                 @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                             </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
+                            <div class="form-group">
+                                <p>كلمة المرور</p>
+                                <input type="password" name="password" class="form-control @error('password') is-invalid @enderror " placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'">
+                            
                                 @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                             </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
+                            <div class="form-group sign_up_btn_group">
+                                <button class="btn sign_up_btn" type="submit">تسجيل الدخول</button>
                             </div>
-                        </div>
+                            
+                            @if (Route::has('password.request'))
+                            <p class="oppi_sign_note sign_up_para text-right"><span class="float-left"><a href="{{ route('password.request') }}">نسيت كلمة المرور?</a></span> <span class="stay_here justify-content-end d-flex align-items-center"><input type="checkbox" id="stay"><label for="stay">تذكرني</label></span></p>
+                            @endif
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
+                            <p class="sign_up_para sign_with_social text-center">with your social network</p>
+                            <div class="social_sign_link text-center">
+                                <a href="#" class="social_googleplus"></a>
+                                <a href="#" class="social_facebook"></a>
                             </div>
-                        </div>
-                    </form>
+                        <p class="text-center have_an_account">جديد في الفهد ؟ <a href="{{route('register')}}"> سجل مجانا </a></p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<!-- oppi_signup_wrap -->
 @endsection

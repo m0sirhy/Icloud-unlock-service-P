@@ -28,7 +28,14 @@
 
                         {{ csrf_field() }}
                         {{ method_field('put') }}
-
+                        <div class="form-group">
+                            <label>@lang('site.name')</label>
+                            <input type="text" name="name"class="form-control" value="{{ $item->name }}">
+                        </div>
+                        <div class="form-group">
+                            <label>@lang('site.description')</label>
+                            <input type="text" name="desc"  class="form-control" value="{{$item->desc}}">
+                        </div>
                         <div class="form-group">
                             <label>@lang('site.categories')</label>
                             <select name="category_id" class="form-control">

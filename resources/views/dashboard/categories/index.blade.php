@@ -20,7 +20,7 @@
 
                 <div class="box-header with-border">
 
-                    <h3 class="box-title" style="margin-bottom: 15px">@lang('site.categories') <small>{{ $categories }}</small></h3>
+                    <h3 class="box-title" style="margin-bottom: 15px">@lang('site.categories') <small>{{ $categories->count() }}</small></h3>
 
                     <form action="route('dashboard.categories.index') }}" method="get">
 
@@ -63,25 +63,19 @@
                             <tbody>
                             @foreach ($categories as $index=>$category)
                                 <tr>
-                                    <td>{{ $index + 1 }}</td>
+                                    <td>{{ $index  }}</td>
                                     <td>{{ $category->name }}</td>
                                     <td>{{ $category->items->count() }}</td>
-                                    <td><a href="{{ route('dashboard.products.index', ['category_id' => $category->id]) }}" class="btn btn-info btn-sm">@lang('site.related_products')</a></td>
+                                    <td><a href="" class="btn btn-info btn-sm">@lang('site.related_products')</a></td>
                                     <td>
-                                        @if (auth()->user()->hasPermission('update_categories'))
                                             <a href="{{ route('dashboard.categories.edit', $category->id) }}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> @lang('site.edit')</a>
-                                        @else
-                                            <a href="#" class="btn btn-info btn-sm disabled"><i class="fa fa-edit"></i> @lang('site.edit')</a>
-                                        @endif
-                                        @if (auth()->user()->hasPermission('delete_categories'))
+                                        
                                             <form action="{{ route('dashboard.categories.destroy', $category->id) }}" method="post" style="display: inline-block">
                                                 {{ csrf_field() }}
                                                 {{ method_field('delete') }}
                                                 <button type="submit" class="btn btn-danger delete btn-sm"><i class="fa fa-trash"></i> @lang('site.delete')</button>
                                             </form><!-- end of form -->
-                                        @else
-                                            <button class="btn btn-danger btn-sm disabled"><i class="fa fa-trash"></i> @lang('site.delete')</button>
-                                        @endif
+                                       
                                     </td>
                                 </tr>
                             

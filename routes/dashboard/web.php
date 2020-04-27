@@ -20,7 +20,7 @@ Route::prefix('dashboard')->name('dashboard.')->middleware(['auth'])->group(func
     Route::resource('imei', 'ImeiController');
     Route::resource('server', 'ServerController');
     Route::resource('categories', 'CategoryController');
-    Route::resource('categories', 'ItemController');
+    Route::resource('items', 'ItemController');
 
     
 

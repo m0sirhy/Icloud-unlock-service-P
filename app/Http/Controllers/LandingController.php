@@ -8,11 +8,14 @@ class LandingController extends Controller
 {
     //
     public function server(){
-        return view('landing.server');
+        $items=Item::where('section','server')->get()->latest();
+        return view('landing.server',compact('items'));
     }
 
 
     public function imei(){
-        return view('landing.imie');
+        $items=Item::where('section','imei')->get()->latest();
+
+        return view('landing.imie',compact('items'));
     }
 }

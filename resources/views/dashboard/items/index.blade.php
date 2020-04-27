@@ -6,11 +6,11 @@
 
         <section class="content-header">
 
-            <h1>@lang('site.products')</h1>
+            <h1>@lang('site.items')</h1>
 
             <ol class="breadcrumb">
                 <li><a href="{{ route('dashboard.welcome') }}"><i class="fa fa-dashboard"></i> @lang('site.dashboard')</a></li>
-                <li class="active">@lang('site.products')</li>
+                <li class="active">@lang('site.items')</li>
             </ol>
         </section>
 
@@ -20,7 +20,7 @@
 
                 <div class="box-header with-border">
 
-                    <h3 class="box-title" style="margin-bottom: 15px">@lang('site.products') <small>{{ $products->total() }}</small></h3>
+                    <h3 class="box-title" style="margin-bottom: 15px">@lang('site.items') <small></small></h3>
 
                     <form action="{{ route('dashboard.items.index') }}" method="get">
 

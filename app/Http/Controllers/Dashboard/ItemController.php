@@ -14,7 +14,7 @@ class ItemController extends Controller
         {
             $categories = Category::all();
     
-            $items = Item::get()->latest()->paginate(5);
+            $items = Item::latest()->paginate(5);
     
             return view('dashboard.items.index', compact('categories', 'items'));
     

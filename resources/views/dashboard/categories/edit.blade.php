@@ -40,7 +40,7 @@
 
                         <div class="form-group">
                             <label>@lang('site.section')</label>
-                            <select id="cars" name="carlist" class="form-control"  value="{{ $category->section }}" >
+                            <select name="section" class="form-control"  value="{{ $category->section }}" >
                                 <option value="imie">IMIE</option>
                                 <option value="server">Server</option>
                            

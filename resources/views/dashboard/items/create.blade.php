@@ -29,6 +29,15 @@
                         {{ csrf_field() }}
                         {{ method_field('post') }}
 
+                        
+                        <div class="form-group">
+                            <label>@lang('site.name')</label>
+                            <input type="text" name="name"class="form-control" value="{{ old('name') }}">
+                        </div>
+                        <div class="form-group">
+                            <label>@lang('site.description')</label>
+                            <input type="text" name="desc"  class="form-control" value="{{ old('desc') }}">
+                        </div>
                         <div class="form-group">
                             <label>@lang('site.categories')</label>
                             <select name="category_id" class="form-control">
@@ -53,7 +62,7 @@
 
                         <div class="form-group">
                             <label>@lang('site.price')</label>
-                            <input type="number" name="price" step="0.01" class="form-control" value="{{ old('purchase_price') }}">
+                            <input type="number" name="price" step="0.01" class="form-control" value="{{ old('price') }}">
                         </div>
 
                       

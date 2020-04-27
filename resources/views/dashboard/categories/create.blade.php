@@ -36,7 +36,7 @@
 
                             <div class="form-group">
                                 <label>@lang('site.section')</label>
-                                <select id="cars" name="carlist" class="form-control">
+                                <select  name="section" class="form-control">
                                     <option value="imie">IMIE</option>
                                     <option value="server">Server</option>
                                

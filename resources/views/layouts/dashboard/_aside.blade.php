@@ -16,7 +16,7 @@
             <li><a href="{{ route('dashboard.welcome') }}"><i class="fa fa-th"></i><span>@lang('site.dashboard')</span></a></li>
 
        
-                <li><a href="{{ route('dashboard.imei.index') }}"><i class="fa fa-th"></i><span>@lang('site.categories')</span></a></li>
+                <li><a href="{{ route('dashboard.items.index') }}"><i class="fa fa-th"></i><span>@lang('site.categories')</span></a></li>
             
 
         
