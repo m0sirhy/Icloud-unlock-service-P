@@ -51,8 +51,14 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="oppi_banner_content">
-                        <h1 class="banner_title wow fadeInUp" data-wow-delay="0.2s">Smart, secure, and simply amazing.</h1>
-                        <p class="banner_para wow fadeInUp" data-wow-delay="0.3s">Special 50% volume purchase discount on Niche for all eligible education institutions
+                        <h1 class="banner_title wow fadeInUp" data-wow-delay="0.2s">نقدم لكم خدمة فتح أجهزة الآيفون، الآيباد، الآيبود المغلقة بالآيكلاود</h1>
+                        <p class="banner_para wow fadeInUp" data-wow-delay="0.3s">فتح الأجهزة يتم بطريقة رسمية وبنسبة نجاح 100%   . 
+
+                            يتم إزالة الآي كلاود من الجهاز، ويمكنك بعد ذلك إضافة حساب iCloud الخاص بك.
+                            
+                            الخدمة تدعم جميع أجهزة أبل الآيفون، الآيباد أو الآيبود.
+                            
+                            اذا لم يتم ازالة الايكلاود لجهازك يتم ارجاع كامل المبلغ لحسابك 100%
                         </p>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.4s">
                             <a href="#" class="oppi_dbtn btn_border">Start 14 day Trial</a>
@@ -118,9 +124,8 @@
     <section class="oppi_clients_feedback">
         <div class="container">
             <div class="section_title_three text-center wow fadeInUp">
-                <span>Feedback</span>
-                <h2 class="f_title">Hear from our customers</h2>
-                <p>He legged it plastered cheeky loo what a plonker some dodgy chav a barney wellies, gutted mate quaint the little rotter.</p>
+                <span>العروض والتنزيلات </span>
+                <h2 class="f_title">افضل العروضات والخصومات المتجددة</h2>
             </div>
             <div class="feedback_slider">
                 <div class="item">
@@ -145,8 +150,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="oppi_banner_content text-center">
-                        <h1 class="banner_title text-center wow fadeInUp" data-wow-delay="0.2s">Find the people <br> you've crossed paths with </h1>
-                        <p class="banner_para text-center wow fadeInUp" data-wow-delay="0.4s">Special 50% volume purchase discount on Niche for all eligible education institutions
+                        <h1 class="banner_title text-center wow fadeInUp" data-wow-delay="0.2s">اشتري الان !!   <br> جميع بطاقات المتاجر والالعاب متوفرة  </h1>
+                        <p class="banner_para text-center wow fadeInUp" data-wow-delay="0.4s">اشترى الان بطاقات شحن الالعاب اونلاين و بأسهل طرق الدفع الممكنة. بطاقة شراء العاب ps4, نينتندو, اكس بوكس
                         </p>
                      
                     </div>
