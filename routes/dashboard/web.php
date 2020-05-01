@@ -21,6 +21,8 @@ Route::prefix('dashboard')->name('dashboard.')->middleware(['auth'])->group(func
     Route::resource('server', 'ServerController');
     Route::resource('categories', 'CategoryController');
     Route::resource('items', 'ItemController');
+    Route::resource('offers', 'OfferController');
+
 
     
 

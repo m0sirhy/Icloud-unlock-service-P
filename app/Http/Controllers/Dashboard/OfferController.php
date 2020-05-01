@@ -4,26 +4,23 @@ namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Category;
-use App\Item;
+use App\Offer;
+
 use Image;
-class ItemController extends Controller
+class OfferController extends Controller
 {
-   
-        public function index(Request $request)
+    public function index(Request $request)
         {
-            $categories = Category::all();
     
-            $items = Item::latest()->paginate(5);
+            $offers = Offer::latest()->paginate(5);
     
-            return view('dashboard.items.index', compact('categories', 'items'));
+            return view('dashboard.offers.index', compact( 'offers'));
     
         }//end of index
     
         public function create()
         {
-            $categories = Category::all();
-            return view('dashboard.items.create', compact('categories'));
+            return view('dashboard.offers.create');
     
         }//end of create
     
@@ -33,7 +30,6 @@ class ItemController extends Controller
            
     
             $request->validate([
-                'name' => 'required',
                 'desc' => 'required',
                 'time' => 'required',
                 'price' => 'required',
@@ -45,31 +41,30 @@ class ItemController extends Controller
             if ($request->image) {
     
                 Image::make($request->image)
+                ->resize(134, 134,null)
                   
-                    ->save(public_path('uploads/item_images/' . $request->image->hashName()));
+                    ->save(public_path('uploads/offer_images/' . $request->image->hashName()));
     
                 $request_data['image'] = $request->image->hashName();
     
             }//end of if
     
-            Item::create($request_data);
+            Offer::create($request_data);
             session()->flash('success', __('site.added_successfully'));
-            return redirect()->route('dashboard.items.index');
+            return redirect()->route('dashboard.offers.index');
     
         }//end of store
     
-        public function edit(Item $item)
+        public function edit(Offer $offer)
         {
-            $categories = Category::all();
-            return view('dashboard.items.edit', compact('categories', 'item'));
+            return view('dashboard.offers.edit', compact( 'Offer'));
     
         }//end of edit
     
-        public function update(Request $request, Item $item)
+        public function update(Request $request, Offer $offer)
         {
            
             $request->validate([
-                'name' => 'required',
                 'desc' => 'required',
                 'time' => 'required',
                 'price' => 'required',
@@ -79,38 +74,38 @@ class ItemController extends Controller
     
             if ($request->image) {
     
-                if ($item->image != 'default.png') {
+                if ($offer->image != 'default.png') {
     
-                    Storage::disk('public_uploads')->delete('/item_images/' . $item->image);
+                    Storage::disk('public_uploads')->delete('/offer_images/' . $offer->image);
                         
                 }//end of if
     
                 Image::make($request->image)
+                ->resize(134, 134,null)
                    
-                    ->save(public_path('uploads/item_images/' . $request->image->hashName()));
+                    ->save(public_path('uploads/offer_images/' . $request->image->hashName()));
     
                 $request_data['image'] = $request->image->hashName();
     
             }//end of if
             
-            $item->update($request_data);
+            $offer->update($request_data);
             session()->flash('success', __('site.updated_successfully'));
-            return redirect()->route('dashboard.items.index');
+            return redirect()->route('dashboard.offers.index');
     
         }//end of update
     
-        public function destroy(Item $item)
+        public function destroy(Offer $offer)
         {
-            if ($item->image != 'default.png') {
+            if ($offer->image != 'default.png') {
     
-                Storage::disk('public_uploads')->delete('/item_images/' . $item->image);
+                Storage::disk('public_uploads')->delete('/offer_images/' . $offer->image);
     
             }//end of if
     
-            $item->delete();
+            $Offer->delete();
             session()->flash('success', __('site.deleted_successfully'));
-            return redirect()->route('dashboard.items.index');
+            return redirect()->route('dashboard.offers.index');
     
         }//end of destroy
-    }
-    
+}

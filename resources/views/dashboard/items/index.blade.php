@@ -26,21 +26,9 @@
 
                         <div class="row">
 
-                            <div class="col-md-4">
-                                <input type="text" name="search" class="form-control" placeholder="@lang('site.search')" value="{{ request()->search }}">
-                            </div>
-
-                            <div class="col-md-4">
-                                <select name="category_id" class="form-control">
-                                    <option value="">@lang('site.all_categories')</option>
-                                    @foreach ($categories as $category)
-                                        <option value="{{ $category->id }}" {{ request()->category_id == $category->id ? 'selected' : '' }}>{{ $category->name }}</option>
-                                    @endforeach
-                                </select>
-                            </div>
+                           
                             
                             <div class="col-md-4">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> @lang('site.search')</button>
                                     <a href="{{ route('dashboard.items.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i> @lang('site.add')</a>
                                
                             </div>

@@ -1646,7 +1646,7 @@ a.link:hover {
 }
 
 .oppi_banner_utility {
-  background: #5268f2;
+  background: #ED919F;
   padding: 170px 0 0;
   position: relative;
   z-index: 1;
@@ -1701,7 +1701,7 @@ a.link:hover {
   position: relative;
   max-width: 970px;
   width: 100%;
-  margin: 0 auto -140px;
+  margin: 0 auto -68px;
   -webkit-box-shadow: 0px 50px 100px 0px rgba(3, 11, 61, 0.2);
   box-shadow: 0px 50px 100px 0px rgba(3, 11, 61, 0.2);
   border-radius: 10px;

@@ -8,6 +8,13 @@ class Item extends Model
 {
     //
 
+    protected $fillable = ['name','desc','price','time','image','category_id'];
+    protected $appends = ['image_path'];
+    public function getImagePathAttribute()
+    {
+        return asset('uploads/item_images/' . $this->image);
+
+    }
     public function category()
     {
         return $this->belongsTo('App\Category');

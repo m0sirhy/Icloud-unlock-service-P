@@ -3,12 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Item;
+use App\Category;
 class LandingController extends Controller
 {
     //
     public function server(){
-        $items=Item::where('section','server')->get()->latest();
+        $phone = Category::where('section','imie')->get();
+        dd($phone);
+        
+
+        $items=Item::where('section','server')->category();
+
         return view('landing.server',compact('items'));
     }
 

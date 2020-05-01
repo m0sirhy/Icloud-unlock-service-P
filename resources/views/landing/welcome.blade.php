@@ -6,8 +6,8 @@
           <div class="col-md-12 col-sm-12 col-12">
               <nav class="navbar navbar-expand-lg header_nav">
                   <a class="navbar-brand logo" href="home_business_apps.html">
-                      <img href="{{asset('landing/images/logo.png')}}" alt="logo">
-                      <img href="{{asset('landing/images/logo-color.png')}}" alt="logo">
+                      <img src="{{asset('landing/images/logo.png')}}" alt="logo">
+                      <img src="{{asset('landing/images/logo-color.jpg')}}" alt="logo">
                   </a>
                   <button class="navbar-toggler oppi_hamburger" type="button" data-toggle="collapse" data-target="#oppi_header_menu" aria-expanded="false">
                       <span class="bar_icon">
@@ -45,7 +45,7 @@
   </header>
   <!-- oppi_header --> 
     
-    <section class="oppi_banner oppi_banner_two oppi_social_banner">
+    <section class="oppi_banner oppi_banner_two oppi_social_banner" >
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -63,10 +63,10 @@
                     <div class="oppi_banner_img_content">
                         <div class="banner_img">
                             <div class="social_banner_img">
-                                <img src="{{asset('landing/images/home_social/banner_img/img_1.png')}}" alt="social_banner_img" class="social_banner_img_1 wow fadeInUp" data-wow-delay="0.2s" data-parallax='{"x": 0, "y": 50}'>
-                                <img src="{{asset('landing/images/home_social/banner_img/img_2.png')}}" alt="social_banner_img" class="soci_banner_img img_2 wow fadeInUp" data-wow-delay="0.4s" data-parallax='{"x": 30, "y": 0}'>
-                                <img src="{{asset('landing/images/home_social/banner_img/type_1.png')}}" alt="social_banner_img" class="soci_banner_img img_3 wow zoomIn" data-wow-delay="0.6s">
-                                <img src="{{asset('landing/images/home_social/banner_img/type_2.png')}}" alt="social_banner_img" class="soci_banner_img img_4 wow zoomIn" data-wow-delay="0.7s" data-parallax='{"x": 0, "y": 100}'>
+                                <img src="{{asset('landing/images/home_social/banner_img/img_1.png')}}" alt="social_banner_img" class="social_banner_img_1 " data-wow-delay="0.2s" data-parallax='{"x": 0, "y": 50}'>
+                                <img src="{{asset('landing/images/home_social/banner_img/img_2.png')}}" alt="social_banner_img" class="soci_banner_img img_2 p" data-wow-delay="0.4s" data-parallax='{"x": 30, "y": 0}'>
+                                <img src="{{asset('landing/images/home_social/banner_img/type_1.png')}}" alt="social_banner_img" class="soci_banner_img img_3 " data-wow-delay="0.6s">
+                                <img src="{{asset('landing/images/home_social/banner_img/type_2.png')}}" alt="social_banner_img" class="soci_banner_img img_4 " data-wow-delay="0.7s" data-parallax='{"x": 0, "y": 100}'>
                                 <div class="wev_1 wow zoomIn" data-wow-delay="0.5s">
                                     <div class="wev_inner" data-parallax='{"x": 0, "y": 50}'></div>
                                 </div>
@@ -133,6 +133,34 @@
         </div>
     </section>
     <!-- oppi_clients_feedback -->
+
+    <section class="oppi_banner oppi_banner_utility">
+        <div class="shape_angle wow fadeInDown" data-wow-delay="0.3s">
+            <img src="{{asset('landing/images/home_life/banner/shape_1.png')}}" alt="shape" class="img-fluid" data-parallax='{"x": 0, "y": 100}'>
+        </div>
+        <div class="circle_shape wow zoomIn" data-wow-delay="0.3s">
+            <div class="circle" data-parallax='{"x": 0, "y": 100}'></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="oppi_banner_content text-center">
+                        <h1 class="banner_title text-center wow fadeInUp" data-wow-delay="0.2s">Find the people <br> you've crossed paths with </h1>
+                        <p class="banner_para text-center wow fadeInUp" data-wow-delay="0.4s">Special 50% volume purchase discount on Niche for all eligible education institutions
+                        </p>
+                     
+                    </div>
+                    <div class="utility_banner_video wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="video_img">
+                            <img src="{{asset('landing/images/home_utility/banner/banner_video_bg.png')}}" alt="banner_video_img" class="img-fluid">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- oppi_banner -->
 
     <section class="oppi_watching_wrap" dir="ltr"> 
         <div class="shape_bg">
@@ -279,6 +307,7 @@
     </section>
     <!-- oppi_social_about_wrap -->
 
+    
     <section class="oppi_analytics_wrap">
         <div class="oppi_analytics_bg_shape">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="951px">
