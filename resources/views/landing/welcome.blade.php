@@ -33,7 +33,7 @@
                             
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('imie') }}">IMEI Service</a>
+                              <a class="nav-link" href="{{ route('imei') }}">IMEI Service</a>
                           </li>
                       </ul>
                       <a class="oppi_try_for_free oppi_btn_right " href="{{ route('login') }}">التسجيل / تسجيل الدخول</a>

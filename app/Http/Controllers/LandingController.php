@@ -9,19 +9,16 @@ class LandingController extends Controller
 {
     //
     public function server(){
-        $phone = Category::where('section','imie')->get();
-        dd($phone);
-        
-
-        $items=Item::where('section','server')->category();
-
-        return view('landing.server',compact('items'));
+        $categories=Category::where('section', 'server')->get();
+        $items=Item::get();
+        return view('landing.server',compact('categories','items'));
     }
 
 
     public function imei(){
-        $items=Item::where('section','imei')->get()->latest();
-
-        return view('landing.imie',compact('items'));
+        $categories=Category::where('section', 'imie')->get();
+        $items=Item::get();
+    
+        return view('landing.imie',compact('categories','items'));
     }
 }

@@ -15,8 +15,8 @@ class Item extends Model
         return asset('uploads/item_images/' . $this->image);
 
     }
-    public function category()
+    public function categories()
     {
-        return $this->belongsTo('App\Category');
+        return $this->belongsToMany('App\Category');
     }
 }
