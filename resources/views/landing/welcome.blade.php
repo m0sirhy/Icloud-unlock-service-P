@@ -258,13 +258,13 @@
                                 <div class="w_img text-center">
                                     <img src="{{asset('landing/images/home_social/Instagram_AppIcon_Aug2017.png')}}" alt="w_img">
                                 </div>
-                                <p class="text-center"><a href="#">Instagram</a> </p>
+                                <p class="text-center"><a href="#">Nokia</a> </p>
                             </div>
                             <div class="w_items wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="w_img text-center">
                                     <img src="{{asset('landing/images/home_social/Twitter-bird-logo-medium.png')}}" alt="w_img">
                                 </div>
-                                <p class="text-center"><a href="#">Twitter</a> </p>
+                                <p class="text-center"><a href="#">Samsung</a> </p>
                             </div>
                         </div>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.6s">
