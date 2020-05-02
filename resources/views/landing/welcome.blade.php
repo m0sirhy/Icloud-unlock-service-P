@@ -51,15 +51,10 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="oppi_banner_content">
-                        <h1 class="banner_title wow fadeInUp" data-wow-delay="0.2s">نقدم لكم خدمة فتح أجهزة الآيفون، الآيباد، الآيبود المغلقة بالآيكلاود</h1>
-                        <p class="banner_para wow fadeInUp" data-wow-delay="0.3s">فتح الأجهزة يتم بطريقة رسمية وبنسبة نجاح 100%   . 
-
-                            يتم إزالة الآي كلاود من الجهاز، ويمكنك بعد ذلك إضافة حساب iCloud الخاص بك.
-                            
-                            الخدمة تدعم جميع أجهزة أبل الآيفون، الآيباد أو الآيبود.
-                            
-                            اذا لم يتم ازالة الايكلاود لجهازك يتم ارجاع كامل المبلغ لحسابك 100%
-                        </p>
+                        <h1 class="banner_title wow fadeInUp" data-wow-delay="0.2s">سيرفير موبايل تك </h1>
+                        <p class="banner_para wow fadeInUp" data-wow-delay="0.3s">                       
+نقدم خدمات لكافة انواع الاجهزة  سامسونج,هواوي ,ايفون,شاومي و أوبوو
+ باسعار منافسة واقل من السوق ,و فك جميع انواع الشبكات لكافة الاجهزة و شحن بطاقات الالعاب والبرامج على جميع المتاجر .. مع ضمانة !100% على استرجاع النقود في حال لم تعجبك الخدمة                        </p>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.4s">
                             <a href="#" class="oppi_dbtn btn_border">Start 14 day Trial</a>
                         </div>
@@ -128,11 +123,17 @@
                 <h2 class="f_title">افضل العروضات والخصومات المتجددة</h2>
             </div>
             <div class="feedback_slider">
+               @foreach ($offers as $offer)
+                   
+               
                 <div class="item">
                     <span>,,</span>
-                    <p>Lurgy the little rotter chinwag at public school I wind up bugger cras gormless golly.</p>
+                <p>
+                    {{ $offer->desc }}
+                </p>
                     <a href="#"><img src="{{asset('landing/images/home_social/fb_messanger.png')}}" alt="dsjjsh"></a>
                 </div>
+               @endforeach
                 
             </div>
         </div>
@@ -264,7 +265,7 @@
                                 <div class="w_img text-center">
                                     <img src="{{asset('landing/images/home_social/Twitter-bird-logo-medium.png')}}" alt="w_img">
                                 </div>
-                                <p class="text-center"><a href="#">Samsung</a> </p>
+                                <p class="text-center"><a href="#">Samsung</a> </p> 
                             </div>
                         </div>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.6s">
@@ -282,8 +283,10 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="oppi_social_about_content">
-                        <h3 class="sec_title2  wow fadeInUp" data-wow-delay="0.2s">Designed with groups in Mind</h3>
-                        <p class="oppi_soci_para  wow fadeInUp" data-wow-delay="0.3s">Bodge golly gosh bog he nicked it do one some dodgy chav cack, you mug cuppa such a fibber nice one have it well, so I said faff about bevvy loo a. Vagabond tosser down the pub cheeky.!</p>
+                        <h3 class="sec_title2  wow fadeInUp" data-wow-delay="0.2s">نقدم خدمات فك الايكلاود لجميع اجهزة أبل </h3>
+                        <p class="oppi_soci_para  wow fadeInUp" data-wow-delay="0.3s">فتح الأجهزة يتم بطريقة رسمية وبنسبة نجاح 100% . يتم إزالة الآي كلاود من الجهاز، ويمكنك بعد ذلك إضافة حساب iCloud الخاص بك. الخدمة تدعم جميع أجهزة أبل الآيفون، الآيباد أو الآيبود. اذا لم يتم ازالة الايكلاود لجهازك يتم ارجاع كامل المبلغ لحسابك 100%
+
+                            </p>
                         <div class="oppi_btn_group">
                             <a href="#" class="oppi_dbtn btn_border btn_icon  wow fadeInUp" data-wow-delay="0.4s">About Us <i class="arrow_right"></i></a>
                         </div>
@@ -300,7 +303,6 @@
                                 <img src="{{asset('landing/images/home_social/grafe_man_2.png')}}" alt="grafe_img" class="img-fluid  wow fadeInUp" data-wow-delay='0.6s'>
                             </div>
                             <div class="grafe_item">
-                                <img src="{{asset('landing/images/home_social/grafe_item_1.png')}}" alt="grafe_img" class="grafe_item_img grafe_item_1 wow fadeInLeft" data-wow-delay='0.3s'>
                                 <img src="{{asset('landing/images/home_social/grafe_item_2.png')}}" alt="grafe_img" class="grafe_item_img grafe_item_2 wow fadeInRight" data-wow-delay='0.4s'>
                                 <img src="{{asset('landing/images/home_social/grafe_item_3.png')}}" alt="grafe_img" class="grafe_item_img grafe_item_3 wow fadeInLeft" data-wow-delay='0.5s'>
                             </div>
@@ -339,73 +341,14 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="oppi_analytics_content m_w_475">
-                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">Access your performance analytics at any time</h3>
-                        <p class="analytics_para wow fadeInUp" data-wow-delay="0.3s">Spend a penny bamboozled the little rotter cuppa grub my good sir I don't want no agro bugger all mate cup of tea he nicked it geeza lemon squeezy well.!</p>
-                        <ul class="analytics_devices">
-                            <li class="wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-apple" aria-hidden="true"></i> Android</li>
-                            <li class="wow fadeInUp" data-wow-delay="0.5s"> <i class="fa fa-android" aria-hidden="true"></i> iPhone</li>
-                            <li class="wow fadeInUp" data-wow-delay="0.6s"><i class="fa fa-windows" aria-hidden="true"></i>Windows Phone</li>
-                        </ul>
+                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">خدمة على مدار الساعة طوال ايام الاسبوع..</h3>
+                      
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- oppi_analytics_wrap -->
-
-    <section class="oppi_download_app_two_wrap">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="oppi_download_two_content m_w_475">
-                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">Starting with social app is easier than anything!</h3>
-                        <h5 class="language wow fadeInUp" data-wow-delay="0.4s">Available in 15 langauges</h5>
-                        <ul class="language_list wow fadeInUp" data-wow-delay="0.5s">
-                            <li>English</li>
-                            <li>Arabic</li>
-                            <li>Bengali</li>
-                            <li>Finnish</li>
-                            <li>Hindi</li>
-                            <li>Russian</li>
-                            <li>Polish</li>
-                            <li>Somali</li>
-                            <li>Nepali</li>
-                        </ul>
-                        <div class="oppi_download_count">
-                            <div class="count_item wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="count">
-                                    <div class="count_inner">
-                                        <span class="count_number">24</span>
-                                        <span class="count_name">Million</span>
-                                    </div>
-                                </div>
-                                <p class="count_title text-center">Downloads</p>
-                            </div>
-                            <div class="count_item wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="count">
-                                    <div class="count_inner">
-                                        <span class="count_number">5</span>
-                                        <span class="count_name">Stars</span>
-                                    </div>
-                                </div>
-                                <p class="count_title text-center">Rating</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="oppi_download_two_img_content">
-                        <div class="img_inner text-center">
-                            <img src="{{asset('landing/images/home_social/download_two_mockup2.png')}}" alt="download_two_mockup2" class="img-fluid download_two_mockup2 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="download_two_shape wow zoomIn" data-wow-delay=".5s">
-                                <img src="{{asset('landing/images/home_social/shape_squer.png')}}" alt="download_two_shape" class="img-fluid" data-parallax='{"x": 0, "y": -100}'>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <!-- oppi_download_app_two_wrap -->
 
     <section class="oppi_call_to_action_two_wrap" dir="ltr">
@@ -420,8 +363,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                     <div class="oppi_call_to_action_content">
-                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">Get the Niche app for your mobile device</h3>
-                        <p class="call_para wow fadeInUp" data-wow-delay="0.3s">Download the most wanted apartment hunting app and find your home. It's free!</p>
+                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">حمل التطبيق الان!! .. واتصل بنا بكل سهولة </h3>
+                        <p class="call_para wow fadeInUp" data-wow-delay="0.3s">واحصل على اخر العروض والخصومات ..<br>باسرع وقت</p>
                         <div class="oppi_btn_group">
                             <a href="#" class="oppi_dbtn btn_solid wow fadeInUp" data-wow-delay="0.2s"><span class="btn_inner"> <span class="icon"><span class="iconify" data-icon="fa-brands:google-play" data-inline="false"></span></span><span class="text">Download <br> <small>For Android</small></span></span></a>
                             <a href="#" class="oppi_dbtn btn_solid wow fadeInUp" data-wow-delay="0.3s"><span class="btn_inner"> <span class="icon"><span class="iconify" data-icon="ant-design:apple-fill" data-inline="false"></span></span><span class="text">Download <br> <small>For iOS</small></span></span></a>

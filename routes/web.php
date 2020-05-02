@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing.welcome');
-})->name('welcome');
+
 Route::get('/fin', function () {
     return view('landing.server');
 });
@@ -23,6 +21,8 @@ Route::get('/fin', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'LandingController@index')->name('welcome');
+
 Route::get('/server', 'LandingController@server')->name('server');
 Route::get('/imei', 'LandingController@imei')->name('imei');
 

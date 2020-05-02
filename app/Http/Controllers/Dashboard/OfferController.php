@@ -31,8 +31,7 @@ class OfferController extends Controller
     
             $request->validate([
                 'desc' => 'required',
-                'time' => 'required',
-                'price' => 'required',
+             
                 ]
             );
     
@@ -66,8 +65,7 @@ class OfferController extends Controller
            
             $request->validate([
                 'desc' => 'required',
-                'time' => 'required',
-                'price' => 'required',
+                
             ]);
     
             $request_data = $request->all();

@@ -41,27 +41,6 @@
                      
 
                         <div class="form-group">
-                            <label>@lang('site.image')</label>
-                            <input type="file" name="image" class="form-control image">
-                        </div>
-
-                        <div class="form-group">
-                            <img src="{{ asset('uploads/product_images/default.png') }}" style="width: 100px" class="img-thumbnail image-preview" alt="">
-                        </div>
-
-                        <div class="form-group">
-                            <label>@lang('site.price')</label>
-                            <input type="number" name="price" step="0.01" class="form-control" value="{{ old('price') }}">
-                        </div>
-
-                      
-
-                        <div class="form-group">
-                            <label>المدة بالايام</label>
-                            <input type="number" name="time" class="form-control" value="{{ old('time') }}">
-                        </div>
-
-                        <div class="form-group">
                             <button type="submit" class="btn btn-primary"><i class="fa fa-plus"></i> @lang('site.add')</button>
                         </div>
 
