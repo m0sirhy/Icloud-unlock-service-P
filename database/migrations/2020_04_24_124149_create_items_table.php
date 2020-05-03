@@ -22,6 +22,7 @@ class CreateItemsTable extends Migration
             $table->float('price');
             $table->string('image');
             $table->timestamps();
+            $table->foreign('category_id')->references('id')->on('categories');
 
         });
     }

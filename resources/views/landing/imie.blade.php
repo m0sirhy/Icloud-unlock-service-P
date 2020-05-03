@@ -65,42 +65,71 @@
 
     <section class="oppi_portfolio_area">
         <div class="container">
-            <div id="portfolio_filter" class="portfolio_filter">
-                <div data-filter="*" class="work_portfolio_item active">All</div>
-
-                @foreach ($categories as $category)
-                <div data-filter=".{{ $category->id.'who' }}s" class="work_portfolio_item">{{ $category->name }}</div>
-
-                @endforeach
-               
-            </div>
-            <div class="row portfolio_gallery mb-50" id="work-portfolio">
-                @foreach ($items as $item)
-                <div class="col-lg-4 col-sm-12 portfolio_item {{ $item->category_id.'who' }}s  mb_50">
-                    <div class="portfolio_img">
-                    <a href="{{$item->image_path}}" class="img_popup"><img class="img_rounded" src="{{$item->image_path}}" alt=""></a>
-                        <div class="portfolio-description">
-                            <a href="#" class="portfolio-title">
-                                <h3>{{$item->name }}  </h3>
-                                <h6> السعر : {{$item->price  }} $</h6>
-                            </a>
-                            <h6> الوقت المستغرق :{{$item->time }} أيام</h6>
-
-                            <p>{{$item->desc }}</p>
-                             
-
-
-                        </div>
-                    </div>
-                </div>
-                @endforeach
+            <table class="table  table-striped  table-hover">
+                <thead>
+                <tr>
+                <th colspan="2"> <h4 class="m-0"> Sweden Networks </h4> </th>
+                <th class="text-center   d-none d-md-table-cell" style="width: 130px"> <span class="">Delivery Time</span> </th>
+                <th style="width:130px" class="text-right">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="   service active">
+                <td class="cursor-pointer" data-whatever=" Sweden Telenor 3G/3GS/4/4S/5/5S/5C/6/6+/6S/6s+/SE/7/7+ (Clean IMEI) " data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=dacd97650582d1486c081adc286d8ea7&amp;parentid=1006&amp;standalone=true">
+                <i class="fal fa-cogs"></i>
+                </td>
+                <td class="cursor-pointer" style="white-space: normal" data-whatever=" Sweden Telenor 3G/3GS/4/4S/5/5S/5C/6/6+/6S/6s+/SE/7/7+ (Clean IMEI) " data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=dacd97650582d1486c081adc286d8ea7&amp;parentid=1006&amp;standalone=true">
+                <a class="searchme"> Sweden Telenor 3G/3GS/4/4S/5/5S/5C/6/6+/6S/6s+/SE/7/7+ (Clean IMEI) </a>
+                <span data-toggle="tooltip" data-placement="top" title="" data-original-title=""> </span>
+                </td>
+                <td class="text-center border-left"> <span class=""><span>1-5 days</span> </span> </td>
+                <td class="text-right border-left">
+                <span style="font-weight: 600"> 54.92USD </span>
+                </td>
+                </tr>
+                <tr class="   service active">
+                <td class="cursor-pointer" data-whatever="Halebop Sweden - Apple iPhone Premium Service " data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=60ba700c9dd92b672db59eb30bf91896&amp;parentid=1006&amp;standalone=true">
+                <i class="fal fa-cogs"></i>
+                </td>
+                <td class="cursor-pointer" style="white-space: normal" data-whatever="Halebop Sweden - Apple iPhone Premium Service " data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=60ba700c9dd92b672db59eb30bf91896&amp;parentid=1006&amp;standalone=true">
+                <a class="searchme">Halebop Sweden - Apple iPhone Premium Service </a>
+                <span data-toggle="tooltip" data-placement="top" title="" data-original-title=""> </span>
+                </td>
+                <td class="text-center border-left"> <span class=""><span>1-4 days</span> </span> </td>
+                <td class="text-right border-left">
+                <span style="font-weight: 600"> 48.33USD </span>
+                </td>
+                 </tr>
+                <tr class="   service active">
+                <td class="cursor-pointer" data-whatever="Sweden 3 Hutchison 3G/3GS/4/4S/5/5S/6/6+/6s/6s+/SE/7/7+8/8+/X (Out Of Contract)" data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=7acd475a79343e57e8e633873db3c04f&amp;parentid=1006&amp;standalone=true">
+                <i class="fal fa-cogs"></i>
+                </td>
+                <td class="cursor-pointer" style="white-space: normal" data-whatever="Sweden 3 Hutchison 3G/3GS/4/4S/5/5S/6/6+/6s/6s+/SE/7/7+8/8+/X (Out Of Contract)" data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=7acd475a79343e57e8e633873db3c04f&amp;parentid=1006&amp;standalone=true">
+                <a class="searchme">Sweden 3 Hutchison 3G/3GS/4/4S/5/5S/6/6+/6s/6s+/SE/7/7+8/8+/X (Out Of Contract)</a>
+                <span data-toggle="tooltip" data-placement="top" title="" data-original-title=""> </span>
+                </td>
+                <td class="text-center border-left"> <span class=""><span>1-7 days</span> </span> </td>
+                <td class="text-right border-left">
+                <span style="font-weight: 600"> 1.89USD </span>
+                </td>
+                </tr>
+                <tr class="   service active">
+                <td class="cursor-pointer" data-whatever="Sweden 3 Hutchison All Generic Phones Only Clean imei" data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=497973d699897abf7310eb4bb9b92383&amp;parentid=1006&amp;standalone=true">
+                <i class="fal fa-cogs"></i>
+                </td>
+                <td class="cursor-pointer" style="white-space: normal" data-whatever="Sweden 3 Hutchison All Generic Phones Only Clean imei" data-toggle="modal" data-target="#modal-ajax" href="productsandservices.php?action=getdetail&amp;service=497973d699897abf7310eb4bb9b92383&amp;parentid=1006&amp;standalone=true">
+                <a class="searchme">Sweden 3 Hutchison All Generic Phones Only Clean imei</a>
+                <span data-toggle="tooltip" data-placement="top" title="" data-original-title=""> </span>
+                </td>
+                <td class="text-center border-left"> <span class=""><span>1-3 days</span> </span> </td>
+                <td class="text-right border-left">
+                <span style="font-weight: 600"> 11.34USD </span>
+                </td>
+                </tr>
                 
-               
-               
-               
-               
-              
-            </div>
+                
+                </tbody>
+                </table>
         </div>
     </section>
 
