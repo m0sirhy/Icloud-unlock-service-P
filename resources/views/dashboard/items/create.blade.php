@@ -43,7 +43,7 @@
                             <select name="category_id" class="form-control">
                                 <option value="">@lang('site.all_categories')</option>
                                 @foreach ($categories as $category)
-                                    <option value="{{ $category->id }}" {{ old('category_id') == $category->id ? 'selected' : '' }}>{{ $category->name }}</option>
+                                    <option value="{{ $category->id }}" {{ old('category_id') == $category->id ? 'selected' : '' }}>{{ $category->name }}, {{ $category->section }}</option>
                                 @endforeach
                             </select>
                         </div>

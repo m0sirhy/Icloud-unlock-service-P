@@ -5,8 +5,12 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use App\Category;
+use App\Item;
+use App\User;
 class HomeController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +18,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-      return view('dashboard.welcome');
+               $category=Category::get();
+               $item=Item::get();
+               $user=User::get();
+
+      return view('dashboard.welcome',compact('category','item','user'));
     }
     /**
      * Show the form for creating a new resource.

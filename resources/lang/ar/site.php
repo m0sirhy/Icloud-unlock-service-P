@@ -15,6 +15,8 @@ return [
     'loading' => 'جاري التحميل',
     'print' => 'طبع',
     'offers' => 'العروض',
+    'items' => 'المنتجات',
+
 
 
     'confirm_delete' => 'تاكيد الحذف',
@@ -33,8 +35,8 @@ return [
     'no_data_found' => 'للاسف لا يوجد اي سجلات',
     'no_records' => 'للاسف لا يوجد اي سجلات',
 
-    'clients' => 'العملاء',
-    'client_name' => 'اسم العميل',
+    'clients' => 'الزبائن',
+    'client_name' => 'اسم الزبون',
     'phone' => 'التلفون',
     'address' => 'العنوان',
     'previous_orders' => 'الطلبات السابقه',

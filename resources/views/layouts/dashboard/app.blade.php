@@ -85,10 +85,10 @@
     <header class="main-header">
 
         {{--<!-- Logo -->--}}
-        <a href="{{ asset('dashboard') }}/index2.html" class="logo">
+        <a href="{{ asset('dashboard') }}" class="logo">
             {{--<!-- mini logo for sidebar mini 50x50 pixels -->--}}
-            <span class="logo-mini"><b>A</b>LT</span>
-            <span class="logo-lg"><b>Admin</b>LTE</span>
+            <span class="logo-mini"><b>M</b>BT</span>
+            <span class="logo-lg"><b> لوحة تحكم سيرفير </b>موبايل تك</span>
         </a>
 
         <nav class="navbar navbar-static-top">
@@ -184,8 +184,9 @@
 
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="{{ asset('dashboard_files/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
-                            <span class="hidden-xs">{{ auth()->user()->first_name }} {{ auth()->user()->last_name }}</span>
+                            <span class="hidden-xs">{{ auth()->user()->name }} </span>
                         </a>
+                   
                         <ul class="dropdown-menu">
 
                             {{--<!-- User image -->--}}
@@ -193,8 +194,8 @@
                                 <img src="{{ asset('dashboard_files/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
 
                                 <p>
-                                    {{ auth()->user()->first_name }} {{ auth()->user()->last_name }}
-                                    <small>Member since 2 days</small>
+                                    {{ auth()->user()->name }} 
+                                    <small>{{ auth()->user()->created_at->diffForHumans() }}  عضو منذ</small>
                                 </p>
                             </li>
 
@@ -228,8 +229,8 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 2.4.0
         </div>
-        <strong>Copyright &copy; 2014-2016
-            <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+       
+            <a href=""> Fisal Studio</a>.</strong> All rights
         reserved.
     </footer>
 

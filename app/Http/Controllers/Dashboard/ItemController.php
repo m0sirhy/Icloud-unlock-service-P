@@ -9,6 +9,7 @@ use App\Item;
 use Image;
 class ItemController extends Controller
 {
+  
    
         public function index(Request $request)
         {
@@ -29,16 +30,28 @@ class ItemController extends Controller
     
         public function store(Request $request)
         {
+           $cat= Category::find($request->category_id);
+if($cat->section == "imie"){
     
+    $request->validate([
+        'name' => 'required',
+        'time' => 'required',
+        'price' => 'required',
+        ]
+    );
+
+}
+    else{
+        $request->validate([
+            'name' => 'required',
+            'desc' => 'required',
+            'time' => 'required',
+            'price' => 'required',
+            'image' => 'required',
+            ]
+        );
+    }
            
-    
-            $request->validate([
-                'name' => 'required',
-                'desc' => 'required',
-                'time' => 'required',
-                'price' => 'required',
-                ]
-            );
     
             $request_data = $request->all();
     

@@ -43,7 +43,6 @@
                                 <a href="#" class="social_googleplus"></a>
                                 <a href="#" class="social_facebook"></a>
                             </div>
-                        <p class="text-center have_an_account">جديد في الفهد ؟ <a href="{{route('register')}}"> سجل مجانا </a></p>
                         </form>
                     </div>
                 </div>

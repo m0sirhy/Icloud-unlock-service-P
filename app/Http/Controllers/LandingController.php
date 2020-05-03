@@ -24,8 +24,7 @@ class LandingController extends Controller
 
     public function imei(){
         $categories=Category::where('section', 'imie')->get();
-        $items=Item::get();
     
-        return view('landing.imie',compact('categories','items'));
+        return view('landing.imie',compact('categories'));
     }
 }

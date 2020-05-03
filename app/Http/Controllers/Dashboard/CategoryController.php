@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Category;
 class CategoryController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -41,7 +42,8 @@ $request->validate([
 
         Category::create($request->all());
         session()->flash('success', __('site.added_successfully'));
-  
+        return redirect()->route('dashboard.categories.index');
+
 
     }//end of store
 

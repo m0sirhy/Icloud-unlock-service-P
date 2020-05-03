@@ -17,12 +17,12 @@ class CreateItemsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('category_id');
             $table->string('name');
-            $table->string('desc');
+            $table->string('desc')->nullable();
             $table->integer('time');
             $table->float('price');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->timestamps();
-            $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete("cascade");
 
         });
     }

@@ -9,6 +9,8 @@ use App\Offer;
 use Image;
 class OfferController extends Controller
 {
+
+   
     public function index(Request $request)
         {
     

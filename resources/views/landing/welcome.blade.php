@@ -56,7 +56,7 @@
 نقدم خدمات لكافة انواع الاجهزة  سامسونج,هواوي ,ايفون,شاومي و أوبوو
  باسعار منافسة واقل من السوق ,و فك جميع انواع الشبكات لكافة الاجهزة و شحن بطاقات الالعاب والبرامج على جميع المتاجر .. مع ضمانة !100% على استرجاع النقود في حال لم تعجبك الخدمة                        </p>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="#" class="oppi_dbtn btn_border">Start 14 day Trial</a>
+                            <a href="{{ route('login') }}" class="oppi_dbtn btn_border">قم بالستجيل  لنتواصل معك</a>
                         </div>
                     </div>
                 </div>
@@ -190,17 +190,17 @@
                                         <ul class="slides">
                                             <li>
                                                 <div class="item social_slider_screen_item text-center">
-                                                    <img src="{{asset('landing/images/home_social/youtube_slide.png')}}" alt="watching_img" class="img-fluid">
+                                                    <img src="{{asset('landing/images/home_social/WhatsApp_slide.png')}}" alt="watching_img" class="img-fluid">
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="item social_slider_screen_item text-center">
-                                                    <img src="{{asset('landing/images/home_social/youtube_slide.png')}}" alt="watching_img" class="img-fluid">
+                                                    <img src="{{asset('landing/images/home_social/watching_img-1.png')}}" alt="watching_img" class="img-fluid">
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="item social_slider_screen_item text-center">
-                                                    <img src="{{asset('landing/images/home_social/Messenger.png')}}" alt="watching_img" class="img-fluid">
+                                                    <img src="{{asset('landing/images/home_social/Twitter_sliode.png')}}" alt="watching_img" class="img-fluid">
                                                 </div>
                                             </li>
                                             <li>
@@ -228,48 +228,33 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="oppi_watching_content">
-                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">The World is Watching</h3>
-                        <p class="w_para wow fadeInUp" data-wow-delay="0.3s">A TV-like experience with hands-free scrolling and a full-screen view</p>
+                        <h3 class="sec_title2 wow fadeInUp" data-wow-delay="0.2s">اشترك الان وقم بالمتابعة </h3>
+                        <p class="w_para wow fadeInUp" data-wow-delay="0.3s">  زر صفحات سيرفير موبايل تك  الان لتعرف أكثر حول عروضنا الشهرية المخفضة عبر  صفحاتنا على وسائل التواصل الإجتماعي</p>
                         <div class="w_items_wrap">
                             <div class="w_items wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="w_img text-center">
-                                    <img src="{{asset('landing/images/home_social/yq-tiktok-04072018.png')}}" alt="w_img">
-                                </div>
-                                <p class="text-center"><a href="#">Tik Tok</a> </p>
-                            </div>
-                            <div class="w_items wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="w_img text-center">
-                                    <img src="{{asset('landing/images/home_social/youtube.png')}}" alt="w_img">
-                                </div>
-                                <p class="text-center"><a href="#">YouTube</a> </p>
-                            </div>
-                            <div class="w_items wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="w_img text-center">
-                                    <img src="{{asset('landing/images/home_social/fb_messanger.png')}}" alt="w_img">
-                                </div>
-                                <p class="text-center"><a href="#">Messenger</a> </p>
-                            </div>
-                            <div class="w_items wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="w_img text-center">
                                     <img src="{{asset('landing/images/home_social/WhatsApp.png')}}" alt="w_img">
                                 </div>
                                 <p class="text-center"><a href="#">WhatsApp</a> </p>
                             </div>
-                            <div class="w_items wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="w_items wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="w_img text-center">
                                     <img src="{{asset('landing/images/home_social/Instagram_AppIcon_Aug2017.png')}}" alt="w_img">
                                 </div>
-                                <p class="text-center"><a href="#">Nokia</a> </p>
+                                <p class="text-center"><a href="https://www.instagram.com/server_mobile_tech">Instgram</a> </p>
                             </div>
-                            <div class="w_items wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="w_items wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="w_img text-center">
-                                    <img src="{{asset('landing/images/home_social/Twitter-bird-logo-medium.png')}}" alt="w_img">
+                                    <img src="{{asset('landing/images/home_social/fb_messanger.png')}}" alt="w_img">
                                 </div>
-                                <p class="text-center"><a href="#">Samsung</a> </p> 
+                                <p class="text-center"><a href="https://www.facebook.com/profile.php?id=100050793399962">Facebook</a> </p>
                             </div>
+                           
+                            
+                           
                         </div>
                         <div class="oppi_btn_group wow fadeInUp" data-wow-delay="0.6s">
-                            <a href="#" class="oppi_dbtn btn_solid_color">& Many More . . . </a>
+                            <a href="#" class="oppi_dbtn btn_solid_color">تواصل معنا الان .. </a>
                         </div>
                     </div>
                 </div>
@@ -329,7 +314,6 @@
                         <div class="analytics_img_inner">
                             <img src="{{asset('landing/images/home_social/analytics_mockup.png')}}" alt="analytics_mockup" class="img-fluid analytics_mockup wow fadeInUp">
                             <img src="{{asset('landing/images/home_social/member_01.png')}}" alt="analytics_mockup" class="img-fluid analytics_member_1 wow zoomIn" data-wow-delay='0.2s'>
-                            <img src="{{asset('landing/images/home_social/member_02.png')}}" alt="analytics_mockup" class="img-fluid analytics_member_2 wow zoomIn" data-wow-delay='0.3s'>
                             <div class="analytics_shape wow zoomIn" data-wow-delay="0.5s">
                                 <img src="{{asset('landing/images/home_social/shape_squer.png')}}" alt="analytics_mockup" class="img-fluid" data-parallax='{"x": 0, "y": 100}'>
                             </div>
