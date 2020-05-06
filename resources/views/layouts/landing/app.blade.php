@@ -27,7 +27,7 @@
             websiteToken: 'UxE8wLCp4RBqkxFNm1uTEEag',
             baseUrl: BASE_URL
           })
-        }
+        } 
       })(document,"script");
     </script>
 
