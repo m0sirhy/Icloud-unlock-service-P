@@ -42,7 +42,7 @@
             <div class="row d-flex align-items-center col_reverse">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="oppi_copy_right">
-                        <p class="copy_right_text">© Copyright 2019 Design by <a href="#">Droitthemes</a>
+                        <p class="copy_right_text">© Copyright 2020 Design by <a href="#">سيرفير موبايل تك</a>
                         </p>
                     </div>
                 </div>
