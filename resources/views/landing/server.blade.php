@@ -1,7 +1,7 @@
 
-   @extends('layouts.landing.app')
-   @section('content')
-   <header class="oppi_header oppi_header_transparent oppi_header_inner_menu oppi_header_menu_border">
+@extends('layouts.landing.app')
+@section('content')
+    <header class="oppi_header oppi_header_transparent oppi_header_inner_menu oppi_header_menu_border">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-12">
@@ -21,14 +21,14 @@
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active ">
                                     <a class="nav-link " href="{{ route('welcome') }}" > Home </a>
-                                
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('server') }}">Server Service</a>
                                 </li>
                                 <li class="nav-item">
 
-                                <a class="nav-link" href="{{ route('imei') }}">IMEI Service</a>
+                                    <a class="nav-link" href="{{ route('imei') }}">IMEI Service</a>
                                 </li>
                             </ul>
 
@@ -53,7 +53,7 @@
                         <ul class="oppi_breadcrumb_link text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <li><a href="{{ route('welcome') }}">Home</a></li>
                             <li><a href="#">   SERVER Service
-                            </a></li>
+                                </a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,39 +69,42 @@
                 <div data-filter="*" class="work_portfolio_item active">All</div>
 
                 @foreach ($categories as $category)
-                <div data-filter=".{{ $category->id.'who' }}s" class="work_portfolio_item">{{ $category->name }}</div>
+                    <div data-filter=".{{ $category->id.'who' }}s" class="work_portfolio_item">{{ $category->name }}</div>
 
                 @endforeach
-               
+
             </div>
             <div class="row portfolio_gallery mb-50" id="work-portfolio">
-                @foreach ($items as $item)
-                <div class="col-lg-4 col-sm-12 portfolio_item {{ $item->category_id.'who' }}s  mb_50">
-                    <div class="portfolio_img">
-                    <a href="{{$item->image_path}}" class="img_popup"><img class="img_rounded" src="{{$item->image_path}}" alt=""></a>
-                        <div class="portfolio-description">
-                            <a href="#" class="portfolio-title">
-                                <h3>{{$item->name }}  </h3>
-                                <h6> السعر : {{$item->price  }} $</h6>
-                            </a>
-                            <h6> الوقت المستغرق :{{$item->time }} أيام</h6>
+                @foreach ($categories as $category)
 
-                            <p>{{$item->desc }}</p>
-                             
+                    @foreach ( $category->items as $item)
+                        <div class="col-lg-4 col-sm-12 portfolio_item {{ $item->category_id.'who' }}s  mb_50">
+                            <div class="portfolio_img">
+                                <a href="{{$item->image_path}}" class="img_popup"><img class="img_rounded" src="{{$item->image_path}}" alt=""></a>
+                                <div class="portfolio-description">
+                                    <a href="#" class="portfolio-title">
+                                        <h3>{{$item->name }}  </h3>
+                                        <h6> السعر : {{$item->price  }} $</h6>
+                                    </a>
+                                    <h6> الوقت المستغرق :{{$item->time }} أيام</h6>
+
+                                    <p>{{$item->desc }}</p>
 
 
+
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    @endforeach
+
                 @endforeach
-                
-               
-               
-               
-               
-              
+
+
+
+
+
             </div>
         </div>
     </section>
 
-    @endsection
+@endsection

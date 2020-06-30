@@ -9,22 +9,22 @@ use App\Offer;
 class LandingController extends Controller
 {
     //
-  
+
     public function index(){
         $offers=Offer::get();
         return view('landing.welcome',compact('offers'));
 
-    }    
+    }
     public function server(){
         $categories=Category::where('section', 'server')->get();
-        $items=Item::get();
-        return view('landing.server',compact('categories','items'));
+     //   $items=Item::get();
+        return view('landing.server',compact('categories'));
     }
 
 
     public function imei(){
         $categories=Category::where('section', 'imie')->get();
-    
+
         return view('landing.imie',compact('categories'));
     }
 }
